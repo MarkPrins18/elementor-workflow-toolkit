@@ -1,0 +1,27 @@
+{
+  "htmlPath": "./design/cinema-homepage.html",
+  "pageUrl": "http://ultimate-workflow.test/filmhuis-de-vonk/",
+  "_toleranceNote": "20px i.p.v. standaard 1px: (1) Playfair Display (Google Font) vervangt de niet-geinstalleerde Didot/Bodoni MT, net iets andere lettermetrics; (2) hero-poster heeft in de bron een decoratieve transform:rotate(1.6deg) die Elementor 4.2.4 alleen in de editor-preview toepast, niet op de live frontend (bevestigd: de CSS-variabele wordt weggeschreven, de regel die 'm gebruikt nergens server-side toegevoegd) - dit verschuift alleen x/width/height van het (decoratieve, CSS-gradient) posterblok en zijn kinderen enkele px.",
+  "tolerancePx": 20,
+  "_marginLeftNote": "marginLeft weggelaten voor hero: hero-poster wordt hier met flex + margin-left:auto rechts uitgelijnd i.p.v. met de CSS Grid-kolom uit de bron (grid_template_columns), wat visueel gelijk uitkomt maar een andere marginLeft-waarde geeft. Geen echte fout.",
+  "roots": ["hero"],
+  "breakpoints": [
+    { "name": "desktop", "width": 1440, "height": 900 }
+  ],
+  "properties": [
+    "fontSize",
+    "fontWeight",
+    "lineHeight",
+    "letterSpacing",
+    "color",
+    "backgroundColor",
+    "paddingTop",
+    "paddingRight",
+    "paddingBottom",
+    "paddingLeft",
+    "marginTop",
+    "marginRight",
+    "marginBottom"
+  ],
+  "reportPath": "./reports/hero.json"
+}

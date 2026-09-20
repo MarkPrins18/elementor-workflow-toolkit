@@ -1,0 +1,3364 @@
+{
+  "desktop": [
+    {
+      "element": "practice",
+      "property": "x",
+      "htmlValue": "0.0px",
+      "elementorValue": "0.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "y",
+      "htmlValue": "787.1px",
+      "elementorValue": "787.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "width",
+      "htmlValue": "1440.0px",
+      "elementorValue": "1440.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "height",
+      "htmlValue": "857.4px",
+      "elementorValue": "857.4px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "fontSize",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "lineHeight",
+      "htmlValue": "29.7px",
+      "elementorValue": "29.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "color",
+      "htmlValue": "rgb(27, 26, 23)",
+      "elementorValue": "rgb(27, 26, 23)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "paddingTop",
+      "htmlValue": "96px",
+      "elementorValue": "96px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "paddingBottom",
+      "htmlValue": "96px",
+      "elementorValue": "96px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "width",
+      "htmlValue": "1440px",
+      "elementorValue": "1440px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice",
+      "property": "height",
+      "htmlValue": "857.406px",
+      "elementorValue": "857.406px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "y",
+      "htmlValue": "884.1px",
+      "elementorValue": "884.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "width",
+      "htmlValue": "1096.0px",
+      "elementorValue": "1096.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "height",
+      "htmlValue": "103.0px",
+      "elementorValue": "103.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "fontSize",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "lineHeight",
+      "htmlValue": "29.7px",
+      "elementorValue": "29.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "color",
+      "htmlValue": "rgb(27, 26, 23)",
+      "elementorValue": "rgb(27, 26, 23)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "marginBottom",
+      "htmlValue": "56px",
+      "elementorValue": "56px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "width",
+      "htmlValue": "1096px",
+      "elementorValue": "1096px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-head",
+      "property": "height",
+      "htmlValue": "103.031px",
+      "elementorValue": "103.031px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "y",
+      "htmlValue": "884.1px",
+      "elementorValue": "884.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "width",
+      "htmlValue": "320.0px",
+      "elementorValue": "320.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "height",
+      "htmlValue": "103.0px",
+      "elementorValue": "103.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "fontSize",
+      "htmlValue": "11.5px",
+      "elementorValue": "11.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "lineHeight",
+      "htmlValue": "18.975px",
+      "elementorValue": "18.975px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "letterSpacing",
+      "htmlValue": "1.84px",
+      "elementorValue": "1.84px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "color",
+      "htmlValue": "rgb(74, 71, 63)",
+      "elementorValue": "rgb(74, 71, 63)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "width",
+      "htmlValue": "320px",
+      "elementorValue": "320px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-label",
+      "property": "height",
+      "htmlValue": "103.031px",
+      "elementorValue": "103.031px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "x",
+      "htmlValue": "564.0px",
+      "elementorValue": "564.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "y",
+      "htmlValue": "884.1px",
+      "elementorValue": "884.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "width",
+      "htmlValue": "704.0px",
+      "elementorValue": "704.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "height",
+      "htmlValue": "103.0px",
+      "elementorValue": "103.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "fontSize",
+      "htmlValue": "46px",
+      "elementorValue": "46px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "lineHeight",
+      "htmlValue": "51.52px",
+      "elementorValue": "51.52px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "letterSpacing",
+      "htmlValue": "-0.46px",
+      "elementorValue": "-0.46px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "color",
+      "htmlValue": "rgb(27, 26, 23)",
+      "elementorValue": "rgb(27, 26, 23)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "width",
+      "htmlValue": "704px",
+      "elementorValue": "704px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-titel",
+      "property": "height",
+      "htmlValue": "103.031px",
+      "elementorValue": "103.031px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "y",
+      "htmlValue": "1043.1px",
+      "elementorValue": "1043.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "width",
+      "htmlValue": "1096.0px",
+      "elementorValue": "1096.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "height",
+      "htmlValue": "505.4px",
+      "elementorValue": "505.4px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "fontSize",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "lineHeight",
+      "htmlValue": "29.7px",
+      "elementorValue": "29.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "color",
+      "htmlValue": "rgb(27, 26, 23)",
+      "elementorValue": "rgb(27, 26, 23)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "width",
+      "htmlValue": "1096px",
+      "elementorValue": "1096px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-lijst",
+      "property": "height",
+      "htmlValue": "505.375px",
+      "elementorValue": "505.375px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "y",
+      "htmlValue": "1044.1px",
+      "elementorValue": "1044.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "width",
+      "htmlValue": "1096.0px",
+      "elementorValue": "1096.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "height",
+      "htmlValue": "126.1px",
+      "elementorValue": "126.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "fontSize",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "lineHeight",
+      "htmlValue": "29.7px",
+      "elementorValue": "29.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "color",
+      "htmlValue": "rgb(27, 26, 23)",
+      "elementorValue": "rgb(27, 26, 23)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "paddingTop",
+      "htmlValue": "32px",
+      "elementorValue": "32px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "paddingBottom",
+      "htmlValue": "32px",
+      "elementorValue": "32px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "width",
+      "htmlValue": "1096px",
+      "elementorValue": "1096px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1",
+      "property": "height",
+      "htmlValue": "126.094px",
+      "elementorValue": "126.094px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "y",
+      "htmlValue": "1086.1px",
+      "elementorValue": "1086.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "width",
+      "htmlValue": "70.0px",
+      "elementorValue": "70.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "height",
+      "htmlValue": "21.4px",
+      "elementorValue": "21.5px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "fontSize",
+      "htmlValue": "13px",
+      "elementorValue": "13px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "lineHeight",
+      "htmlValue": "21.45px",
+      "elementorValue": "21.45px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "letterSpacing",
+      "htmlValue": "1.04px",
+      "elementorValue": "1.04px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "color",
+      "htmlValue": "rgb(122, 42, 31)",
+      "elementorValue": "rgb(122, 42, 31)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "width",
+      "htmlValue": "70px",
+      "elementorValue": "70px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-nummer",
+      "property": "height",
+      "htmlValue": "21.4375px",
+      "elementorValue": "21.4531px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "x",
+      "htmlValue": "282.0px",
+      "elementorValue": "282.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "y",
+      "htmlValue": "1076.1px",
+      "elementorValue": "1076.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "width",
+      "htmlValue": "378.4px",
+      "elementorValue": "378.4px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "height",
+      "htmlValue": "31.2px",
+      "elementorValue": "31.2px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "fontSize",
+      "htmlValue": "26px",
+      "elementorValue": "26px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "lineHeight",
+      "htmlValue": "31.2px",
+      "elementorValue": "31.2px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "color",
+      "htmlValue": "rgb(27, 26, 23)",
+      "elementorValue": "rgb(27, 26, 23)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "width",
+      "htmlValue": "378.391px",
+      "elementorValue": "378.391px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-titel",
+      "property": "height",
+      "htmlValue": "31.1875px",
+      "elementorValue": "31.2031px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "x",
+      "htmlValue": "700.4px",
+      "elementorValue": "700.4px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "y",
+      "htmlValue": "1081.1px",
+      "elementorValue": "1081.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "width",
+      "htmlValue": "567.6px",
+      "elementorValue": "567.6px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "height",
+      "htmlValue": "56.1px",
+      "elementorValue": "56.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "fontSize",
+      "htmlValue": "17px",
+      "elementorValue": "17px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "lineHeight",
+      "htmlValue": "28.05px",
+      "elementorValue": "28.05px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "color",
+      "htmlValue": "rgb(74, 71, 63)",
+      "elementorValue": "rgb(74, 71, 63)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "width",
+      "htmlValue": "567.609px",
+      "elementorValue": "567.609px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-1-tekst",
+      "property": "height",
+      "htmlValue": "56.0938px",
+      "elementorValue": "56.0938px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "y",
+      "htmlValue": "1170.2px",
+      "elementorValue": "1170.2px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "width",
+      "htmlValue": "1096.0px",
+      "elementorValue": "1096.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "height",
+      "htmlValue": "126.1px",
+      "elementorValue": "126.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "fontSize",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "lineHeight",
+      "htmlValue": "29.7px",
+      "elementorValue": "29.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "color",
+      "htmlValue": "rgb(27, 26, 23)",
+      "elementorValue": "rgb(27, 26, 23)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "paddingTop",
+      "htmlValue": "32px",
+      "elementorValue": "32px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "paddingBottom",
+      "htmlValue": "32px",
+      "elementorValue": "32px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "width",
+      "htmlValue": "1096px",
+      "elementorValue": "1096px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2",
+      "property": "height",
+      "htmlValue": "126.094px",
+      "elementorValue": "126.094px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "y",
+      "htmlValue": "1212.2px",
+      "elementorValue": "1212.2px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "width",
+      "htmlValue": "70.0px",
+      "elementorValue": "70.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "height",
+      "htmlValue": "21.4px",
+      "elementorValue": "21.5px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "fontSize",
+      "htmlValue": "13px",
+      "elementorValue": "13px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "lineHeight",
+      "htmlValue": "21.45px",
+      "elementorValue": "21.45px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "letterSpacing",
+      "htmlValue": "1.04px",
+      "elementorValue": "1.04px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "color",
+      "htmlValue": "rgb(122, 42, 31)",
+      "elementorValue": "rgb(122, 42, 31)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "width",
+      "htmlValue": "70px",
+      "elementorValue": "70px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-nummer",
+      "property": "height",
+      "htmlValue": "21.4375px",
+      "elementorValue": "21.4531px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "x",
+      "htmlValue": "282.0px",
+      "elementorValue": "282.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "y",
+      "htmlValue": "1202.2px",
+      "elementorValue": "1202.2px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "width",
+      "htmlValue": "378.4px",
+      "elementorValue": "378.4px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "height",
+      "htmlValue": "31.2px",
+      "elementorValue": "31.2px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "fontSize",
+      "htmlValue": "26px",
+      "elementorValue": "26px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "lineHeight",
+      "htmlValue": "31.2px",
+      "elementorValue": "31.2px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "color",
+      "htmlValue": "rgb(27, 26, 23)",
+      "elementorValue": "rgb(27, 26, 23)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "width",
+      "htmlValue": "378.391px",
+      "elementorValue": "378.391px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-titel",
+      "property": "height",
+      "htmlValue": "31.1875px",
+      "elementorValue": "31.2031px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "x",
+      "htmlValue": "700.4px",
+      "elementorValue": "700.4px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "y",
+      "htmlValue": "1207.2px",
+      "elementorValue": "1207.2px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "width",
+      "htmlValue": "567.6px",
+      "elementorValue": "567.6px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "height",
+      "htmlValue": "56.1px",
+      "elementorValue": "56.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "fontSize",
+      "htmlValue": "17px",
+      "elementorValue": "17px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "lineHeight",
+      "htmlValue": "28.05px",
+      "elementorValue": "28.05px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "color",
+      "htmlValue": "rgb(74, 71, 63)",
+      "elementorValue": "rgb(74, 71, 63)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "width",
+      "htmlValue": "567.609px",
+      "elementorValue": "567.609px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-2-tekst",
+      "property": "height",
+      "htmlValue": "56.0938px",
+      "elementorValue": "56.0938px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "y",
+      "htmlValue": "1296.3px",
+      "elementorValue": "1296.3px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "width",
+      "htmlValue": "1096.0px",
+      "elementorValue": "1096.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "height",
+      "htmlValue": "126.1px",
+      "elementorValue": "126.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "fontSize",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "lineHeight",
+      "htmlValue": "29.7px",
+      "elementorValue": "29.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "color",
+      "htmlValue": "rgb(27, 26, 23)",
+      "elementorValue": "rgb(27, 26, 23)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "paddingTop",
+      "htmlValue": "32px",
+      "elementorValue": "32px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "paddingBottom",
+      "htmlValue": "32px",
+      "elementorValue": "32px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "width",
+      "htmlValue": "1096px",
+      "elementorValue": "1096px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3",
+      "property": "height",
+      "htmlValue": "126.094px",
+      "elementorValue": "126.094px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "y",
+      "htmlValue": "1338.3px",
+      "elementorValue": "1338.3px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "width",
+      "htmlValue": "70.0px",
+      "elementorValue": "70.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "height",
+      "htmlValue": "21.4px",
+      "elementorValue": "21.5px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "fontSize",
+      "htmlValue": "13px",
+      "elementorValue": "13px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "lineHeight",
+      "htmlValue": "21.45px",
+      "elementorValue": "21.45px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "letterSpacing",
+      "htmlValue": "1.04px",
+      "elementorValue": "1.04px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "color",
+      "htmlValue": "rgb(122, 42, 31)",
+      "elementorValue": "rgb(122, 42, 31)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "width",
+      "htmlValue": "70px",
+      "elementorValue": "70px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-nummer",
+      "property": "height",
+      "htmlValue": "21.4375px",
+      "elementorValue": "21.4531px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "x",
+      "htmlValue": "282.0px",
+      "elementorValue": "282.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "y",
+      "htmlValue": "1328.3px",
+      "elementorValue": "1328.3px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "width",
+      "htmlValue": "378.4px",
+      "elementorValue": "378.4px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "height",
+      "htmlValue": "31.2px",
+      "elementorValue": "31.2px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "fontSize",
+      "htmlValue": "26px",
+      "elementorValue": "26px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "lineHeight",
+      "htmlValue": "31.2px",
+      "elementorValue": "31.2px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "color",
+      "htmlValue": "rgb(27, 26, 23)",
+      "elementorValue": "rgb(27, 26, 23)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "width",
+      "htmlValue": "378.391px",
+      "elementorValue": "378.391px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-titel",
+      "property": "height",
+      "htmlValue": "31.1875px",
+      "elementorValue": "31.2031px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "x",
+      "htmlValue": "700.4px",
+      "elementorValue": "700.4px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "y",
+      "htmlValue": "1333.3px",
+      "elementorValue": "1333.3px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "width",
+      "htmlValue": "567.6px",
+      "elementorValue": "567.6px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "height",
+      "htmlValue": "56.1px",
+      "elementorValue": "56.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "fontSize",
+      "htmlValue": "17px",
+      "elementorValue": "17px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "lineHeight",
+      "htmlValue": "28.05px",
+      "elementorValue": "28.05px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "color",
+      "htmlValue": "rgb(74, 71, 63)",
+      "elementorValue": "rgb(74, 71, 63)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "width",
+      "htmlValue": "567.609px",
+      "elementorValue": "567.609px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-3-tekst",
+      "property": "height",
+      "htmlValue": "56.0938px",
+      "elementorValue": "56.0938px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "y",
+      "htmlValue": "1422.4px",
+      "elementorValue": "1422.4px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "width",
+      "htmlValue": "1096.0px",
+      "elementorValue": "1096.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "height",
+      "htmlValue": "126.1px",
+      "elementorValue": "126.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "fontSize",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "lineHeight",
+      "htmlValue": "29.7px",
+      "elementorValue": "29.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "color",
+      "htmlValue": "rgb(27, 26, 23)",
+      "elementorValue": "rgb(27, 26, 23)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "paddingTop",
+      "htmlValue": "32px",
+      "elementorValue": "32px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "paddingBottom",
+      "htmlValue": "32px",
+      "elementorValue": "32px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "width",
+      "htmlValue": "1096px",
+      "elementorValue": "1096px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4",
+      "property": "height",
+      "htmlValue": "126.094px",
+      "elementorValue": "126.094px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "y",
+      "htmlValue": "1464.4px",
+      "elementorValue": "1464.4px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "width",
+      "htmlValue": "70.0px",
+      "elementorValue": "70.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "height",
+      "htmlValue": "21.4px",
+      "elementorValue": "21.5px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "fontSize",
+      "htmlValue": "13px",
+      "elementorValue": "13px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "lineHeight",
+      "htmlValue": "21.45px",
+      "elementorValue": "21.45px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "letterSpacing",
+      "htmlValue": "1.04px",
+      "elementorValue": "1.04px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "color",
+      "htmlValue": "rgb(122, 42, 31)",
+      "elementorValue": "rgb(122, 42, 31)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "width",
+      "htmlValue": "70px",
+      "elementorValue": "70px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-nummer",
+      "property": "height",
+      "htmlValue": "21.4375px",
+      "elementorValue": "21.4531px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "x",
+      "htmlValue": "282.0px",
+      "elementorValue": "282.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "y",
+      "htmlValue": "1454.4px",
+      "elementorValue": "1454.4px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "width",
+      "htmlValue": "378.4px",
+      "elementorValue": "378.4px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "height",
+      "htmlValue": "31.2px",
+      "elementorValue": "31.2px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "fontSize",
+      "htmlValue": "26px",
+      "elementorValue": "26px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "lineHeight",
+      "htmlValue": "31.2px",
+      "elementorValue": "31.2px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "color",
+      "htmlValue": "rgb(27, 26, 23)",
+      "elementorValue": "rgb(27, 26, 23)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "width",
+      "htmlValue": "378.391px",
+      "elementorValue": "378.391px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-titel",
+      "property": "height",
+      "htmlValue": "31.1875px",
+      "elementorValue": "31.2031px",
+      "diff": "0.02",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "x",
+      "htmlValue": "700.4px",
+      "elementorValue": "700.4px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "y",
+      "htmlValue": "1459.4px",
+      "elementorValue": "1459.4px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "width",
+      "htmlValue": "567.6px",
+      "elementorValue": "567.6px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "height",
+      "htmlValue": "56.1px",
+      "elementorValue": "56.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "fontSize",
+      "htmlValue": "17px",
+      "elementorValue": "17px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "lineHeight",
+      "htmlValue": "28.05px",
+      "elementorValue": "28.05px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "color",
+      "htmlValue": "rgb(74, 71, 63)",
+      "elementorValue": "rgb(74, 71, 63)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "width",
+      "htmlValue": "567.609px",
+      "elementorValue": "567.609px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "practice-item-4-tekst",
+      "property": "height",
+      "htmlValue": "56.0938px",
+      "elementorValue": "56.0938px",
+      "diff": "0.00",
+      "status": "ok"
+    }
+  ]
+}

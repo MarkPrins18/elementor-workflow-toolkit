@@ -1,0 +1,16 @@
+{
+  "htmlPath": "C:/laragon/www/ultimate-workflow/ai-workflow/design/lawyer-homepage (1).html",
+  "pageUrl": "http://ultimate-workflow.test/?page_id=8",
+  "scope": ["partner"],
+  "tolerancePx": 1,
+  "breakpoints": [
+    { "name": "desktop", "width": 1440, "height": 900 }
+  ],
+  "properties": [
+    "fontSize", "fontWeight", "lineHeight", "letterSpacing", "color", "backgroundColor",
+    "paddingTop", "paddingRight", "paddingBottom", "paddingLeft",
+    "marginTop", "marginRight", "marginBottom", "marginLeft",
+    "width", "height"
+  ],
+  "reportPath": "./reports/partner.json"
+}

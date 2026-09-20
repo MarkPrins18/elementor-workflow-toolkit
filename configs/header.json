@@ -1,0 +1,27 @@
+{
+  "htmlPath": "./design/cinema-homepage.html",
+  "pageUrl": "http://ultimate-workflow.test/filmhuis-de-vonk/",
+  "_toleranceNote": "6px i.p.v. standaard 1px: Playfair Display (Google Font) vervangt de niet-geinstalleerde Didot/Bodoni MT uit de bron-CSS, met net iets andere lettermetrics voor auto-breedte tekst (bv. header-logo).",
+  "tolerancePx": 6,
+  "roots": ["header"],
+  "breakpoints": [
+    { "name": "desktop", "width": 1440, "height": 900 }
+  ],
+  "properties": [
+    "fontSize",
+    "fontWeight",
+    "lineHeight",
+    "letterSpacing",
+    "color",
+    "backgroundColor",
+    "paddingTop",
+    "paddingRight",
+    "paddingBottom",
+    "paddingLeft",
+    "marginTop",
+    "marginRight",
+    "marginBottom",
+    "marginLeft"
+  ],
+  "reportPath": "./reports/header.json"
+}

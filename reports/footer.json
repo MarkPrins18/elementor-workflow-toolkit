@@ -1,0 +1,964 @@
+{
+  "desktop": [
+    {
+      "element": "footer",
+      "property": "x",
+      "htmlValue": "0.0px",
+      "elementorValue": "0.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "y",
+      "htmlValue": "4239.2px",
+      "elementorValue": "4239.3px",
+      "diff": "0.08",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "width",
+      "htmlValue": "1440.0px",
+      "elementorValue": "1440.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "height",
+      "htmlValue": "104.6px",
+      "elementorValue": "104.6px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "fontSize",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "lineHeight",
+      "htmlValue": "29.7px",
+      "elementorValue": "29.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "color",
+      "htmlValue": "rgb(27, 26, 23)",
+      "elementorValue": "rgb(27, 26, 23)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "paddingTop",
+      "htmlValue": "34px",
+      "elementorValue": "34px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "paddingBottom",
+      "htmlValue": "46px",
+      "elementorValue": "46px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "width",
+      "htmlValue": "1440px",
+      "elementorValue": "1440px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer",
+      "property": "height",
+      "htmlValue": "104.625px",
+      "elementorValue": "104.625px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "y",
+      "htmlValue": "4274.2px",
+      "elementorValue": "4274.3px",
+      "diff": "0.08",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "width",
+      "htmlValue": "451.1px",
+      "elementorValue": "451.1px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "height",
+      "htmlValue": "23.6px",
+      "elementorValue": "23.6px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "fontSize",
+      "htmlValue": "12.5px",
+      "elementorValue": "12.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "lineHeight",
+      "htmlValue": "20.625px",
+      "elementorValue": "20.625px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "color",
+      "htmlValue": "rgb(74, 71, 63)",
+      "elementorValue": "rgb(74, 71, 63)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "width",
+      "htmlValue": "451.125px",
+      "elementorValue": "451.125px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-copyright",
+      "property": "height",
+      "htmlValue": "23.625px",
+      "elementorValue": "23.625px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "x",
+      "htmlValue": "1006.7px",
+      "elementorValue": "1006.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "y",
+      "htmlValue": "4274.2px",
+      "elementorValue": "4274.8px",
+      "diff": "0.58",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "width",
+      "htmlValue": "261.3px",
+      "elementorValue": "261.3px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "height",
+      "htmlValue": "23.6px",
+      "elementorValue": "22.6px",
+      "diff": "1.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "fontSize",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "lineHeight",
+      "htmlValue": "29.7px",
+      "elementorValue": "29.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "color",
+      "htmlValue": "rgb(27, 26, 23)",
+      "elementorValue": "rgb(27, 26, 23)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "width",
+      "htmlValue": "261.312px",
+      "elementorValue": "261.312px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav",
+      "property": "height",
+      "htmlValue": "23.625px",
+      "elementorValue": "22.625px",
+      "diff": "1.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "x",
+      "htmlValue": "1006.7px",
+      "elementorValue": "1006.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "y",
+      "htmlValue": "4274.2px",
+      "elementorValue": "4274.8px",
+      "diff": "0.58",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "width",
+      "htmlValue": "44.5px",
+      "elementorValue": "44.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "height",
+      "htmlValue": "23.6px",
+      "elementorValue": "22.6px",
+      "diff": "1.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "fontSize",
+      "htmlValue": "12.5px",
+      "elementorValue": "12.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "lineHeight",
+      "htmlValue": "20.625px",
+      "elementorValue": "20.625px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "letterSpacing",
+      "htmlValue": "0.5px",
+      "elementorValue": "0.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "color",
+      "htmlValue": "rgb(74, 71, 63)",
+      "elementorValue": "rgb(74, 71, 63)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "paddingBottom",
+      "htmlValue": "2px",
+      "elementorValue": "2px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "width",
+      "htmlValue": "44.4844px",
+      "elementorValue": "44.4844px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-1",
+      "property": "height",
+      "htmlValue": "23.625px",
+      "elementorValue": "22.625px",
+      "diff": "1.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "x",
+      "htmlValue": "1075.2px",
+      "elementorValue": "1075.2px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "y",
+      "htmlValue": "4274.2px",
+      "elementorValue": "4274.8px",
+      "diff": "0.58",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "width",
+      "htmlValue": "36.5px",
+      "elementorValue": "36.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "height",
+      "htmlValue": "23.6px",
+      "elementorValue": "22.6px",
+      "diff": "1.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "fontSize",
+      "htmlValue": "12.5px",
+      "elementorValue": "12.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "lineHeight",
+      "htmlValue": "20.625px",
+      "elementorValue": "20.625px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "letterSpacing",
+      "htmlValue": "0.5px",
+      "elementorValue": "0.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "color",
+      "htmlValue": "rgb(74, 71, 63)",
+      "elementorValue": "rgb(74, 71, 63)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "paddingBottom",
+      "htmlValue": "2px",
+      "elementorValue": "2px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "width",
+      "htmlValue": "36.5312px",
+      "elementorValue": "36.5312px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-2",
+      "property": "height",
+      "htmlValue": "23.625px",
+      "elementorValue": "22.625px",
+      "diff": "1.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "x",
+      "htmlValue": "1135.7px",
+      "elementorValue": "1135.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "y",
+      "htmlValue": "4274.2px",
+      "elementorValue": "4274.8px",
+      "diff": "0.58",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "width",
+      "htmlValue": "132.3px",
+      "elementorValue": "132.3px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "height",
+      "htmlValue": "23.6px",
+      "elementorValue": "22.6px",
+      "diff": "1.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "fontSize",
+      "htmlValue": "12.5px",
+      "elementorValue": "12.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "lineHeight",
+      "htmlValue": "20.625px",
+      "elementorValue": "20.625px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "letterSpacing",
+      "htmlValue": "0.5px",
+      "elementorValue": "0.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "color",
+      "htmlValue": "rgb(74, 71, 63)",
+      "elementorValue": "rgb(74, 71, 63)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "paddingBottom",
+      "htmlValue": "2px",
+      "elementorValue": "2px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "width",
+      "htmlValue": "132.297px",
+      "elementorValue": "132.297px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "footer-nav-link-3",
+      "property": "height",
+      "htmlValue": "23.625px",
+      "elementorValue": "22.625px",
+      "diff": "1.00",
+      "status": "ok"
+    }
+  ]
+}

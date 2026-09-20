@@ -1,0 +1,2244 @@
+{
+  "desktop": [
+    {
+      "element": "approach",
+      "property": "x",
+      "htmlValue": "0.0px",
+      "elementorValue": "0.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "y",
+      "htmlValue": "1644.5px",
+      "elementorValue": "1644.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "width",
+      "htmlValue": "1440.0px",
+      "elementorValue": "1440.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "height",
+      "htmlValue": "502.0px",
+      "elementorValue": "502.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "fontSize",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "lineHeight",
+      "htmlValue": "29.7px",
+      "elementorValue": "29.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "color",
+      "htmlValue": "rgb(244, 239, 230)",
+      "elementorValue": "rgb(244, 239, 230)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "backgroundColor",
+      "htmlValue": "rgb(27, 26, 23)",
+      "elementorValue": "rgb(27, 26, 23)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "paddingTop",
+      "htmlValue": "96px",
+      "elementorValue": "96px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "paddingBottom",
+      "htmlValue": "96px",
+      "elementorValue": "96px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "width",
+      "htmlValue": "1440px",
+      "elementorValue": "1440px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach",
+      "property": "height",
+      "htmlValue": "501.984px",
+      "elementorValue": "501.984px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "y",
+      "htmlValue": "1740.5px",
+      "elementorValue": "1740.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "width",
+      "htmlValue": "1096.0px",
+      "elementorValue": "1096.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "height",
+      "htmlValue": "103.0px",
+      "elementorValue": "103.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "fontSize",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "lineHeight",
+      "htmlValue": "29.7px",
+      "elementorValue": "29.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "color",
+      "htmlValue": "rgb(244, 239, 230)",
+      "elementorValue": "rgb(244, 239, 230)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "marginBottom",
+      "htmlValue": "56px",
+      "elementorValue": "56px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "width",
+      "htmlValue": "1096px",
+      "elementorValue": "1096px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-head",
+      "property": "height",
+      "htmlValue": "103.031px",
+      "elementorValue": "103.031px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "y",
+      "htmlValue": "1740.5px",
+      "elementorValue": "1740.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "width",
+      "htmlValue": "320.0px",
+      "elementorValue": "320.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "height",
+      "htmlValue": "103.0px",
+      "elementorValue": "103.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "fontSize",
+      "htmlValue": "11.5px",
+      "elementorValue": "11.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "lineHeight",
+      "htmlValue": "18.975px",
+      "elementorValue": "18.975px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "letterSpacing",
+      "htmlValue": "1.84px",
+      "elementorValue": "1.84px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "color",
+      "htmlValue": "rgb(169, 162, 148)",
+      "elementorValue": "rgb(169, 162, 148)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "width",
+      "htmlValue": "320px",
+      "elementorValue": "320px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-label",
+      "property": "height",
+      "htmlValue": "103.031px",
+      "elementorValue": "103.031px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "x",
+      "htmlValue": "564.0px",
+      "elementorValue": "564.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "y",
+      "htmlValue": "1740.5px",
+      "elementorValue": "1740.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "width",
+      "htmlValue": "704.0px",
+      "elementorValue": "704.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "height",
+      "htmlValue": "103.0px",
+      "elementorValue": "103.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "fontSize",
+      "htmlValue": "46px",
+      "elementorValue": "46px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "lineHeight",
+      "htmlValue": "51.52px",
+      "elementorValue": "51.52px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "letterSpacing",
+      "htmlValue": "-0.46px",
+      "elementorValue": "-0.46px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "color",
+      "htmlValue": "rgb(244, 239, 230)",
+      "elementorValue": "rgb(244, 239, 230)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "width",
+      "htmlValue": "704px",
+      "elementorValue": "704px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-titel",
+      "property": "height",
+      "htmlValue": "103.031px",
+      "elementorValue": "103.031px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "y",
+      "htmlValue": "1899.5px",
+      "elementorValue": "1899.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "width",
+      "htmlValue": "1096.0px",
+      "elementorValue": "1096.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "height",
+      "htmlValue": "151.0px",
+      "elementorValue": "151.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "fontSize",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "lineHeight",
+      "htmlValue": "29.7px",
+      "elementorValue": "29.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "color",
+      "htmlValue": "rgb(244, 239, 230)",
+      "elementorValue": "rgb(244, 239, 230)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "width",
+      "htmlValue": "1096px",
+      "elementorValue": "1096px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principes",
+      "property": "height",
+      "htmlValue": "150.953px",
+      "elementorValue": "150.953px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "y",
+      "htmlValue": "1899.5px",
+      "elementorValue": "1899.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "width",
+      "htmlValue": "328.0px",
+      "elementorValue": "328.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "height",
+      "htmlValue": "151.0px",
+      "elementorValue": "151.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "fontSize",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "lineHeight",
+      "htmlValue": "29.7px",
+      "elementorValue": "29.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "color",
+      "htmlValue": "rgb(244, 239, 230)",
+      "elementorValue": "rgb(244, 239, 230)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "width",
+      "htmlValue": "328px",
+      "elementorValue": "328px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1",
+      "property": "height",
+      "htmlValue": "150.953px",
+      "elementorValue": "150.953px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "y",
+      "htmlValue": "1899.5px",
+      "elementorValue": "1899.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "width",
+      "htmlValue": "328.0px",
+      "elementorValue": "328.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "height",
+      "htmlValue": "55.3px",
+      "elementorValue": "55.3px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "fontSize",
+      "htmlValue": "22px",
+      "elementorValue": "22px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "lineHeight",
+      "htmlValue": "36.3px",
+      "elementorValue": "36.3px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "color",
+      "htmlValue": "rgb(244, 239, 230)",
+      "elementorValue": "rgb(244, 239, 230)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "paddingTop",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "marginBottom",
+      "htmlValue": "14px",
+      "elementorValue": "14px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "width",
+      "htmlValue": "328px",
+      "elementorValue": "328px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-titel",
+      "property": "height",
+      "htmlValue": "55.2969px",
+      "elementorValue": "55.2969px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "x",
+      "htmlValue": "172.0px",
+      "elementorValue": "172.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "y",
+      "htmlValue": "1968.8px",
+      "elementorValue": "1968.8px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "width",
+      "htmlValue": "328.0px",
+      "elementorValue": "328.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "height",
+      "htmlValue": "81.7px",
+      "elementorValue": "81.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "fontSize",
+      "htmlValue": "16.5px",
+      "elementorValue": "16.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "lineHeight",
+      "htmlValue": "27.225px",
+      "elementorValue": "27.225px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "color",
+      "htmlValue": "rgb(207, 200, 184)",
+      "elementorValue": "rgb(207, 200, 184)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "width",
+      "htmlValue": "328px",
+      "elementorValue": "328px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-1-tekst",
+      "property": "height",
+      "htmlValue": "81.6562px",
+      "elementorValue": "81.6562px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "x",
+      "htmlValue": "556.0px",
+      "elementorValue": "556.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "y",
+      "htmlValue": "1899.5px",
+      "elementorValue": "1899.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "width",
+      "htmlValue": "328.0px",
+      "elementorValue": "328.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "height",
+      "htmlValue": "151.0px",
+      "elementorValue": "151.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "fontSize",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "lineHeight",
+      "htmlValue": "29.7px",
+      "elementorValue": "29.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "color",
+      "htmlValue": "rgb(244, 239, 230)",
+      "elementorValue": "rgb(244, 239, 230)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "width",
+      "htmlValue": "328px",
+      "elementorValue": "328px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2",
+      "property": "height",
+      "htmlValue": "150.953px",
+      "elementorValue": "150.953px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "x",
+      "htmlValue": "556.0px",
+      "elementorValue": "556.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "y",
+      "htmlValue": "1899.5px",
+      "elementorValue": "1899.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "width",
+      "htmlValue": "328.0px",
+      "elementorValue": "328.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "height",
+      "htmlValue": "55.3px",
+      "elementorValue": "55.3px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "fontSize",
+      "htmlValue": "22px",
+      "elementorValue": "22px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "lineHeight",
+      "htmlValue": "36.3px",
+      "elementorValue": "36.3px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "color",
+      "htmlValue": "rgb(244, 239, 230)",
+      "elementorValue": "rgb(244, 239, 230)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "paddingTop",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "marginBottom",
+      "htmlValue": "14px",
+      "elementorValue": "14px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "width",
+      "htmlValue": "328px",
+      "elementorValue": "328px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-titel",
+      "property": "height",
+      "htmlValue": "55.2969px",
+      "elementorValue": "55.2969px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "x",
+      "htmlValue": "556.0px",
+      "elementorValue": "556.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "y",
+      "htmlValue": "1968.8px",
+      "elementorValue": "1968.8px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "width",
+      "htmlValue": "328.0px",
+      "elementorValue": "328.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "height",
+      "htmlValue": "81.7px",
+      "elementorValue": "81.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "fontSize",
+      "htmlValue": "16.5px",
+      "elementorValue": "16.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "lineHeight",
+      "htmlValue": "27.225px",
+      "elementorValue": "27.225px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "color",
+      "htmlValue": "rgb(207, 200, 184)",
+      "elementorValue": "rgb(207, 200, 184)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "width",
+      "htmlValue": "328px",
+      "elementorValue": "328px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-2-tekst",
+      "property": "height",
+      "htmlValue": "81.6562px",
+      "elementorValue": "81.6562px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "x",
+      "htmlValue": "940.0px",
+      "elementorValue": "940.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "y",
+      "htmlValue": "1899.5px",
+      "elementorValue": "1899.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "width",
+      "htmlValue": "328.0px",
+      "elementorValue": "328.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "height",
+      "htmlValue": "151.0px",
+      "elementorValue": "151.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "fontSize",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "lineHeight",
+      "htmlValue": "29.7px",
+      "elementorValue": "29.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "color",
+      "htmlValue": "rgb(244, 239, 230)",
+      "elementorValue": "rgb(244, 239, 230)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "width",
+      "htmlValue": "328px",
+      "elementorValue": "328px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3",
+      "property": "height",
+      "htmlValue": "150.953px",
+      "elementorValue": "150.953px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "x",
+      "htmlValue": "940.0px",
+      "elementorValue": "940.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "y",
+      "htmlValue": "1899.5px",
+      "elementorValue": "1899.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "width",
+      "htmlValue": "328.0px",
+      "elementorValue": "328.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "height",
+      "htmlValue": "55.3px",
+      "elementorValue": "55.3px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "fontSize",
+      "htmlValue": "22px",
+      "elementorValue": "22px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "lineHeight",
+      "htmlValue": "36.3px",
+      "elementorValue": "36.3px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "color",
+      "htmlValue": "rgb(244, 239, 230)",
+      "elementorValue": "rgb(244, 239, 230)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "paddingTop",
+      "htmlValue": "18px",
+      "elementorValue": "18px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "marginBottom",
+      "htmlValue": "14px",
+      "elementorValue": "14px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "width",
+      "htmlValue": "328px",
+      "elementorValue": "328px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-titel",
+      "property": "height",
+      "htmlValue": "55.2969px",
+      "elementorValue": "55.2969px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "x",
+      "htmlValue": "940.0px",
+      "elementorValue": "940.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "y",
+      "htmlValue": "1968.8px",
+      "elementorValue": "1968.8px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "width",
+      "htmlValue": "328.0px",
+      "elementorValue": "328.0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "height",
+      "htmlValue": "81.7px",
+      "elementorValue": "81.7px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "fontSize",
+      "htmlValue": "16.5px",
+      "elementorValue": "16.5px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "fontWeight",
+      "htmlValue": "400",
+      "elementorValue": "400",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "lineHeight",
+      "htmlValue": "27.225px",
+      "elementorValue": "27.225px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "letterSpacing",
+      "htmlValue": "normal",
+      "elementorValue": "normal",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "color",
+      "htmlValue": "rgb(207, 200, 184)",
+      "elementorValue": "rgb(207, 200, 184)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "backgroundColor",
+      "htmlValue": "rgba(0, 0, 0, 0)",
+      "elementorValue": "rgba(0, 0, 0, 0)",
+      "diff": "0",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "paddingTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "paddingRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "paddingBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "paddingLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "marginTop",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "marginRight",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "marginBottom",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "marginLeft",
+      "htmlValue": "0px",
+      "elementorValue": "0px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "width",
+      "htmlValue": "328px",
+      "elementorValue": "328px",
+      "diff": "0.00",
+      "status": "ok"
+    },
+    {
+      "element": "approach-principe-3-tekst",
+      "property": "height",
+      "htmlValue": "81.6562px",
+      "elementorValue": "81.6562px",
+      "diff": "0.00",
+      "status": "ok"
+    }
+  ]
+}

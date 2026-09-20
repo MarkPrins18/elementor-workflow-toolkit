@@ -1,0 +1,6205 @@
+{
+  "generatedAt": "2026-09-20T19:40:01.843Z",
+  "source": "C:\\laragon\\www\\ultimate-workflow\\ai-workflow\\design\\cinema-homepage.html",
+  "roots": [
+    "header",
+    "hero",
+    "programma",
+    "binnenkort",
+    "avonden",
+    "bezoek",
+    "footer"
+  ],
+  "components": {
+    "header": {
+      "tag": "header",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": null,
+      "children": [
+        "header-binnen"
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 73
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1440px",
+        "height": "73px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(19, 16, 16, 0.92)",
+        "borderRadius": "0px",
+        "borderWidth": "0px 0px 1px",
+        "borderColor": "rgb(239, 230, 210) rgb(239, 230, 210) rgb(55, 49, 45)",
+        "borderStyle": "none none solid"
+      }
+    },
+    "header-binnen": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "header",
+      "children": [
+        "header-logo",
+        "header-nav"
+      ],
+      "geometry": {
+        "x": 130,
+        "y": 0,
+        "width": 1180,
+        "height": 72
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1180px",
+        "height": "72px",
+        "paddingTop": "0px",
+        "paddingRight": "32px",
+        "paddingBottom": "0px",
+        "paddingLeft": "32px",
+        "marginTop": "0px",
+        "marginRight": "130px",
+        "marginBottom": "0px",
+        "marginLeft": "130px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "center",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "header-logo": {
+      "tag": "a",
+      "role": "knop",
+      "text": "De Vonk",
+      "href": "#",
+      "src": null,
+      "alt": null,
+      "parent": "header-binnen",
+      "children": [],
+      "geometry": {
+        "x": 162,
+        "y": 16,
+        "width": 89.328125,
+        "height": 40
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "25px",
+        "fontWeight": "400",
+        "lineHeight": "40px",
+        "letterSpacing": "0.25px",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "89.3281px",
+        "height": "40px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "header-nav": {
+      "tag": "nav",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "header-binnen",
+      "children": [
+        "header-nav-programma",
+        "header-nav-binnenkort",
+        "header-nav-avonden",
+        "header-nav-bezoek",
+        "header-nav-buy"
+      ],
+      "geometry": {
+        "x": 792.5625,
+        "y": 15.203125,
+        "width": 485.4375,
+        "height": 41.59375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13.5px",
+        "fontWeight": "400",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "485.438px",
+        "height": "41.5938px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "rowGap": "32px",
+        "columnGap": "32px",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "header-nav-programma": {
+      "tag": "a",
+      "role": "knop",
+      "text": "Programma",
+      "href": "#programma",
+      "src": null,
+      "alt": null,
+      "parent": "header-nav",
+      "children": [],
+      "geometry": {
+        "x": 792.5625,
+        "y": 25.203125,
+        "width": 70.53125,
+        "height": 21.59375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13.5px",
+        "fontWeight": "400",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "70.5312px",
+        "height": "21.5938px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "header-nav-binnenkort": {
+      "tag": "a",
+      "role": "knop",
+      "text": "Binnenkort",
+      "href": "#binnenkort",
+      "src": null,
+      "alt": null,
+      "parent": "header-nav",
+      "children": [],
+      "geometry": {
+        "x": 895.09375,
+        "y": 25.203125,
+        "width": 64.546875,
+        "height": 21.59375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13.5px",
+        "fontWeight": "400",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "64.5469px",
+        "height": "21.5938px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "header-nav-avonden": {
+      "tag": "a",
+      "role": "knop",
+      "text": "Avonden",
+      "href": "#avonden",
+      "src": null,
+      "alt": null,
+      "parent": "header-nav",
+      "children": [],
+      "geometry": {
+        "x": 991.640625,
+        "y": 25.203125,
+        "width": 53.0625,
+        "height": 21.59375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13.5px",
+        "fontWeight": "400",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "53.0625px",
+        "height": "21.5938px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "header-nav-bezoek": {
+      "tag": "a",
+      "role": "knop",
+      "text": "Bezoek",
+      "href": "#bezoek",
+      "src": null,
+      "alt": null,
+      "parent": "header-nav",
+      "children": [],
+      "geometry": {
+        "x": 1076.703125,
+        "y": 25.203125,
+        "width": 45.03125,
+        "height": 21.59375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13.5px",
+        "fontWeight": "400",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "45.0312px",
+        "height": "21.5938px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "header-nav-buy": {
+      "tag": "a",
+      "role": "knop",
+      "text": "Koop tickets",
+      "href": "#programma",
+      "src": null,
+      "alt": null,
+      "parent": "header-nav",
+      "children": [],
+      "geometry": {
+        "x": 1153.734375,
+        "y": 15.203125,
+        "width": 124.265625,
+        "height": 41.59375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13.5px",
+        "fontWeight": "600",
+        "lineHeight": "21.6px",
+        "letterSpacing": "0.27px",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(26, 18, 8)"
+      },
+      "box": {
+        "width": "124.266px",
+        "height": "41.5938px",
+        "paddingTop": "10px",
+        "paddingRight": "20px",
+        "paddingBottom": "10px",
+        "paddingLeft": "20px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgb(232, 163, 61)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(26, 18, 8)",
+        "borderStyle": "none"
+      }
+    },
+    "hero": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": null,
+      "children": [
+        "hero-inhoud",
+        "hero-poster"
+      ],
+      "geometry": {
+        "x": 130,
+        "y": 73,
+        "width": 1180,
+        "height": 790
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1180px",
+        "height": "790px",
+        "paddingTop": "72px",
+        "paddingRight": "0px",
+        "paddingBottom": "88px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "130px",
+        "marginBottom": "0px",
+        "marginLeft": "130px"
+      },
+      "layout": {
+        "display": "grid",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "rowGap": "64px",
+        "columnGap": "64px",
+        "gridTemplateColumns": "596.922px 519.078px"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "hero-inhoud": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "hero",
+      "children": [
+        "hero-label",
+        "hero-titel",
+        "hero-tekst",
+        "hero-cta"
+      ],
+      "geometry": {
+        "x": 130,
+        "y": 189.359375,
+        "width": 596.921875,
+        "height": 541.265625
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "596.922px",
+        "height": "541.266px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "hero-label": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "Filmhuis in Breda, sinds 1987",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "hero-inhoud",
+      "children": [],
+      "geometry": {
+        "x": 130,
+        "y": 197.359375,
+        "width": 241.53125,
+        "height": 12
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "11.5px",
+        "fontWeight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "2.07px",
+        "textAlign": "start",
+        "textTransform": "uppercase",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "auto",
+        "height": "auto",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "inline",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "hero-titel": {
+      "tag": "h1",
+      "role": "titel",
+      "text": "Het licht gaat uit. Nu begint het.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "hero-inhoud",
+      "children": [],
+      "geometry": {
+        "x": 130,
+        "y": 236.953125,
+        "width": 596.921875,
+        "height": 288.09375
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "98px",
+        "fontWeight": "400",
+        "lineHeight": "96.04px",
+        "letterSpacing": "-1.96px",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "596.922px",
+        "height": "288.094px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "22px",
+        "marginRight": "0px",
+        "marginBottom": "28px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "hero-tekst": {
+      "tag": "p",
+      "role": "tekst",
+      "text": "Drie zalen, honderdvijftig stoelen en elke avond films die je niet overal ziet. Nieuw werk, herontdekte klassiekers en gasten die na afloop blijven praten.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "hero-inhoud",
+      "children": [],
+      "geometry": {
+        "x": 130,
+        "y": 553.046875,
+        "width": 540,
+        "height": 86.390625
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "28.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "540px",
+        "height": "86.3906px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "hero-cta": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "hero-inhoud",
+      "children": [
+        "hero-cta-primair",
+        "hero-cta-secundair"
+      ],
+      "geometry": {
+        "x": 130,
+        "y": 675.4375,
+        "width": 596.921875,
+        "height": 55.1875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "596.922px",
+        "height": "55.1875px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "36px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "rowGap": "24px",
+        "columnGap": "24px",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "hero-cta-primair": {
+      "tag": "a",
+      "role": "knop",
+      "text": "Bekijk het programma",
+      "href": "#programma",
+      "src": null,
+      "alt": null,
+      "parent": "hero-cta",
+      "children": [],
+      "geometry": {
+        "x": 130,
+        "y": 675.4375,
+        "width": 214.109375,
+        "height": 55.1875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.5px",
+        "fontWeight": "600",
+        "lineHeight": "23.2px",
+        "letterSpacing": "0.29px",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(26, 18, 8)"
+      },
+      "box": {
+        "width": "214.109px",
+        "height": "55.1875px",
+        "paddingTop": "16px",
+        "paddingRight": "28px",
+        "paddingBottom": "16px",
+        "paddingLeft": "28px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgb(232, 163, 61)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(26, 18, 8)",
+        "borderStyle": "none"
+      }
+    },
+    "hero-cta-secundair": {
+      "tag": "a",
+      "role": "knop",
+      "text": "Speciale avonden",
+      "href": "#avonden",
+      "src": null,
+      "alt": null,
+      "parent": "hero-cta",
+      "children": [],
+      "geometry": {
+        "x": 368.109375,
+        "y": 689.4375,
+        "width": 115.296875,
+        "height": 27.1875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "14.5px",
+        "fontWeight": "400",
+        "lineHeight": "23.2px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "115.297px",
+        "height": "27.1875px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "3px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px 0px 1px",
+        "borderColor": "rgb(239, 230, 210) rgb(239, 230, 210) rgb(168, 159, 141)",
+        "borderStyle": "none none solid"
+      }
+    },
+    "hero-poster": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "hero",
+      "children": [
+        "hero-poster-top",
+        "hero-poster-info"
+      ],
+      "geometry": {
+        "x": 881.2865600585938,
+        "y": 139.25927734375,
+        "width": 437.42694091796875,
+        "height": 641.4814453125
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "420px",
+        "height": "630px",
+        "paddingTop": "22px",
+        "paddingRight": "22px",
+        "paddingBottom": "22px",
+        "paddingLeft": "22px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "hero-poster-top": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "Deze week in zaal 1",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "hero-poster",
+      "children": [],
+      "geometry": {
+        "x": 919.7853393554688,
+        "y": 161.86495971679688,
+        "width": 376.32244873046875,
+        "height": 27.28887939453125
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "10.5px",
+        "fontWeight": "400",
+        "lineHeight": "16.8px",
+        "letterSpacing": "2.1px",
+        "textAlign": "start",
+        "textTransform": "uppercase",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "376px",
+        "height": "16.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "hero-poster-info": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "hero-poster",
+      "children": [
+        "hero-poster-titel",
+        "hero-poster-sub"
+      ],
+      "geometry": {
+        "x": 903.8922729492188,
+        "y": 585.1061401367188,
+        "width": 380.39324951171875,
+        "height": 173.02886962890625
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "376px",
+        "height": "162.594px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "hero-poster-titel": {
+      "tag": "div",
+      "role": "tekst",
+      "text": "De Laatste Trein",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "hero-poster-info",
+      "children": [],
+      "geometry": {
+        "x": 904.7185668945312,
+        "y": 585.1061401367188,
+        "width": 379.56695556640625,
+        "height": 143.4466552734375
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "70px",
+        "fontWeight": "400",
+        "lineHeight": "66.5px",
+        "letterSpacing": "-0.7px",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "376px",
+        "height": "133px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "hero-poster-sub": {
+      "tag": "div",
+      "role": "tekst",
+      "text": "Regie Ilse Verbeek · 118 min",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "hero-poster-info",
+      "children": [],
+      "geometry": {
+        "x": 903.8922729492188,
+        "y": 730.0496215820312,
+        "width": 376.34466552734375,
+        "height": 28.08538818359375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "11px",
+        "fontWeight": "400",
+        "lineHeight": "17.6px",
+        "letterSpacing": "1.54px",
+        "textAlign": "start",
+        "textTransform": "uppercase",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "376px",
+        "height": "17.5938px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "12px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "programma": {
+      "tag": "section",
+      "role": "container",
+      "text": "Programma\n        Vandaagzo 20 sepMaandagma 21 sepDinsdagdi 22 sepWoensdagwo 23 sepDonderdagdo 24 sepVrijdagvr 25 sepZaterdagza 26 sep\n      \n      De Laatste TreinDramaDe Laatste TreinEen conductrice werkt haar laatste dienst op een lijn die morgen wordt opgeheven. Tussen twee stations verandert alles.118 minNL gesproken14:30Zaal 121:00Zaal 1Zomer van GlasRomantiekZomer van GlasTwee glasblazers, één atelier op het eiland Murano en een opdracht die geen van beiden wil afgeven.96 minFR, NL ondertiteld16:00Zaal 2MarleenKomedieMarleenEen gepensioneerde buschauffeuse pakt haar oude route weer op, dit keer met een eigen bestemming.102 minNL gesproken19:15Bijna vol",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": null,
+      "children": [
+        "programma-titel",
+        "programma-dagen",
+        "programma-lijst"
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 863,
+        "width": 1440,
+        "height": 987.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1440px",
+        "height": "987.797px",
+        "paddingTop": "88px",
+        "paddingRight": "0px",
+        "paddingBottom": "88px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px 0px 0px",
+        "borderColor": "rgb(55, 49, 45) rgb(239, 230, 210) rgb(239, 230, 210)",
+        "borderStyle": "solid none none"
+      }
+    },
+    "programma-titel": {
+      "tag": "h2",
+      "role": "titel",
+      "text": "Programma",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma",
+      "children": [],
+      "geometry": {
+        "x": 162,
+        "y": 952,
+        "width": 273.546875,
+        "height": 58.796875
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "56px",
+        "fontWeight": "400",
+        "lineHeight": "58.8px",
+        "letterSpacing": "-0.84px",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "273.547px",
+        "height": "58.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "programma-dagen": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma",
+      "children": [
+        "programma-dag-vandaag",
+        "programma-dag-maandag",
+        "programma-dag-dinsdag",
+        "programma-dag-woensdag",
+        "programma-dag-donderdag",
+        "programma-dag-vrijdag",
+        "programma-dag-zaterdag"
+      ],
+      "geometry": {
+        "x": 546.5,
+        "y": 953.796875,
+        "width": 731.5,
+        "height": 57
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "731.5px",
+        "height": "57px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "6px",
+        "columnGap": "6px",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "programma-dag-vandaag": {
+      "tag": "button",
+      "role": "knop",
+      "text": "Vandaagzo 20 sep",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-dagen",
+      "children": [],
+      "geometry": {
+        "x": 546.5,
+        "y": 953.796875,
+        "width": 95.703125,
+        "height": 57
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "16.25px",
+        "letterSpacing": "normal",
+        "textAlign": "left",
+        "textTransform": "none",
+        "color": "rgb(58, 51, 44)"
+      },
+      "box": {
+        "width": "95.7031px",
+        "height": "57px",
+        "paddingTop": "10px",
+        "paddingRight": "16px",
+        "paddingBottom": "10px",
+        "paddingLeft": "16px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgb(239, 230, 210)",
+        "borderRadius": "0px",
+        "borderWidth": "1px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "solid"
+      }
+    },
+    "programma-dag-maandag": {
+      "tag": "button",
+      "role": "knop",
+      "text": "Maandagma 21 sep",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-dagen",
+      "children": [],
+      "geometry": {
+        "x": 648.203125,
+        "y": 953.796875,
+        "width": 99.015625,
+        "height": 57
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "16.25px",
+        "letterSpacing": "normal",
+        "textAlign": "left",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "99.0156px",
+        "height": "57px",
+        "paddingTop": "10px",
+        "paddingRight": "16px",
+        "paddingBottom": "10px",
+        "paddingLeft": "16px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px",
+        "borderColor": "rgb(55, 49, 45)",
+        "borderStyle": "solid"
+      }
+    },
+    "programma-dag-dinsdag": {
+      "tag": "button",
+      "role": "knop",
+      "text": "Dinsdagdi 22 sep",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-dagen",
+      "children": [],
+      "geometry": {
+        "x": 753.21875,
+        "y": 953.796875,
+        "width": 93.1875,
+        "height": 57
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "16.25px",
+        "letterSpacing": "normal",
+        "textAlign": "left",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "93.1875px",
+        "height": "57px",
+        "paddingTop": "10px",
+        "paddingRight": "16px",
+        "paddingBottom": "10px",
+        "paddingLeft": "16px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px",
+        "borderColor": "rgb(55, 49, 45)",
+        "borderStyle": "solid"
+      }
+    },
+    "programma-dag-woensdag": {
+      "tag": "button",
+      "role": "knop",
+      "text": "Woensdagwo 23 sep",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-dagen",
+      "children": [],
+      "geometry": {
+        "x": 852.40625,
+        "y": 953.796875,
+        "width": 109.578125,
+        "height": 57
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "16.25px",
+        "letterSpacing": "normal",
+        "textAlign": "left",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "109.578px",
+        "height": "57px",
+        "paddingTop": "10px",
+        "paddingRight": "16px",
+        "paddingBottom": "10px",
+        "paddingLeft": "16px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px",
+        "borderColor": "rgb(55, 49, 45)",
+        "borderStyle": "solid"
+      }
+    },
+    "programma-dag-donderdag": {
+      "tag": "button",
+      "role": "knop",
+      "text": "Donderdagdo 24 sep",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-dagen",
+      "children": [],
+      "geometry": {
+        "x": 967.984375,
+        "y": 953.796875,
+        "width": 113.171875,
+        "height": 57
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "16.25px",
+        "letterSpacing": "normal",
+        "textAlign": "left",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "113.172px",
+        "height": "57px",
+        "paddingTop": "10px",
+        "paddingRight": "16px",
+        "paddingBottom": "10px",
+        "paddingLeft": "16px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px",
+        "borderColor": "rgb(55, 49, 45)",
+        "borderStyle": "solid"
+      }
+    },
+    "programma-dag-vrijdag": {
+      "tag": "button",
+      "role": "knop",
+      "text": "Vrijdagvr 25 sep",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-dagen",
+      "children": [],
+      "geometry": {
+        "x": 1087.15625,
+        "y": 953.796875,
+        "width": 87.484375,
+        "height": 57
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "16.25px",
+        "letterSpacing": "normal",
+        "textAlign": "left",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "87.4844px",
+        "height": "57px",
+        "paddingTop": "10px",
+        "paddingRight": "16px",
+        "paddingBottom": "10px",
+        "paddingLeft": "16px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px",
+        "borderColor": "rgb(55, 49, 45)",
+        "borderStyle": "solid"
+      }
+    },
+    "programma-dag-zaterdag": {
+      "tag": "button",
+      "role": "knop",
+      "text": "Zaterdagza 26 sep",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-dagen",
+      "children": [],
+      "geometry": {
+        "x": 1180.640625,
+        "y": 953.796875,
+        "width": 97.359375,
+        "height": 57
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "400",
+        "lineHeight": "16.25px",
+        "letterSpacing": "normal",
+        "textAlign": "left",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "97.3594px",
+        "height": "57px",
+        "paddingTop": "10px",
+        "paddingRight": "16px",
+        "paddingBottom": "10px",
+        "paddingLeft": "16px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px",
+        "borderColor": "rgb(55, 49, 45)",
+        "borderStyle": "solid"
+      }
+    },
+    "programma-lijst": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma",
+      "children": [
+        "programma-film-trein",
+        "programma-film-zomer",
+        "programma-film-marleen"
+      ],
+      "geometry": {
+        "x": 162,
+        "y": 1050.796875,
+        "width": 1116,
+        "height": 712
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1116px",
+        "height": "712px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "programma-film-trein": {
+      "tag": "article",
+      "role": "container",
+      "text": "DramaDe Laatste TreinEen conductrice werkt haar laatste dienst op een lijn die morgen wordt opgeheven. Tussen twee stations verandert alles.118 minNL gesproken",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-lijst",
+      "children": [
+        "programma-film-trein-poster",
+        "programma-film-trein-titel",
+        "programma-film-trein-tekst",
+        "programma-film-trein-tijden"
+      ],
+      "geometry": {
+        "x": 162,
+        "y": 1050.796875,
+        "width": 1116,
+        "height": 237
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1116px",
+        "height": "237px",
+        "paddingTop": "28px",
+        "paddingRight": "0px",
+        "paddingBottom": "28px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "grid",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "rowGap": "36px",
+        "columnGap": "36px",
+        "gridTemplateColumns": "120px 738.906px 185.094px"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px 0px 0px",
+        "borderColor": "rgb(55, 49, 45) rgb(239, 230, 210) rgb(239, 230, 210)",
+        "borderStyle": "solid none none"
+      }
+    },
+    "programma-film-trein-poster": {
+      "tag": "div",
+      "role": "tekst",
+      "text": "De Laatste Trein",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-film-trein",
+      "children": [],
+      "geometry": {
+        "x": 162,
+        "y": 1079.796875,
+        "width": 120,
+        "height": 180
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "120px",
+        "height": "180px",
+        "paddingTop": "10px",
+        "paddingRight": "10px",
+        "paddingBottom": "10px",
+        "paddingLeft": "10px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "programma-film-trein-titel": {
+      "tag": "h3",
+      "role": "titel",
+      "text": "De Laatste Trein",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-film-trein",
+      "children": [],
+      "geometry": {
+        "x": 318,
+        "y": 1123.296875,
+        "width": 738.90625,
+        "height": 33
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "lineHeight": "33px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "738.906px",
+        "height": "33px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "6px",
+        "marginRight": "0px",
+        "marginBottom": "8px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "programma-film-trein-tekst": {
+      "tag": "p",
+      "role": "tekst",
+      "text": "Een conductrice werkt haar laatste dienst op een lijn die morgen wordt opgeheven. Tussen twee stations verandert alles.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-film-trein",
+      "children": [],
+      "geometry": {
+        "x": 318,
+        "y": 1164.296875,
+        "width": 527,
+        "height": 49.59375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "527px",
+        "height": "49.5938px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "programma-film-trein-tijden": {
+      "tag": "div",
+      "role": "tekst",
+      "text": "14:30Zaal 121:00Zaal 1",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-film-trein",
+      "children": [],
+      "geometry": {
+        "x": 1092.90625,
+        "y": 1129.796875,
+        "width": 185.09375,
+        "height": 79.984375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "185.094px",
+        "height": "79.9844px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "alignItems": "normal",
+        "rowGap": "10px",
+        "columnGap": "10px",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "programma-film-zomer": {
+      "tag": "article",
+      "role": "container",
+      "text": "RomantiekZomer van GlasTwee glasblazers, één atelier op het eiland Murano en een opdracht die geen van beiden wil afgeven.96 minFR, NL ondertiteld",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-lijst",
+      "children": [
+        "programma-film-zomer-poster",
+        "programma-film-zomer-titel",
+        "programma-film-zomer-tekst",
+        "programma-film-zomer-tijden"
+      ],
+      "geometry": {
+        "x": 162,
+        "y": 1287.796875,
+        "width": 1116,
+        "height": 237
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1116px",
+        "height": "237px",
+        "paddingTop": "28px",
+        "paddingRight": "0px",
+        "paddingBottom": "28px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "grid",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "rowGap": "36px",
+        "columnGap": "36px",
+        "gridTemplateColumns": "120px 836.453px 87.5469px"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px 0px 0px",
+        "borderColor": "rgb(55, 49, 45) rgb(239, 230, 210) rgb(239, 230, 210)",
+        "borderStyle": "solid none none"
+      }
+    },
+    "programma-film-zomer-poster": {
+      "tag": "div",
+      "role": "tekst",
+      "text": "Zomer van Glas",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-film-zomer",
+      "children": [],
+      "geometry": {
+        "x": 162,
+        "y": 1316.796875,
+        "width": 120,
+        "height": 180
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(26, 22, 20)"
+      },
+      "box": {
+        "width": "120px",
+        "height": "180px",
+        "paddingTop": "10px",
+        "paddingRight": "10px",
+        "paddingBottom": "10px",
+        "paddingLeft": "10px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(26, 22, 20)",
+        "borderStyle": "none"
+      }
+    },
+    "programma-film-zomer-titel": {
+      "tag": "h3",
+      "role": "titel",
+      "text": "Zomer van Glas",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-film-zomer",
+      "children": [],
+      "geometry": {
+        "x": 318,
+        "y": 1360.296875,
+        "width": 836.453125,
+        "height": 33
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "lineHeight": "33px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "836.453px",
+        "height": "33px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "6px",
+        "marginRight": "0px",
+        "marginBottom": "8px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "programma-film-zomer-tekst": {
+      "tag": "p",
+      "role": "tekst",
+      "text": "Twee glasblazers, één atelier op het eiland Murano en een opdracht die geen van beiden wil afgeven.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-film-zomer",
+      "children": [],
+      "geometry": {
+        "x": 318,
+        "y": 1401.296875,
+        "width": 527,
+        "height": 49.59375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "527px",
+        "height": "49.5938px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "programma-film-zomer-tijden": {
+      "tag": "div",
+      "role": "tekst",
+      "text": "16:00Zaal 2",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-film-zomer",
+      "children": [],
+      "geometry": {
+        "x": 1190.453125,
+        "y": 1366.796875,
+        "width": 87.546875,
+        "height": 79.984375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "87.5469px",
+        "height": "79.9844px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "alignItems": "normal",
+        "rowGap": "10px",
+        "columnGap": "10px",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "programma-film-marleen": {
+      "tag": "article",
+      "role": "container",
+      "text": "KomedieMarleenEen gepensioneerde buschauffeuse pakt haar oude route weer op, dit keer met een eigen bestemming.102 minNL gesproken",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-lijst",
+      "children": [
+        "programma-film-marleen-poster",
+        "programma-film-marleen-titel",
+        "programma-film-marleen-tekst",
+        "programma-film-marleen-tijden"
+      ],
+      "geometry": {
+        "x": 162,
+        "y": 1524.796875,
+        "width": 1116,
+        "height": 238
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1116px",
+        "height": "238px",
+        "paddingTop": "28px",
+        "paddingRight": "0px",
+        "paddingBottom": "28px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "grid",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "rowGap": "36px",
+        "columnGap": "36px",
+        "gridTemplateColumns": "120px 822.438px 101.562px"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px 0px",
+        "borderColor": "rgb(55, 49, 45) rgb(239, 230, 210)",
+        "borderStyle": "solid none"
+      }
+    },
+    "programma-film-marleen-poster": {
+      "tag": "div",
+      "role": "tekst",
+      "text": "Marleen",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-film-marleen",
+      "children": [],
+      "geometry": {
+        "x": 162,
+        "y": 1553.796875,
+        "width": 120,
+        "height": 180
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(26, 13, 8)"
+      },
+      "box": {
+        "width": "120px",
+        "height": "180px",
+        "paddingTop": "10px",
+        "paddingRight": "10px",
+        "paddingBottom": "10px",
+        "paddingLeft": "10px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(26, 13, 8)",
+        "borderStyle": "none"
+      }
+    },
+    "programma-film-marleen-titel": {
+      "tag": "h3",
+      "role": "titel",
+      "text": "Marleen",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-film-marleen",
+      "children": [],
+      "geometry": {
+        "x": 318,
+        "y": 1597.296875,
+        "width": 822.4375,
+        "height": 33
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "30px",
+        "fontWeight": "400",
+        "lineHeight": "33px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "822.438px",
+        "height": "33px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "6px",
+        "marginRight": "0px",
+        "marginBottom": "8px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "programma-film-marleen-tekst": {
+      "tag": "p",
+      "role": "tekst",
+      "text": "Een gepensioneerde buschauffeuse pakt haar oude route weer op, dit keer met een eigen bestemming.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-film-marleen",
+      "children": [],
+      "geometry": {
+        "x": 318,
+        "y": 1638.296875,
+        "width": 527,
+        "height": 49.59375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "527px",
+        "height": "49.5938px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "programma-film-marleen-tijden": {
+      "tag": "div",
+      "role": "tekst",
+      "text": "19:15Bijna vol",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "programma-film-marleen",
+      "children": [],
+      "geometry": {
+        "x": 1176.4375,
+        "y": 1603.796875,
+        "width": 101.5625,
+        "height": 79.984375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "101.562px",
+        "height": "79.9844px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "alignItems": "normal",
+        "rowGap": "10px",
+        "columnGap": "10px",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort": {
+      "tag": "section",
+      "role": "container",
+      "text": "BinnenkortVanaf 1 oktober\n      \n        \n          DramaZoutmeer\n          ZoutmeerEen gezin, een leeggelopen kustdorp, één lange zomer.\n        \n        \n          ThrillerNacht­ploeg\n          NachtploegSchoonmakers in een glazen kantoortoren zien iets wat niet mocht.\n        \n        \n          KomedieMarleen\n          MarleenEen gepensioneerde buschauffeuse besluit dat het nu wel genoeg is.\n        \n        \n          DocumentaireStille Havens\n          Stille HavensVijf jaar met de laatste vissers van Zeeuws-Vlaanderen.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": null,
+      "children": [
+        "binnenkort-head",
+        "binnenkort-kaarten"
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 1850.796875,
+        "width": 1440,
+        "height": 755.578125
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1440px",
+        "height": "755.578px",
+        "paddingTop": "88px",
+        "paddingRight": "0px",
+        "paddingBottom": "88px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px 0px 0px",
+        "borderColor": "rgb(55, 49, 45) rgb(239, 230, 210) rgb(239, 230, 210)",
+        "borderStyle": "solid none none"
+      }
+    },
+    "binnenkort-head": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort",
+      "children": [
+        "binnenkort-titel",
+        "binnenkort-label"
+      ],
+      "geometry": {
+        "x": 162,
+        "y": 1939.796875,
+        "width": 1116,
+        "height": 58.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1116px",
+        "height": "58.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "40px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "end",
+        "rowGap": "32px",
+        "columnGap": "32px",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-titel": {
+      "tag": "h2",
+      "role": "titel",
+      "text": "Binnenkort",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-head",
+      "children": [],
+      "geometry": {
+        "x": 162,
+        "y": 1939.796875,
+        "width": 260.96875,
+        "height": 58.796875
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "56px",
+        "fontWeight": "400",
+        "lineHeight": "58.8px",
+        "letterSpacing": "-0.84px",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "260.969px",
+        "height": "58.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-label": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "Vanaf 1 oktober",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-head",
+      "children": [],
+      "geometry": {
+        "x": 1140.640625,
+        "y": 1980.203125,
+        "width": 137.359375,
+        "height": 18.390625
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "11.5px",
+        "fontWeight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "2.07px",
+        "textAlign": "start",
+        "textTransform": "uppercase",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "137.359px",
+        "height": "18.3906px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaarten": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort",
+      "children": [
+        "binnenkort-kaart-1",
+        "binnenkort-kaart-2",
+        "binnenkort-kaart-3",
+        "binnenkort-kaart-4"
+      ],
+      "geometry": {
+        "x": 162,
+        "y": 2038.59375,
+        "width": 1116,
+        "height": 479.78125
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1116px",
+        "height": "479.781px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "grid",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "28px",
+        "columnGap": "28px",
+        "gridTemplateColumns": "258px 258px 258px 258px"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-1": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaarten",
+      "children": [
+        "binnenkort-kaart-1-poster",
+        "binnenkort-kaart-1-titel",
+        "binnenkort-kaart-1-tekst"
+      ],
+      "geometry": {
+        "x": 162,
+        "y": 2038.59375,
+        "width": 258,
+        "height": 479.78125
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "479.781px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-1-poster": {
+      "tag": "div",
+      "role": "tekst",
+      "text": "DramaZoutmeer",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaart-1",
+      "children": [],
+      "geometry": {
+        "x": 162,
+        "y": 2038.59375,
+        "width": 258,
+        "height": 387
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "387px",
+        "paddingTop": "22px",
+        "paddingRight": "22px",
+        "paddingBottom": "22px",
+        "paddingLeft": "22px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-1-titel": {
+      "tag": "h3",
+      "role": "titel",
+      "text": "Zoutmeer",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaart-1",
+      "children": [],
+      "geometry": {
+        "x": 162,
+        "y": 2441.59375,
+        "width": 258,
+        "height": 33.59375
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "21px",
+        "fontWeight": "400",
+        "lineHeight": "33.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "33.5938px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "16px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-1-tekst": {
+      "tag": "p",
+      "role": "tekst",
+      "text": "Een gezin, een leeggelopen kustdorp, één lange zomer.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaart-1",
+      "children": [],
+      "geometry": {
+        "x": 162,
+        "y": 2475.1875,
+        "width": 258,
+        "height": 43.1875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13.5px",
+        "fontWeight": "400",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "43.1875px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-2": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaarten",
+      "children": [
+        "binnenkort-kaart-2-poster",
+        "binnenkort-kaart-2-titel",
+        "binnenkort-kaart-2-tekst"
+      ],
+      "geometry": {
+        "x": 448,
+        "y": 2038.59375,
+        "width": 258,
+        "height": 479.78125
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "479.781px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-2-poster": {
+      "tag": "div",
+      "role": "tekst",
+      "text": "ThrillerNacht­ploeg",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaart-2",
+      "children": [],
+      "geometry": {
+        "x": 448,
+        "y": 2038.59375,
+        "width": 258,
+        "height": 387
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "387px",
+        "paddingTop": "22px",
+        "paddingRight": "22px",
+        "paddingBottom": "22px",
+        "paddingLeft": "22px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-2-titel": {
+      "tag": "h3",
+      "role": "titel",
+      "text": "Nachtploeg",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaart-2",
+      "children": [],
+      "geometry": {
+        "x": 448,
+        "y": 2441.59375,
+        "width": 258,
+        "height": 33.59375
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "21px",
+        "fontWeight": "400",
+        "lineHeight": "33.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "33.5938px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "16px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-2-tekst": {
+      "tag": "p",
+      "role": "tekst",
+      "text": "Schoonmakers in een glazen kantoortoren zien iets wat niet mocht.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaart-2",
+      "children": [],
+      "geometry": {
+        "x": 448,
+        "y": 2475.1875,
+        "width": 258,
+        "height": 43.1875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13.5px",
+        "fontWeight": "400",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "43.1875px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-3": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaarten",
+      "children": [
+        "binnenkort-kaart-3-poster",
+        "binnenkort-kaart-3-titel",
+        "binnenkort-kaart-3-tekst"
+      ],
+      "geometry": {
+        "x": 734,
+        "y": 2038.59375,
+        "width": 258,
+        "height": 479.78125
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "479.781px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-3-poster": {
+      "tag": "div",
+      "role": "tekst",
+      "text": "KomedieMarleen",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaart-3",
+      "children": [],
+      "geometry": {
+        "x": 734,
+        "y": 2038.59375,
+        "width": 258,
+        "height": 387
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(26, 13, 8)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "387px",
+        "paddingTop": "22px",
+        "paddingRight": "22px",
+        "paddingBottom": "22px",
+        "paddingLeft": "22px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(26, 13, 8)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-3-titel": {
+      "tag": "h3",
+      "role": "titel",
+      "text": "Marleen",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaart-3",
+      "children": [],
+      "geometry": {
+        "x": 734,
+        "y": 2441.59375,
+        "width": 258,
+        "height": 33.59375
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "21px",
+        "fontWeight": "400",
+        "lineHeight": "33.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "33.5938px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "16px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-3-tekst": {
+      "tag": "p",
+      "role": "tekst",
+      "text": "Een gepensioneerde buschauffeuse besluit dat het nu wel genoeg is.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaart-3",
+      "children": [],
+      "geometry": {
+        "x": 734,
+        "y": 2475.1875,
+        "width": 258,
+        "height": 43.1875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13.5px",
+        "fontWeight": "400",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "43.1875px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-4": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaarten",
+      "children": [
+        "binnenkort-kaart-4-poster",
+        "binnenkort-kaart-4-titel",
+        "binnenkort-kaart-4-tekst"
+      ],
+      "geometry": {
+        "x": 1020,
+        "y": 2038.59375,
+        "width": 258,
+        "height": 479.78125
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "479.781px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-4-poster": {
+      "tag": "div",
+      "role": "tekst",
+      "text": "DocumentaireStille Havens",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaart-4",
+      "children": [],
+      "geometry": {
+        "x": 1020,
+        "y": 2038.59375,
+        "width": 258,
+        "height": 387
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "387px",
+        "paddingTop": "22px",
+        "paddingRight": "22px",
+        "paddingBottom": "22px",
+        "paddingLeft": "22px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "space-between",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-4-titel": {
+      "tag": "h3",
+      "role": "titel",
+      "text": "Stille Havens",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaart-4",
+      "children": [],
+      "geometry": {
+        "x": 1020,
+        "y": 2441.59375,
+        "width": 258,
+        "height": 33.59375
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "21px",
+        "fontWeight": "400",
+        "lineHeight": "33.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "33.5938px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "16px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "binnenkort-kaart-4-tekst": {
+      "tag": "p",
+      "role": "tekst",
+      "text": "Vijf jaar met de laatste vissers van Zeeuws-Vlaanderen.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "binnenkort-kaart-4",
+      "children": [],
+      "geometry": {
+        "x": 1020,
+        "y": 2475.1875,
+        "width": 258,
+        "height": 43.1875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "13.5px",
+        "fontWeight": "400",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "258px",
+        "height": "43.1875px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "avonden": {
+      "tag": "section",
+      "role": "container",
+      "text": "Meer dan een film\n      \n        \n          Elke eerste donderdag\n          Regisseur op bezoek\n          Na de film een gesprek met de maker. Vragen uit de zaal zijn welkom en de bar blijft open.\n        \n        \n          Elke zondagmiddag\n          Klassieker op 35mm\n          Een film die je op het grote doek moet zien, met echte projectie en een korte inleiding.\n        \n        \n          Elke woensdag\n          Stille stoelen\n          Rustige voorstelling met lager geluid en licht aan. Voor kleine kinderen en iedereen die dat prettiger vindt.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": null,
+      "children": [
+        "avonden-head",
+        "avonden-kaarten"
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 2606.375,
+        "width": 1440,
+        "height": 507.140625
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1440px",
+        "height": "507.141px",
+        "paddingTop": "88px",
+        "paddingRight": "0px",
+        "paddingBottom": "88px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgb(28, 24, 23)",
+        "borderRadius": "0px",
+        "borderWidth": "1px 0px 0px",
+        "borderColor": "rgb(55, 49, 45) rgb(239, 230, 210) rgb(239, 230, 210)",
+        "borderStyle": "solid none none"
+      }
+    },
+    "avonden-head": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "avonden",
+      "children": [
+        "avonden-titel"
+      ],
+      "geometry": {
+        "x": 162,
+        "y": 2695.375,
+        "width": 1116,
+        "height": 58.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1116px",
+        "height": "58.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "40px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "end",
+        "rowGap": "32px",
+        "columnGap": "32px",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "avonden-titel": {
+      "tag": "h2",
+      "role": "titel",
+      "text": "Meer dan een film",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "avonden-head",
+      "children": [],
+      "geometry": {
+        "x": 162,
+        "y": 2695.375,
+        "width": 402.5625,
+        "height": 58.796875
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "56px",
+        "fontWeight": "400",
+        "lineHeight": "58.8px",
+        "letterSpacing": "-0.84px",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "402.562px",
+        "height": "58.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "avonden-kaarten": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "avonden",
+      "children": [
+        "avonden-kaart-1",
+        "avonden-kaart-2",
+        "avonden-kaart-3"
+      ],
+      "geometry": {
+        "x": 162,
+        "y": 2794.171875,
+        "width": 1116,
+        "height": 231.34375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1116px",
+        "height": "231.344px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "grid",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "0px",
+        "columnGap": "0px",
+        "gridTemplateColumns": "371.328px 371.328px 371.344px"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px",
+        "borderColor": "rgb(55, 49, 45)",
+        "borderStyle": "solid"
+      }
+    },
+    "avonden-kaart-1": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "avonden-kaarten",
+      "children": [
+        "avonden-kaart-1-label",
+        "avonden-kaart-1-titel",
+        "avonden-kaart-1-tekst"
+      ],
+      "geometry": {
+        "x": 163,
+        "y": 2795.171875,
+        "width": 371.328125,
+        "height": 229.34375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "371.328px",
+        "height": "229.344px",
+        "paddingTop": "36px",
+        "paddingRight": "32px",
+        "paddingBottom": "36px",
+        "paddingLeft": "32px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px 1px 0px 0px",
+        "borderColor": "rgb(239, 230, 210) rgb(55, 49, 45) rgb(239, 230, 210) rgb(239, 230, 210)",
+        "borderStyle": "none solid none none"
+      }
+    },
+    "avonden-kaart-1-label": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "Elke eerste donderdag",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "avonden-kaart-1",
+      "children": [],
+      "geometry": {
+        "x": 195,
+        "y": 2839.171875,
+        "width": 200.046875,
+        "height": 12
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "11.5px",
+        "fontWeight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "2.07px",
+        "textAlign": "start",
+        "textTransform": "uppercase",
+        "color": "rgb(232, 163, 61)"
+      },
+      "box": {
+        "width": "auto",
+        "height": "auto",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "inline",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(232, 163, 61)",
+        "borderStyle": "none"
+      }
+    },
+    "avonden-kaart-1-titel": {
+      "tag": "h3",
+      "role": "titel",
+      "text": "Regisseur op bezoek",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "avonden-kaart-1",
+      "children": [],
+      "geometry": {
+        "x": 195,
+        "y": 2870.765625,
+        "width": 306.328125,
+        "height": 31.359375
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "28px",
+        "fontWeight": "400",
+        "lineHeight": "31.36px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "306.328px",
+        "height": "31.3594px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "14px",
+        "marginRight": "0px",
+        "marginBottom": "12px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "avonden-kaart-1-tekst": {
+      "tag": "p",
+      "role": "tekst",
+      "text": "Na de film een gesprek met de maker. Vragen uit de zaal zijn welkom en de bar blijft open.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "avonden-kaart-1",
+      "children": [],
+      "geometry": {
+        "x": 195,
+        "y": 2914.125,
+        "width": 306.328125,
+        "height": 74.390625
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "306.328px",
+        "height": "74.3906px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "avonden-kaart-2": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "avonden-kaarten",
+      "children": [
+        "avonden-kaart-2-label",
+        "avonden-kaart-2-titel",
+        "avonden-kaart-2-tekst"
+      ],
+      "geometry": {
+        "x": 534.328125,
+        "y": 2795.171875,
+        "width": 371.328125,
+        "height": 229.34375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "371.328px",
+        "height": "229.344px",
+        "paddingTop": "36px",
+        "paddingRight": "32px",
+        "paddingBottom": "36px",
+        "paddingLeft": "32px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px 1px 0px 0px",
+        "borderColor": "rgb(239, 230, 210) rgb(55, 49, 45) rgb(239, 230, 210) rgb(239, 230, 210)",
+        "borderStyle": "none solid none none"
+      }
+    },
+    "avonden-kaart-2-label": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "Elke zondagmiddag",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "avonden-kaart-2",
+      "children": [],
+      "geometry": {
+        "x": 566.328125,
+        "y": 2839.171875,
+        "width": 163,
+        "height": 12
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "11.5px",
+        "fontWeight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "2.07px",
+        "textAlign": "start",
+        "textTransform": "uppercase",
+        "color": "rgb(232, 163, 61)"
+      },
+      "box": {
+        "width": "auto",
+        "height": "auto",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "inline",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(232, 163, 61)",
+        "borderStyle": "none"
+      }
+    },
+    "avonden-kaart-2-titel": {
+      "tag": "h3",
+      "role": "titel",
+      "text": "Klassieker op 35mm",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "avonden-kaart-2",
+      "children": [],
+      "geometry": {
+        "x": 566.328125,
+        "y": 2870.765625,
+        "width": 306.328125,
+        "height": 31.359375
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "28px",
+        "fontWeight": "400",
+        "lineHeight": "31.36px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "306.328px",
+        "height": "31.3594px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "14px",
+        "marginRight": "0px",
+        "marginBottom": "12px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "avonden-kaart-2-tekst": {
+      "tag": "p",
+      "role": "tekst",
+      "text": "Een film die je op het grote doek moet zien, met echte projectie en een korte inleiding.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "avonden-kaart-2",
+      "children": [],
+      "geometry": {
+        "x": 566.328125,
+        "y": 2914.125,
+        "width": 306.328125,
+        "height": 49.59375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "306.328px",
+        "height": "49.5938px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "avonden-kaart-3": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "avonden-kaarten",
+      "children": [
+        "avonden-kaart-3-label",
+        "avonden-kaart-3-titel",
+        "avonden-kaart-3-tekst"
+      ],
+      "geometry": {
+        "x": 905.65625,
+        "y": 2795.171875,
+        "width": 371.34375,
+        "height": 229.34375
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "371.344px",
+        "height": "229.344px",
+        "paddingTop": "36px",
+        "paddingRight": "32px",
+        "paddingBottom": "36px",
+        "paddingLeft": "32px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "avonden-kaart-3-label": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "Elke woensdag",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "avonden-kaart-3",
+      "children": [],
+      "geometry": {
+        "x": 937.65625,
+        "y": 2839.171875,
+        "width": 127.890625,
+        "height": 12
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "11.5px",
+        "fontWeight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "2.07px",
+        "textAlign": "start",
+        "textTransform": "uppercase",
+        "color": "rgb(232, 163, 61)"
+      },
+      "box": {
+        "width": "auto",
+        "height": "auto",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "inline",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(232, 163, 61)",
+        "borderStyle": "none"
+      }
+    },
+    "avonden-kaart-3-titel": {
+      "tag": "h3",
+      "role": "titel",
+      "text": "Stille stoelen",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "avonden-kaart-3",
+      "children": [],
+      "geometry": {
+        "x": 937.65625,
+        "y": 2870.765625,
+        "width": 307.34375,
+        "height": 31.359375
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "28px",
+        "fontWeight": "400",
+        "lineHeight": "31.36px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "307.344px",
+        "height": "31.3594px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "14px",
+        "marginRight": "0px",
+        "marginBottom": "12px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "avonden-kaart-3-tekst": {
+      "tag": "p",
+      "role": "tekst",
+      "text": "Rustige voorstelling met lager geluid en licht aan. Voor kleine kinderen en iedereen die dat prettiger vindt.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "avonden-kaart-3",
+      "children": [],
+      "geometry": {
+        "x": 937.65625,
+        "y": 2914.125,
+        "width": 307.34375,
+        "height": 74.390625
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "307.344px",
+        "height": "74.3906px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "bezoek": {
+      "tag": "section",
+      "role": "container",
+      "text": "Bezoek\n        Kom vroeg voor een drankje, blijf voor het gesprek.\n        De foyer gaat een uur voor de eerste voorstelling open. Reserveren kan online, aan de kassa mag ook.\n      \n      \n        AdresBoschstraat 12, 4811 GA Breda\n        KassaDagelijks vanaf 18:30\n        Tickets€11,50 · t/m 25 jaar €8,50\n        RolstoelToegankelijk, alle zalen\n        Telefoon076 123 45 67",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": null,
+      "children": [
+        "bezoek-inhoud",
+        "bezoek-info"
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 3113.515625,
+        "width": 1440,
+        "height": 470.171875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1440px",
+        "height": "470.172px",
+        "paddingTop": "88px",
+        "paddingRight": "0px",
+        "paddingBottom": "88px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px 0px 0px",
+        "borderColor": "rgb(55, 49, 45) rgb(239, 230, 210) rgb(239, 230, 210)",
+        "borderStyle": "solid none none"
+      }
+    },
+    "bezoek-inhoud": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek",
+      "children": [
+        "bezoek-label",
+        "bezoek-titel",
+        "bezoek-tekst"
+      ],
+      "geometry": {
+        "x": 162,
+        "y": 3202.515625,
+        "width": 542.65625,
+        "height": 293.171875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "542.656px",
+        "height": "293.172px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "bezoek-label": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "Bezoek",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-inhoud",
+      "children": [],
+      "geometry": {
+        "x": 162,
+        "y": 3210.515625,
+        "width": 59.078125,
+        "height": 12
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "11.5px",
+        "fontWeight": "400",
+        "lineHeight": "18.4px",
+        "letterSpacing": "2.07px",
+        "textAlign": "start",
+        "textTransform": "uppercase",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "auto",
+        "height": "auto",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "inline",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "bezoek-titel": {
+      "tag": "h2",
+      "role": "titel",
+      "text": "Kom vroeg voor een drankje, blijf voor het gesprek.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-inhoud",
+      "children": [],
+      "geometry": {
+        "x": 162,
+        "y": 3246.109375,
+        "width": 542.65625,
+        "height": 176.390625
+      },
+      "typography": {
+        "fontFamily": "Didot, \"Bodoni MT\", \"Playfair Display\", Georgia, serif",
+        "fontSize": "56px",
+        "fontWeight": "400",
+        "lineHeight": "58.8px",
+        "letterSpacing": "-0.84px",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "542.656px",
+        "height": "176.391px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "18px",
+        "marginRight": "0px",
+        "marginBottom": "22px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "bezoek-tekst": {
+      "tag": "p",
+      "role": "tekst",
+      "text": "De foyer gaat een uur voor de eerste voorstelling open. Reserveren kan online, aan de kassa mag ook.",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-inhoud",
+      "children": [],
+      "geometry": {
+        "x": 162,
+        "y": 3444.5,
+        "width": 480,
+        "height": 51.1875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "480px",
+        "height": "51.1875px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "bezoek-info": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek",
+      "children": [
+        "bezoek-info-1",
+        "bezoek-info-2",
+        "bezoek-info-3",
+        "bezoek-info-4",
+        "bezoek-info-5"
+      ],
+      "geometry": {
+        "x": 784.65625,
+        "y": 3202.515625,
+        "width": 493.34375,
+        "height": 293.171875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "493.344px",
+        "height": "293.172px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "bezoek-info-1": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-info",
+      "children": [
+        "bezoek-info-1-label",
+        "bezoek-info-1-waarde"
+      ],
+      "geometry": {
+        "x": 784.65625,
+        "y": 3202.515625,
+        "width": 493.34375,
+        "height": 57.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "493.344px",
+        "height": "57.7969px",
+        "paddingTop": "16px",
+        "paddingRight": "0px",
+        "paddingBottom": "16px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "normal",
+        "rowGap": "24px",
+        "columnGap": "24px",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px 0px 0px",
+        "borderColor": "rgb(55, 49, 45) rgb(239, 230, 210) rgb(239, 230, 210)",
+        "borderStyle": "solid none none"
+      }
+    },
+    "bezoek-info-1-label": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "Adres",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-info-1",
+      "children": [],
+      "geometry": {
+        "x": 784.65625,
+        "y": 3219.515625,
+        "width": 40.5,
+        "height": 24.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "40.5px",
+        "height": "24.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "bezoek-info-1-waarde": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "Boschstraat 12, 4811 GA Breda",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-info-1",
+      "children": [],
+      "geometry": {
+        "x": 1061.140625,
+        "y": 3219.515625,
+        "width": 216.859375,
+        "height": 24.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "right",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "216.859px",
+        "height": "24.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "bezoek-info-2": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-info",
+      "children": [
+        "bezoek-info-2-label",
+        "bezoek-info-2-waarde"
+      ],
+      "geometry": {
+        "x": 784.65625,
+        "y": 3260.3125,
+        "width": 493.34375,
+        "height": 57.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "493.344px",
+        "height": "57.7969px",
+        "paddingTop": "16px",
+        "paddingRight": "0px",
+        "paddingBottom": "16px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "normal",
+        "rowGap": "24px",
+        "columnGap": "24px",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px 0px 0px",
+        "borderColor": "rgb(55, 49, 45) rgb(239, 230, 210) rgb(239, 230, 210)",
+        "borderStyle": "solid none none"
+      }
+    },
+    "bezoek-info-2-label": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "Kassa",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-info-2",
+      "children": [],
+      "geometry": {
+        "x": 784.65625,
+        "y": 3277.3125,
+        "width": 43.09375,
+        "height": 24.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "43.0938px",
+        "height": "24.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "bezoek-info-2-waarde": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "Dagelijks vanaf 18:30",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-info-2",
+      "children": [],
+      "geometry": {
+        "x": 1129.78125,
+        "y": 3277.3125,
+        "width": 148.21875,
+        "height": 24.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "right",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "148.219px",
+        "height": "24.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "bezoek-info-3": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-info",
+      "children": [
+        "bezoek-info-3-label",
+        "bezoek-info-3-waarde"
+      ],
+      "geometry": {
+        "x": 784.65625,
+        "y": 3318.109375,
+        "width": 493.34375,
+        "height": 57.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "493.344px",
+        "height": "57.7969px",
+        "paddingTop": "16px",
+        "paddingRight": "0px",
+        "paddingBottom": "16px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "normal",
+        "rowGap": "24px",
+        "columnGap": "24px",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px 0px 0px",
+        "borderColor": "rgb(55, 49, 45) rgb(239, 230, 210) rgb(239, 230, 210)",
+        "borderStyle": "solid none none"
+      }
+    },
+    "bezoek-info-3-label": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "Tickets",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-info-3",
+      "children": [],
+      "geometry": {
+        "x": 784.65625,
+        "y": 3335.109375,
+        "width": 48.515625,
+        "height": 24.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "48.5156px",
+        "height": "24.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "bezoek-info-3-waarde": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "€11,50 · t/m 25 jaar €8,50",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-info-3",
+      "children": [],
+      "geometry": {
+        "x": 1101.640625,
+        "y": 3335.109375,
+        "width": 176.359375,
+        "height": 24.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "right",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "176.359px",
+        "height": "24.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "bezoek-info-4": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-info",
+      "children": [
+        "bezoek-info-4-label",
+        "bezoek-info-4-waarde"
+      ],
+      "geometry": {
+        "x": 784.65625,
+        "y": 3375.90625,
+        "width": 493.34375,
+        "height": 57.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "493.344px",
+        "height": "57.7969px",
+        "paddingTop": "16px",
+        "paddingRight": "0px",
+        "paddingBottom": "16px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "normal",
+        "rowGap": "24px",
+        "columnGap": "24px",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px 0px 0px",
+        "borderColor": "rgb(55, 49, 45) rgb(239, 230, 210) rgb(239, 230, 210)",
+        "borderStyle": "solid none none"
+      }
+    },
+    "bezoek-info-4-label": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "Rolstoel",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-info-4",
+      "children": [],
+      "geometry": {
+        "x": 784.65625,
+        "y": 3392.90625,
+        "width": 56,
+        "height": 24.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "56px",
+        "height": "24.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "bezoek-info-4-waarde": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "Toegankelijk, alle zalen",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-info-4",
+      "children": [],
+      "geometry": {
+        "x": 1118.59375,
+        "y": 3392.90625,
+        "width": 159.40625,
+        "height": 24.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "right",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "159.406px",
+        "height": "24.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "bezoek-info-5": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-info",
+      "children": [
+        "bezoek-info-5-label",
+        "bezoek-info-5-waarde"
+      ],
+      "geometry": {
+        "x": 784.65625,
+        "y": 3433.703125,
+        "width": 493.34375,
+        "height": 58.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "493.344px",
+        "height": "58.7969px",
+        "paddingTop": "16px",
+        "paddingRight": "0px",
+        "paddingBottom": "16px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "alignItems": "normal",
+        "rowGap": "24px",
+        "columnGap": "24px",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px 0px",
+        "borderColor": "rgb(55, 49, 45) rgb(239, 230, 210)",
+        "borderStyle": "solid none"
+      }
+    },
+    "bezoek-info-5-label": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "Telefoon",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-info-5",
+      "children": [],
+      "geometry": {
+        "x": 784.65625,
+        "y": 3450.703125,
+        "width": 58.609375,
+        "height": 24.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "58.6094px",
+        "height": "24.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "bezoek-info-5-waarde": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "076 123 45 67",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "bezoek-info-5",
+      "children": [],
+      "geometry": {
+        "x": 1178.875,
+        "y": 3450.703125,
+        "width": 99.125,
+        "height": 24.796875
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "15.5px",
+        "fontWeight": "400",
+        "lineHeight": "24.8px",
+        "letterSpacing": "normal",
+        "textAlign": "right",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "99.125px",
+        "height": "24.7969px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(239, 230, 210)",
+        "borderStyle": "none"
+      }
+    },
+    "footer": {
+      "tag": "footer",
+      "role": "container",
+      "text": "© 2026 Filmhuis De Vonk\n    PrivacyVriendenkaartZaalverhuur",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": null,
+      "children": [
+        "footer-copyright",
+        "footer-nav"
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 3583.6875,
+        "width": 1440,
+        "height": 97
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "25.6px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(239, 230, 210)"
+      },
+      "box": {
+        "width": "1440px",
+        "height": "97px",
+        "paddingTop": "32px",
+        "paddingRight": "0px",
+        "paddingBottom": "44px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "1px 0px 0px",
+        "borderColor": "rgb(55, 49, 45) rgb(239, 230, 210) rgb(239, 230, 210)",
+        "borderStyle": "solid none none"
+      }
+    },
+    "footer-copyright": {
+      "tag": "span",
+      "role": "tekst",
+      "text": "© 2026 Filmhuis De Vonk",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "footer",
+      "children": [],
+      "geometry": {
+        "x": 162,
+        "y": 3616.6875,
+        "width": 141.234375,
+        "height": 20
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "12.5px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "141.234px",
+        "height": "20px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "footer-nav": {
+      "tag": "nav",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "footer",
+      "children": [
+        "footer-nav-privacy",
+        "footer-nav-vriendenkaart",
+        "footer-nav-zaalverhuur"
+      ],
+      "geometry": {
+        "x": 1048.9375,
+        "y": 3616.6875,
+        "width": 229.0625,
+        "height": 20
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "12.5px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "229.062px",
+        "height": "20px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "center",
+        "rowGap": "22px",
+        "columnGap": "22px",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "footer-nav-privacy": {
+      "tag": "a",
+      "role": "knop",
+      "text": "Privacy",
+      "href": "#",
+      "src": null,
+      "alt": null,
+      "parent": "footer-nav",
+      "children": [],
+      "geometry": {
+        "x": 1048.9375,
+        "y": 3616.6875,
+        "width": 40.984375,
+        "height": 20
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "12.5px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "40.9844px",
+        "height": "20px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "footer-nav-vriendenkaart": {
+      "tag": "a",
+      "role": "knop",
+      "text": "Vriendenkaart",
+      "href": "#",
+      "src": null,
+      "alt": null,
+      "parent": "footer-nav",
+      "children": [],
+      "geometry": {
+        "x": 1111.921875,
+        "y": 3616.6875,
+        "width": 77.375,
+        "height": 20
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "12.5px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "77.375px",
+        "height": "20px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    },
+    "footer-nav-zaalverhuur": {
+      "tag": "a",
+      "role": "knop",
+      "text": "Zaalverhuur",
+      "href": "#",
+      "src": null,
+      "alt": null,
+      "parent": "footer-nav",
+      "children": [],
+      "geometry": {
+        "x": 1211.296875,
+        "y": 3616.6875,
+        "width": 66.703125,
+        "height": 20
+      },
+      "typography": {
+        "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "12.5px",
+        "fontWeight": "400",
+        "lineHeight": "20px",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(168, 159, 141)"
+      },
+      "box": {
+        "width": "66.7031px",
+        "height": "20px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(168, 159, 141)",
+        "borderStyle": "none"
+      }
+    }
+  }
+}
