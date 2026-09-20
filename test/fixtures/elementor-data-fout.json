@@ -1,0 +1,32 @@
+[
+  {
+    "id": "a1b2c3",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "custom_css": ".cmp-header-nav { display:flex !important; width:auto !important; }"
+    },
+    "elements": [
+      {
+        "id": "d4e5f6",
+        "elType": "widget",
+        "widgetType": "html",
+        "settings": {
+          "html": "<div class=\"cmp-header-binnen\"><span class=\"logo\">De Vonk</span><nav>...</nav></div>"
+        },
+        "elements": []
+      },
+      {
+        "id": "g7h8i9",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Programma",
+          "_css_classes": "cmp-header-nav-programma"
+        },
+        "elements": []
+      }
+    ]
+  }
+]

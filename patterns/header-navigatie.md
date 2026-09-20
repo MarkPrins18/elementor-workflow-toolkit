@@ -22,20 +22,33 @@ geen `verticale-stapel`/`kaartenrij`.
    `content_width: "full"`, achtergrond/border-bottom uit `spec.json`.
    `flex_align_items: "center"` (LET OP: niet `align_items`, zie hieronder).
 2. **Binnen-container** (`header-binnen`): `content_width: "full"` (NOOIT
-   `"boxed"`, zie `sectie-kop.md` voor waarom), zelf een expliciete `width`
-   (desktop, in px) + `width_mobile: 100%` + `margin: 0 auto` (unit
-   `"custom"`) om het boxed-effect zonder de boxed-bug te bereiken.
-   `flex_direction: "row"`, `flex_justify_content: "space-between"`,
-   `flex_align_items: "center"`, `padding` uit `spec.json`.
-3. **Logo**: Heading-widget, `header_size: "span"`, met `link`.
+   `"boxed"`, zie `sectie-kop.md` voor waarom), `margin: 0 auto` en een
+   `width` met unit `"custom"` en als waarde `min(<content-breedte>px, 100%)`
+   — bijvoorbeeld `min(1180px, 100%)`. Zo krijg je het boxed-effect zonder
+   de boxed-bug, én zonder een vaste pixelbreedte die tussen de breakpoints
+   in stukloopt (`CLAUDE.md` stap 5b). Verder `flex_direction: "row"`,
+   `flex_justify_content: "space-between"`, `flex_align_items: "center"`,
+   `padding` uit `spec.json`.
+
+   *Op het cinema-project stond hier een vaste px-`width` met
+   `width_mobile: 100%`. Dat werkte op de twee gemeten breedtes, maar laat
+   een gat ertussen; de `min()`-variant is de opvolger. Bevestig 'm op het
+   eerstvolgende project met `node compare.js <config> --responsive` en
+   werk deze regel bij.*
+3. **Logo**: Heading-widget, `header_size: "span"`, met `link`. In
+   `spec.json` heeft dit element `role: "link"` (een `<a>` zonder eigen
+   achtergrond of rand) — dus géén Button-widget.
 4. **Navigatie-container** (`header-nav`): zelfde `flex_*`-opbouw als
    hierboven, plus **verplicht** `width: {unit:"custom", size:"auto"}` (zie
    "Belangrijk" hieronder) en `_flex_size: "none"` op ZICHZELF èn op ELK
    kind (elke link + de CTA-knop) — anders rekt de navigatie uit tot de
    volledige beschikbare breedte in plaats van op de inhoud te blijven.
-5. **Links**: Heading-widget, `header_size: "span"`, met `link`.
-6. **CTA-knop** (indien aanwezig): Button-widget. Padding via `text_padding`
-   (NIET `button_padding`, zie hieronder).
+5. **Links**: Heading-widget, `header_size: "span"`, met `link`
+   (`role: "link"` in `spec.json`).
+6. **CTA-knop** (indien aanwezig): Button-widget. In `spec.json` is dit het
+   enige nav-item met `role: "knop"`, doordat het een eigen achtergrond of
+   rand heeft. Padding via `text_padding` (NIET `button_padding`, zie
+   hieronder).
 
 ## Belangrijk (Elementor-eigenaardigheden, bevestigd in de plugin-broncode)
 

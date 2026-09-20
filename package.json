@@ -6,7 +6,11 @@
   "main": "compare.js",
   "scripts": {
     "compare": "node compare.js",
-    "extract": "node extract-spec.js"
+    "extract": "node extract-spec.js",
+    "check-native": "node check-native.js",
+    "check-bouwbaar": "node check-bouwbaar.js",
+    "screenshot-diff": "node screenshot-diff.js",
+    "test": "node test/run-tests.js"
   },
   "dependencies": {
     "playwright": "^1.63.0"

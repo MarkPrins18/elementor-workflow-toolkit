@@ -1,7 +1,23 @@
 {
-  "htmlPath": "./voorbeeld/hero-sectie.html",
+  "_over-dit-bestand": "Kopieer dit naar configs/<naam-van-de-root-uit-spec.json>.json. Velden die met een _ beginnen zijn notities: het script leest ze niet, maar toont ze wel zodra je een tolerantie verruimt.",
+
+  "htmlPath": "./design/hero-sectie.html",
   "pageUrl": "https://staging.klant.nl/hero-sectie-test",
+
+  "_roots": "Eén config per root uit spec.json. Zonder dit veld wordt de hele pagina vergeleken, waardoor elke config hetzelfde doet. Een naam die niet in het ontwerp voorkomt is een ONGELDIGE run, geen geslaagde.",
+  "roots": ["hero"],
+
+  "_tolerantie": "tolerancePx is de algemene tolerantie. 'tolerances' verfijnt dat per categorie of per eigenschap: geometry (x/y/width/height), typography (fontSize, fontWeight, lineHeight, letterSpacing, textAlign, textTransform, fontFamily), color (exacte match tenzij je hier een kanaalafwijking toestaat), strut (extra speling op y/height van tekst-widgets, standaard 12), default (de rest), of gewoon de naam van één eigenschap. Typografie staat standaard op 0.5px en wordt NOOIT meegesleept door een ruimere geometry-waarde: één globale tolerancePx van 20 liet vroeger een kop van 40px als 24px passeren.",
   "tolerancePx": 1,
+  "tolerances": {
+    "geometry": 1,
+    "typography": 0.5,
+    "color": 0,
+    "strut": 12
+  },
+  "_toleranceNote": "Verruim je iets boven 1px, zet hier dan waarom. Het script toont deze notitie bij elke run en waarschuwt als hij ontbreekt.",
+
+  "_breakpoints": "Minstens desktop, tablet en mobiel. Met één breakpoint test je alleen die ene breedte, en weigert de --responsive-check te draaien. De grenzen 1024 en 767 zijn Elementor's standaard; bevestig ze per project (CLAUDE.md stap 0).",
   "breakpoints": [
     { "name": "desktop", "width": 1440, "height": 900 },
     { "name": "tablet-breed", "width": 1025, "height": 900 },
@@ -10,6 +26,8 @@
     { "name": "mobiel-smal", "width": 767, "height": 900 },
     { "name": "telefoon", "width": 390, "height": 900 }
   ],
+
+  "_properties": "x/y/width/height worden altijd vergeleken. Wat je hier toevoegt komt daar bovenop. Laat een eigenschap NIET weg om een bekend verschil te verbergen: dan staat het niet in het rapport en weet niemand er later nog van.",
   "properties": [
     "fontSize",
     "fontWeight",
@@ -24,7 +42,16 @@
     "marginTop",
     "marginRight",
     "marginBottom",
-    "marginLeft"
+    "marginLeft",
+    "borderTopWidth",
+    "borderRightWidth",
+    "borderBottomWidth",
+    "borderLeftWidth"
   ],
-  "reportPath": "./reports/laatste-run.json"
+
+  "reportPath": "./reports/hero.json",
+
+  "_screenshot": "Alleen voor screenshot-diff.js (CLAUDE.md stap 8.1).",
+  "screenshotDrempelPct": 2,
+  "screenshotDir": "./reports/screenshots"
 }

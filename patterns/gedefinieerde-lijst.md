@@ -1,7 +1,10 @@
 # Patroon: gedefinieerde lijst (label + waarde, herhaald)
 
-**Status:** concept (bevestigd op het lawyer-homepage-project: `hero-aside`
-en `contact-details`)
+**Status:** beproefd (lawyer-homepage: `hero-aside`, `contact-details`).
+**Herzien:** de eerdere versie schreef `!important` voor om padding en gap te
+"herbevestigen", en maakte de HTML-widget een standaardstap voor kale inline
+tekst. Beide zijn vervallen; zie "Wat er met de HTML-widget-fallback gebeurd
+is" onderaan.
 
 ## Herkenning
 
@@ -11,52 +14,70 @@ Past op een `data-cmp`-element in `spec.json` waarvoor geldt:
 - de kinderen zijn zelf containers met telkens precies twee kinderen: een
   korte `tekst`-rol (het label, klein/uppercase) en een `tekst`- of
   `link`-rol (de waarde), onder elkaar
-- elk kind-item heeft een `border-top` (of `border-bottom`) als scheiding,
-  met `padding-top`/`padding-bottom`
+- elk kind-item heeft een `borderTopWidth` (of `borderBottomWidth`) als
+  scheiding, met bijbehorende padding
 
-Dit lijkt op `verticale-stapel.md` maar dan **herhaald** (net als
-`kaartenrij.md` dat doet met verticale-stapel-kaarten) — met dit verschil
-dat elk item hier maar twee vaste onderdelen heeft (label + waarde), en de
-scheiding tussen items via `border`, niet via `gap`.
+Dit lijkt op `verticale-stapel.md` maar dan **herhaald** (zoals
+`kaartenrij.md` dat doet met kaarten), met dit verschil dat elk item hier
+maar twee vaste onderdelen heeft en de scheiding via een rand loopt, niet
+via een gap.
 
 ## Elementor-opbouw
 
 1. **Buitenste container**, richting Column (verticaal, `hero-aside`) of
-   Row-met-wrap (grid van 2 kolommen, `contact-details` / `partner-credentials`
-   — gebruik dan `flex-wrap:wrap` met een vaste breedte per item die twee
-   per rij past, en `gap` voor zowel de rij- als kolomruimte).
+   Row met wrap (twee kolommen, `contact-details` / `partner-credentials`).
+   Bij die tweede variant: `flex_direction: "row"`, `flex_wrap: "wrap"`, en
+   per item een `flex-basis` van ongeveer 50% minus de halve gap — dus geen
+   vaste pixelbreedte (`CLAUDE.md` stap 5b). `flex_gap` regelt zowel de rij-
+   als de kolomruimte.
 
 2. **Per item**, in volgorde:
-   - Eén Elementor-container, richting Column, `gap: 0`.
-   - `Padding-top`/`Padding-bottom` + `border-top` (en bij het laatste item
-     eventueel ook `border-bottom`) uit `spec.json` van dát item.
-   - **Label**: Heading-widget, klein sans-serif lettertype, uppercase,
-     `margin-bottom` gelijk aan de waarde uit `spec.json`.
-   - **Waarde**: als het een `link`-rol is (bijvoorbeeld een telefoonnummer
-     of e-mailadres), Heading-widget met `link`. Als het een kale
-     `tekst`-rol zonder blok-element is (bijvoorbeeld met een `<br>` erin,
-     zoals een adres), gebruik dan **niet** een gewone widget maar de
-     HTML-widget-fallback (zie hieronder) — anders klopt de hoogte niet.
+   - Eén Elementor-container, richting Column, `flex_gap: 0`.
+   - `padding` boven/onder en de rand per zijde uit `spec.json` van dát item
+     (`background.borderTopWidth` / `borderTopColor` / `borderTopStyle`).
+     Bij het laatste item vaak ook een rand onder.
+   - **Label**: Heading-widget, `header_size: "span"`, klein sans-serif,
+     uppercase. De ruimte onder het label komt uit `box.marginBottom` van
+     het label zelf.
+   - **Waarde**: bij `role: "link"` (een telefoonnummer of e-mailadres) een
+     Heading-widget met `link`. Bij `role: "tekst"` een Text Editor-widget,
+     of een Heading-widget met `header_size: "span"` als het om één regel
+     zonder opmaak gaat.
 
 ## Belangrijk (Elementor-eigenaardigheden)
 
-- Container-padding via de MCP-tool rendert niet altijd door naar de
-  uiteindelijke CSS, ook al staat de waarde goed in de Elementor-data.
-  Herbevestig padding/gap altijd expliciet via CSS met `!important`.
-- **Kale inline tekst as laatste kind** (geen volgend element in dezelfde
-  container dat erdoor zou verschuiven): gebruik een HTML-widget met een
-  losse `<span>` (of `<a>`), zodat de `cmp-`class op een écht inline element
-  staat in plaats van op Elementor's altijd-geblockificeerde widget-wrapper.
-  Dit gaf in de praktijk een exacte match zonder verdere correcties nodig
-  te hebben (zie `contact-detail-3-waarde` en `contact-detail-4-waarde`).
-- **Kale inline label/tekst die WEL gevolgd wordt door een volgend element**
-  in dezelfde flex-column (bijvoorbeeld een `sec-head`-label die niet in een
-  grid zit, zoals `hero-label` of `contact-label`): ook de HTML-widget-
-  fallback gebruiken, want dan neemt de buitenste (ongetagde) wrapper vanzelf
-  de juiste line-height-hoogte aan in de flow — zonder margin-hacks.
-- Bij een **grid van 2 kolommen** (`partner-credentials`,
-  `contact-details` is hier juist verticaal): let op dat de marge tussen het
-  vorige blok-element en dit grid-blok in de bron-HTML kan *collapsen*
-  (block-flow gedrag). Flex-items collapsen nooit. Zie de toelichting in
-  `partner-credentials`'s marginTop-afwijking (gemeld aan Mark) voor hoe dat
-  is opgevangen.
+- **Sleutelnamen.** `flex_gap` (met `size`-veld), `flex_justify_content`,
+  `flex_align_items`, en `_flex_size: "none"` op een kind dat niet mag
+  uitrekken. De ongeprefixte varianten worden wél opgeslagen maar nooit naar
+  CSS vertaald — dat is de werkelijke oorzaak van de oude klacht dat
+  "container-padding niet doorrendert".
+- **Marge-collaps bij een grid van twee kolommen.** In de bron-HTML kan de
+  marge tussen het vorige blok-element en dit blok *collapsen* (normaal
+  block-flow gedrag). Flex-items collapsen nooit, dus in Elementor komt die
+  marge er wél bij. Reken dat verschil één keer uit en neem de
+  gecollapste waarde over, of zet de marge op de ouder in plaats van op
+  beide buren. Dit is een echt verschil tussen de twee, geen meetfout — meld
+  het aan Mark in plaats van het met een correctie te verbergen.
+
+## Wat er met de HTML-widget-fallback gebeurd is
+
+De oude versie van dit patroon zei: gebruik voor kale inline tekst (een
+adres met een `<br>`, een los label) géén gewone widget maar een HTML-widget
+met een `<span>`, "anders klopt de hoogte niet". Die instructie is vervallen,
+om twee redenen:
+
+1. **Het was een meetprobleem, geen bouwprobleem.** De hoogte klopte wél op
+   het scherm; wat niet klopte was de gemeten doos-hoogte van Elementor's
+   buitenste widget-wrapper, die de regelhoogte van het thema erft als
+   onzichtbare "strut". `compare.js` meet inmiddels de binnenste tekstlaag
+   en geeft `y`/`height` van tekst-widgets een ruimere tolerantie precies
+   voor dit effect. Er is dus niets meer op te lossen in de bouw.
+2. **Het is een overtreding van regel 5a.** Een HTML-widget voor structuur
+   mag alleen na Mark's expliciete akkoord, voor één detail. Als
+   standaardstap in een patroon gaat dat per definitie mis.
+
+Gebruik in plaats daarvan een Heading-widget met `header_size: "span"`.
+Dat is dezelfde oplossing die `header-navigatie.md` voor het logo en de
+navigatielinks gebruikt, en die daar op een echt project bevestigd is.
+Voor een adres met een regelafbreking: een Text Editor-widget, waarin de
+regelafbreking gewoon onderdeel van de tekst is.

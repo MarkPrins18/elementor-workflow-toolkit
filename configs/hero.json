@@ -1,13 +1,23 @@
 {
   "htmlPath": "./design/cinema-homepage.html",
   "pageUrl": "http://ultimate-workflow.test/filmhuis-de-vonk/",
-  "_toleranceNote": "20px i.p.v. standaard 1px: (1) Playfair Display (Google Font) vervangt de niet-geinstalleerde Didot/Bodoni MT, net iets andere lettermetrics; (2) hero-poster heeft in de bron een decoratieve transform:rotate(1.6deg) die Elementor 4.2.4 alleen in de editor-preview toepast, niet op de live frontend (bevestigd: de CSS-variabele wordt weggeschreven, de regel die 'm gebruikt nergens server-side toegevoegd) - dit verschuift alleen x/width/height van het (decoratieve, CSS-gradient) posterblok en zijn kinderen enkele px.",
-  "tolerancePx": 20,
-  "_marginLeftNote": "marginLeft weggelaten voor hero: hero-poster wordt hier met flex + margin-left:auto rechts uitgelijnd i.p.v. met de CSS Grid-kolom uit de bron (grid_template_columns), wat visueel gelijk uitkomt maar een andere marginLeft-waarde geeft. Geen echte fout.",
   "roots": ["hero"],
+
+  "_toleranceNote": "geometry 20px i.p.v. 1px: (1) Playfair Display (Google Font) vervangt de niet-geinstalleerde Didot/Bodoni MT, net iets andere lettermetrics; (2) hero-poster heeft in de bron een decoratieve transform:rotate(1.6deg) die Elementor 4.2.4 alleen in de editor-preview toepast, niet op de live frontend (bevestigd: de CSS-variabele wordt weggeschreven, de regel die 'm gebruikt nergens server-side toegevoegd). Dit verschuift alleen x/width/height van het posterblok en zijn kinderen enkele px. Typografie en kleur blijven wel streng: die worden door beide oorzaken niet geraakt.",
+  "tolerancePx": 1,
+  "tolerances": {
+    "geometry": 20
+  },
+
+  "_marginLeftNote": "marginLeft stond eerder NIET in deze lijst, waardoor een bekend verschil onzichtbaar bleef: hero-poster wordt in Elementor met flex + margin-left:auto rechts uitgelijnd i.p.v. met de CSS Grid-kolom uit de bron. Visueel gelijk, andere marginLeft-waarde. De eigenschap staat er nu weer in, zodat het verschil in het rapport zichtbaar is in plaats van weggelaten. Twee opties: hero-poster alsnog via de grid-kolom opbouwen, of dit verschil expliciet door Mark laten aftekenen (CLAUDE.md stap 2: een vreemde waarde is een vraag voor Mark, niet iets om zelf weg te poetsen).",
+
   "breakpoints": [
-    { "name": "desktop", "width": 1440, "height": 900 }
+    { "name": "desktop", "width": 1440, "height": 900 },
+    { "name": "tablet", "width": 1024, "height": 900 },
+    { "name": "mobiel", "width": 767, "height": 900 },
+    { "name": "telefoon", "width": 390, "height": 900 }
   ],
+
   "properties": [
     "fontSize",
     "fontWeight",
@@ -21,7 +31,11 @@
     "paddingLeft",
     "marginTop",
     "marginRight",
-    "marginBottom"
+    "marginBottom",
+    "marginLeft",
+    "borderTopWidth",
+    "borderBottomWidth"
   ],
+
   "reportPath": "./reports/hero.json"
 }

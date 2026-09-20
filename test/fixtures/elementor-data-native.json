@@ -1,0 +1,39 @@
+[
+  {
+    "id": "a1b2c3",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_justify_content": "space-between",
+      "flex_align_items": "center",
+      "flex_gap": { "unit": "px", "size": 24, "column": "24", "row": "24" },
+      "_css_classes": "cmp-header-binnen"
+    },
+    "elements": [
+      {
+        "id": "g7h8i9",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "De Vonk",
+          "header_size": "span",
+          "_css_classes": "cmp-header-logo"
+        },
+        "elements": []
+      },
+      {
+        "id": "j1k2l3",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+          "text": "Koop tickets",
+          "text_padding": { "unit": "px", "top": "12", "right": "24", "bottom": "12", "left": "24" },
+          "_flex_size": "none",
+          "_css_classes": "cmp-header-nav-buy"
+        },
+        "elements": []
+      }
+    ]
+  }
+]
