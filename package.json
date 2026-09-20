@@ -1,0 +1,14 @@
+{
+  "name": "elementor-compare",
+  "version": "1.0.0",
+  "description": "Vergelijkt een goedgekeurde HTML-pagina met een gebouwde Elementor-pagina, element voor element.",
+  "type": "commonjs",
+  "main": "compare.js",
+  "scripts": {
+    "compare": "node compare.js",
+    "extract": "node extract-spec.js"
+  },
+  "dependencies": {
+    "playwright": "^1.63.0"
+  }
+}

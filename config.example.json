@@ -1,0 +1,30 @@
+{
+  "htmlPath": "./voorbeeld/hero-sectie.html",
+  "pageUrl": "https://staging.klant.nl/hero-sectie-test",
+  "tolerancePx": 1,
+  "breakpoints": [
+    { "name": "desktop", "width": 1440, "height": 900 },
+    { "name": "tablet-breed", "width": 1025, "height": 900 },
+    { "name": "tablet-smal", "width": 1024, "height": 900 },
+    { "name": "mobiel-breed", "width": 768, "height": 900 },
+    { "name": "mobiel-smal", "width": 767, "height": 900 },
+    { "name": "telefoon", "width": 390, "height": 900 }
+  ],
+  "properties": [
+    "fontSize",
+    "fontWeight",
+    "lineHeight",
+    "letterSpacing",
+    "color",
+    "backgroundColor",
+    "paddingTop",
+    "paddingRight",
+    "paddingBottom",
+    "paddingLeft",
+    "marginTop",
+    "marginRight",
+    "marginBottom",
+    "marginLeft"
+  ],
+  "reportPath": "./reports/laatste-run.json"
+}

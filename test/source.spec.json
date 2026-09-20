@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-09-20T10:38:19.456Z",
+  "source": "/tmp/claude-0/-home-claude/16520ba5-823a-5a8b-855f-ff9533b8c3c8/scratchpad/compare-tool/test/source.html",
+  "roots": [
+    "hero"
+  ],
+  "components": {
+    "hero": {
+      "tag": "div",
+      "role": "container",
+      "text": null,
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": null,
+      "children": [
+        "hero-titel",
+        "hero-knop"
+      ],
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 261
+      },
+      "typography": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(0, 0, 0)"
+      },
+      "box": {
+        "width": "1328px",
+        "height": "133px",
+        "paddingTop": "64px",
+        "paddingRight": "56px",
+        "paddingBottom": "64px",
+        "paddingLeft": "56px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "16px",
+        "columnGap": "16px",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(0, 0, 0)",
+        "borderStyle": "none"
+      }
+    },
+    "hero-titel": {
+      "tag": "h1",
+      "role": "titel",
+      "text": "Snelle hulp aan huis",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "hero",
+      "children": [],
+      "geometry": {
+        "x": 56,
+        "y": 64,
+        "width": 1328,
+        "height": 45
+      },
+      "typography": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "40px",
+        "fontWeight": "700",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(26, 26, 24)"
+      },
+      "box": {
+        "width": "1328px",
+        "height": "45px",
+        "paddingTop": "0px",
+        "paddingRight": "0px",
+        "paddingBottom": "0px",
+        "paddingLeft": "0px",
+        "marginTop": "0px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(26, 26, 24)",
+        "borderStyle": "none"
+      }
+    },
+    "hero-knop": {
+      "tag": "div",
+      "role": "tekst",
+      "text": "Plan afspraak",
+      "href": null,
+      "src": null,
+      "alt": null,
+      "parent": "hero",
+      "children": [],
+      "geometry": {
+        "x": 56,
+        "y": 149,
+        "width": 140,
+        "height": 48
+      },
+      "typography": {
+        "fontFamily": "Arial, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "textAlign": "start",
+        "textTransform": "none",
+        "color": "rgb(255, 255, 255)"
+      },
+      "box": {
+        "width": "140px",
+        "height": "48px",
+        "paddingTop": "12px",
+        "paddingRight": "24px",
+        "paddingBottom": "12px",
+        "paddingLeft": "24px",
+        "marginTop": "24px",
+        "marginRight": "0px",
+        "marginBottom": "0px",
+        "marginLeft": "0px"
+      },
+      "layout": {
+        "display": "block",
+        "flexDirection": "row",
+        "justifyContent": "normal",
+        "alignItems": "normal",
+        "rowGap": "normal",
+        "columnGap": "normal",
+        "gridTemplateColumns": "none"
+      },
+      "background": {
+        "backgroundColor": "rgb(26, 26, 24)",
+        "borderRadius": "0px",
+        "borderWidth": "0px",
+        "borderColor": "rgb(255, 255, 255)",
+        "borderStyle": "none"
+      }
+    }
+  }
+}
