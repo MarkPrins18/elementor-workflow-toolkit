@@ -199,19 +199,19 @@
       <div class="head" data-cmp="binnenkort-head"><h2 data-cmp="binnenkort-titel">Binnenkort</h2><span class="tag" data-cmp="binnenkort-label">Vanaf 1 oktober</span></div>
       <div class="soon" data-cmp="binnenkort-kaarten">
         <div data-cmp="binnenkort-kaart-1">
-          <div class="poster p2" role="img" aria-label="Poster van Zoutmeer" data-cmp="binnenkort-kaart-1-poster"><span class="p-top">Drama</span><div class="p-title">Zoutmeer</div></div>
+          <div class="poster p2" role="img" aria-label="Poster van Zoutmeer" data-cmp="binnenkort-kaart-1-poster"><span class="p-top" data-cmp="binnenkort-kaart-1-genre">Drama</span><div class="p-title" data-cmp="binnenkort-kaart-1-postertitel">Zoutmeer</div></div>
           <h3 data-cmp="binnenkort-kaart-1-titel">Zoutmeer</h3><p data-cmp="binnenkort-kaart-1-tekst">Een gezin, een leeggelopen kustdorp, één lange zomer.</p>
         </div>
         <div data-cmp="binnenkort-kaart-2">
-          <div class="poster p3" role="img" aria-label="Poster van Nachtploeg" data-cmp="binnenkort-kaart-2-poster"><span class="p-top">Thriller</span><div class="p-title">Nacht&shy;ploeg</div></div>
+          <div class="poster p3" role="img" aria-label="Poster van Nachtploeg" data-cmp="binnenkort-kaart-2-poster"><span class="p-top" data-cmp="binnenkort-kaart-2-genre">Thriller</span><div class="p-title" data-cmp="binnenkort-kaart-2-postertitel">Nacht&shy;ploeg</div></div>
           <h3 data-cmp="binnenkort-kaart-2-titel">Nachtploeg</h3><p data-cmp="binnenkort-kaart-2-tekst">Schoonmakers in een glazen kantoortoren zien iets wat niet mocht.</p>
         </div>
         <div data-cmp="binnenkort-kaart-3">
-          <div class="poster p4" role="img" aria-label="Poster van Marleen" data-cmp="binnenkort-kaart-3-poster"><span class="p-top">Komedie</span><div class="p-title">Marleen</div></div>
+          <div class="poster p4" role="img" aria-label="Poster van Marleen" data-cmp="binnenkort-kaart-3-poster"><span class="p-top" data-cmp="binnenkort-kaart-3-genre">Komedie</span><div class="p-title" data-cmp="binnenkort-kaart-3-postertitel">Marleen</div></div>
           <h3 data-cmp="binnenkort-kaart-3-titel">Marleen</h3><p data-cmp="binnenkort-kaart-3-tekst">Een gepensioneerde buschauffeuse besluit dat het nu wel genoeg is.</p>
         </div>
         <div data-cmp="binnenkort-kaart-4">
-          <div class="poster p5" role="img" aria-label="Poster van Stille Havens" data-cmp="binnenkort-kaart-4-poster"><span class="p-top">Documentaire</span><div class="p-title">Stille Havens</div></div>
+          <div class="poster p5" role="img" aria-label="Poster van Stille Havens" data-cmp="binnenkort-kaart-4-poster"><span class="p-top" data-cmp="binnenkort-kaart-4-genre">Documentaire</span><div class="p-title" data-cmp="binnenkort-kaart-4-postertitel">Stille Havens</div></div>
           <h3 data-cmp="binnenkort-kaart-4-titel">Stille Havens</h3><p data-cmp="binnenkort-kaart-4-tekst">Vijf jaar met de laatste vissers van Zeeuws-Vlaanderen.</p>
         </div>
       </div>
@@ -302,8 +302,8 @@
       }).join("");
       return '<article class="film" data-cmp="programma-film-'+k+'">'+
         '<div class="poster '+f.c+'" role="img" aria-label="Poster van '+f.t+'" data-cmp="programma-film-'+k+'-poster"><div class="p-title">'+f.t+'</div></div>'+
-        '<div><span class="tag">'+f.g+'</span><h3 data-cmp="programma-film-'+k+'-titel">'+f.t+'</h3><p data-cmp="programma-film-'+k+'-tekst">'+f.d+'</p>'+
-        '<div class="meta" style="margin-top:14px"><span>'+f.m+'</span><span>'+f.l+'</span></div></div>'+
+        '<div><span class="tag" data-cmp="programma-film-'+k+'-genre">'+f.g+'</span><h3 data-cmp="programma-film-'+k+'-titel">'+f.t+'</h3><p data-cmp="programma-film-'+k+'-tekst">'+f.d+'</p>'+
+        '<div class="meta" style="margin-top:14px" data-cmp="programma-film-'+k+'-meta"><span data-cmp="programma-film-'+k+'-duur">'+f.m+'</span><span data-cmp="programma-film-'+k+'-taal">'+f.l+'</span></div></div>'+
         '<div class="times" data-cmp="programma-film-'+k+'-tijden">'+slots+'</div></article>';
     }).join("");
   }
