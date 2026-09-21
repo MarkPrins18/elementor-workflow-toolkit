@@ -367,32 +367,42 @@ Vaste regel per root-sectie:
    per sectie helemaal niets in te stellen. Moet één sectie afwijken, dan is
    `boxed_width` de native control daarvoor — geen custom `width`.
 
-   **Twee dingen om te weten over boxed containers:**
+   **Boxed werkt gewoon met een horizontale opbouw.** Een eerdere versie van
+   de patronen zei: nooit `boxed` bij `flex_direction: "row"`, want
+   `.e-con-boxed.e-flex` zou `flex-direction:column` forceren. Dat is
+   onjuist en die regel is verwijderd. Wat er werkelijk gebeurt: een boxed
+   container rendert een **extra binnenwrapper**,
 
-   - Een boxed container rendert een **extra binnenwrapper**:
-     `<div class="e-con e-con-boxed"><div class="e-con-inner">…</div></div>`
-     (bevestigd in `before_render()` van `includes/elements/container.php`).
-     De kinderen staan in die `.e-con-inner`. De buitenste doos is
-     full-width; de begrensde breedte zit op de binnenwrapper.
-   - **Dat raakt de meting.** De `cmp-`class komt op de buitenste
-     `.e-con-boxed` te staan, dus `compare.js` meet daar de volle
-     paginabreedte, terwijl het bronelement (de `.wrap` met `max-width` en
-     `margin:auto`) met de binnenwrapper overeenkomt. Verwacht daar dus een
-     verschil in `x` en `width` dat niets met je opbouw te maken heeft.
-     Zolang dat niet is opgelost: zet de `cmp-`naam liever op een container
-     die géén boxed is, of meld het verschil expliciet in plaats van de
-     tolerantie op te rekken.
+   ```html
+   <div class="e-con e-con-boxed"><div class="e-con-inner">…kinderen…</div></div>
+   ```
 
-   **Open punt — nog te bevestigen op staging.** De patronen zeggen nu:
-   nooit `boxed` bij een horizontale (row) opbouw, want
-   `.e-con-boxed.e-flex` forceert `flex-direction:column`. Die regel bestaat,
-   maar geldt voor de buitenste doos, die maar één kind heeft
-   (`.e-con-inner`). Het is dus goed mogelijk dat boxed + row gewoon werkt en
-   dat de workaround met `content_width: "full"` plus een custom `width`
-   nooit nodig was. Te beslissen met één test: maak een boxed container met
-   `flex_direction: "row"` en twee kinderen, en kijk of die naast elkaar
-   staan. Werk daarna deze stap, `patterns/sectie-kop.md` en
-   `patterns/header-navigatie.md` bij.
+   (bevestigd in `before_render()` van `includes/elements/container.php`).
+   De buitenste doos is full-width en heeft precies één kind; de kinderen
+   staan in `.e-con-inner`, en dáár gebeurt de uitlijning. Dat de buitenste
+   doos op `column` staat is dus logisch en zegt niets over je kinderen.
+
+   **Waar je wél op moet letten: welk element je `cmp-`naam draagt.**
+   Elementor zet CSS-classes altijd op de buitenste `.e-con-boxed`, nooit op
+   `.e-con-inner`. Dat bepaalt je opbouw:
+
+   - Hoeft de content-breedte-laag niet apart gecontroleerd te worden
+     (meestal: het is een kale `.wrap` zonder eigen opmaak), gebruik dan
+     **één boxed container** en geef de `.wrap` in de bron-HTML geen
+     `data-cmp`. Dat is de nette, native oplossing: geen tweede container,
+     geen custom breedte.
+   - Draagt die laag wél eigen opmaak die je wilt verifiëren (flex row,
+     `space-between`, eigen padding — zoals `header-binnen`), dan heb je een
+     element nodig dat de `cmp-`naam kan dragen én de begrensde breedte
+     heeft. Gebruik dan **twee containers**: een buitenste full-width met de
+     achtergrond, en daarbinnen een container op `content_width: "full"` met
+     `margin: 0 auto` en een responsieve `width` (bijvoorbeeld unit `custom`
+     met `min(1180px, 100%)`). Niet omdat boxed stuk is, maar omdat de
+     `cmp-`naam anders op de full-width buitenkant belandt en `compare.js`
+     dan de verkeerde doos meet.
+
+   Kies dus per sectie op basis van wat je wilt kúnnen meten, niet op basis
+   van een vermeende bug.
 
 3. Kinderen daarbinnen op relatieve/flexibele breedte (`flex-grow`,
    procenten, of Elementor's eigen kolomverdeling), tenzij een element in

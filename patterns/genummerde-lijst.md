@@ -67,7 +67,10 @@ kolommen is (bijvoorbeeld nummer + titel + tekst).
 
 Dezelfde drie als bij `sectie-kop.md`, kort herhaald:
 
-- `content_width: "full"` op de rij-containers, nooit `"boxed"`.
+- `content_width: "full"` op de rij-containers: die zitten al in een sectie
+  die de content-breedte regelt, dus een tweede begrenzing is dubbelop.
+  (Boxed is hier niet verboden — dat werkt prima met een rij, zie
+  `CLAUDE.md` 5b — alleen overbodig.)
 - De groepscontrole-sleutels hebben een prefix: `flex_gap`,
   `flex_justify_content`, `flex_align_items`, en `_flex_size` op een kind.
 - Typografie hoef je maar één keer te zetten, via de widget-instellingen.

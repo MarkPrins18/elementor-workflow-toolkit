@@ -29,7 +29,7 @@ inhoud (een lijst, een rij kaarten, etc.).
    | Richting | `flex_direction` | `"row"` |
    | Gap | `flex_gap` (**niet** `gap`) | `layout.columnGap` |
    | Uitlijning | `flex_align_items` (**niet** `align_items`) | `stretch` |
-   | Breedte | `content_width` | `"full"` — nooit `"boxed"`, zie hieronder |
+   | Breedte | `content_width` | `"full"` — deze kop zit al ín een sectie die de content-breedte regelt |
    | Marge onder | `margin` | `box.marginBottom` van het kopcontainer-element |
 
 2. **Label** (eerste kind): Heading-widget, `header_size: "span"`.
@@ -57,15 +57,23 @@ inhoud (een lijst, een rij kaarten, etc.).
 
 ## Belangrijk (Elementor-eigenaardigheden, bevestigd in de plugin-broncode)
 
-- **Nooit `content_width: "boxed"` op deze container.** Elementor's
-  `.e-con-boxed.e-flex`-regel forceert `flex-direction:column` en reset
-  `justify-content`, wat een horizontale kop onmogelijk maakt. Gebruik
-  `"full"` en regel de content-breedte op de sectie-container erboven.
-- **De groepscontrole-sleutels hebben een `flex_`-prefix.** `justify_content`
-  en `align_items` doen niets; de echte sleutels zijn
-  `flex_justify_content` en `flex_align_items` (bevestigd in
-  `includes/controls/groups/flex-container.php`, `'name' => 'flex'`).
-  Hetzelfde geldt voor `gap` → `flex_gap` (met een `size`-veld).
+- **Boxed is hier niet verboden, alleen overbodig.** Een eerdere versie van
+  dit patroon zei: nooit `boxed`, want `.e-con-boxed.e-flex` zou
+  `flex-direction:column` forceren en een horizontale kop onmogelijk maken.
+  Dat klopt niet — boxed werkt prima met een rij. Een boxed container
+  rendert een extra `.e-con-inner` waar de kinderen in staan, en dáár
+  gebeurt de uitlijning; dat de buitenste doos op `column` staat zegt niets
+  over je kinderen. De reden dat deze kop `"full"` krijgt is simpeler: hij
+  zit al binnen een sectie die de content-breedte regelt, dus een tweede
+  begrenzing is dubbelop. Zie `CLAUDE.md` 5b voor wanneer je boxed wél
+  gebruikt.
+- **De groepscontrole-sleutels hebben een `flex_`-prefix** zolang
+  `container_type` op `"flex"` staat: `flex_gap`, `flex_justify_content`,
+  `flex_align_items`. De ongeprefixte `justify_content` en `align_items`
+  zijn níet fout, maar horen bij de grid-groep en doen op een flex-container
+  dus niets. Bevestigd in `includes/controls/groups/flex-container.php`
+  (`'name' => 'flex'`) en `includes/controls/groups/grid-container.php`
+  (geen prefix). Zie `CLAUDE.md` 5a.
 - **Kinderen van een `row`-container krijgen standaard `flex-grow:1`.** Moet
   een kind op zijn eigen inhoud blijven, zet dan `_flex_size: "none"`
   (groepscontrole `_flex`, `includes/controls/groups/flex-item.php`).

@@ -7,7 +7,7 @@
 Past op een root-`data-cmp`-element in `spec.json` waarvoor geldt:
 
 - `role: "container"`, vaak sticky/fixed in de bron-CSS
-- precies één kind: een binnen-container op boxed content-breedte
+- precies één kind: een binnen-container op de content-breedte
 - dat binnen-kind heeft twee kinderen: een logo (`knop`- of `titel`-rol) en
   een navigatie-container (`role: "container"`, `layout.display: "flex"`,
   `flexDirection: "row"`) met een rij tekstlinks en meestal één knop die
@@ -21,14 +21,24 @@ geen `verticale-stapel`/`kaartenrij`.
 1. **Buitenste container** (`header`): `html_tag: "header"`,
    `content_width: "full"`, achtergrond/border-bottom uit `spec.json`.
    `flex_align_items: "center"` (LET OP: niet `align_items`, zie hieronder).
-2. **Binnen-container** (`header-binnen`): `content_width: "full"` (NOOIT
-   `"boxed"`, zie `sectie-kop.md` voor waarom), `margin: 0 auto` en een
-   `width` met unit `"custom"` en als waarde `min(<content-breedte>px, 100%)`
-   — bijvoorbeeld `min(1180px, 100%)`. Zo krijg je het boxed-effect zonder
-   de boxed-bug, én zonder een vaste pixelbreedte die tussen de breakpoints
-   in stukloopt (`CLAUDE.md` stap 5b). Verder `flex_direction: "row"`,
-   `flex_justify_content: "space-between"`, `flex_align_items: "center"`,
-   `padding` uit `spec.json`.
+2. **Binnen-container** (`header-binnen`): `content_width: "full"`,
+   `margin: 0 auto` en een `width` met unit `"custom"` en als waarde
+   `min(<content-breedte>px, 100%)` — bijvoorbeeld `min(1180px, 100%)`.
+   Verder `flex_direction: "row"`, `flex_justify_content: "space-between"`,
+   `flex_align_items: "center"`, `padding` uit `spec.json`.
+
+   **Waarom hier geen `boxed`?** Niet omdat boxed stuk is — dat werkt prima
+   met een rij, zie `CLAUDE.md` 5b. De reden is dat dit element zijn eigen
+   `cmp-`naam moet dragen én de begrensde breedte moet hebben. Elementor
+   zet CSS-classes altijd op de buitenste `.e-con-boxed`, die full-width is;
+   de begrensde breedte zit op de `.e-con-inner` daarbinnen, en daar kun je
+   geen class op kwijt. Met `full` plus een eigen responsieve `width` valt
+   de naam en de breedte wél op hetzelfde element, en meet `compare.js` de
+   juiste doos.
+
+   Heeft de binnen-laag in jouw ontwerp geen eigen opmaak om te
+   controleren, gebruik dan gewoon één boxed container en geef die laag in
+   de bron-HTML geen `data-cmp`.
 
    *Op het cinema-project stond hier een vaste px-`width` met
    `width_mobile: 100%`. Dat werkte op de twee gemeten breedtes, maar laat
