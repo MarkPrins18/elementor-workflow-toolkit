@@ -1,0 +1,42 @@
+{
+  "htmlPath": "./design/cinema-homepage.html",
+  "pageUrl": "http://ultimate-workflow.test/filmhuis-de-vonk/",
+  "roots": ["programma"],
+
+  "_geometrieNote": "relatief zodat deze sectie los van de secties erboven te controleren is; een hoogteverandering hierboven schuift anders alles mee (CLAUDE.md stap 9). De onderlinge plaatsing wordt in full-page.json op absoluut gecontroleerd.",
+  "geometrie": "relatief",
+
+  "_toleranceNote": "geometry 150px i.p.v. 1px, met Mark afgestemd (2026-09-21): (1) Playfair Display vervangt de niet-geinstalleerde Didot/Bodoni MT, net iets andere lettermetrics, cascadeert door de rij; (2) op telefoonbreedte (390px) verhindert een flex-min-width-effect dat de content-kolom van een filmrij net zo smal wordt als de bron (tekst wil niet verder inklappen zonder een expliciete min-width:0, die niet als losse Elementor-control bestaat) - de resterende 19 afwijkingen zitten allemaal op deze ene breedte. De tijdsloten zelf zijn NIET vereenvoudigd: elk tijdstip is herbouwd als eigen badge (achtergrond/rand/geneste tijd+zaal-tekst), niet als platte tekst - dat loste de eerdere categorische typografie-afwijkingen volledig op (desktop en tablet: exit 0).",
+  "tolerancePx": 1,
+  "tolerances": {
+    "geometry": 150
+  },
+
+  "breakpoints": [
+    { "name": "desktop", "width": 1440, "height": 900 },
+    { "name": "tablet", "width": 1024, "height": 900 },
+    { "name": "mobiel", "width": 767, "height": 900 },
+    { "name": "telefoon", "width": 390, "height": 900 }
+  ],
+
+  "properties": [
+    "fontSize",
+    "fontWeight",
+    "lineHeight",
+    "letterSpacing",
+    "color",
+    "backgroundColor",
+    "paddingTop",
+    "paddingRight",
+    "paddingBottom",
+    "paddingLeft",
+    "marginTop",
+    "marginRight",
+    "marginBottom",
+    "marginLeft",
+    "borderTopWidth",
+    "borderBottomWidth"
+  ],
+
+  "reportPath": "./reports/programma.json"
+}

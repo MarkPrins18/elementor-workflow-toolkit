@@ -1,0 +1,42 @@
+{
+  "htmlPath": "./design/cinema-homepage.html",
+  "pageUrl": "http://ultimate-workflow.test/filmhuis-de-vonk/",
+  "roots": ["binnenkort"],
+
+  "_geometrieNote": "relatief zodat deze sectie los van de secties erboven te controleren is; een hoogteverandering hierboven schuift anders alles mee (CLAUDE.md stap 9). De onderlinge plaatsing wordt in full-page.json op absoluut gecontroleerd.",
+  "geometrie": "relatief",
+
+  "_toleranceNote": "geometry 18px i.p.v. 1px: Playfair Display (Google Font) vervangt de niet-geinstalleerde Didot/Bodoni MT uit de bron-CSS, net iets andere lettermetrics. Typografie en kleur blijven streng. Met Mark afgestemd (2026-09-21): op telefoonbreedte (390px) resteert een bekende afwijking (poster-hoogte/kaart-titel-lettergrootte) omdat Elementor geen apart breakpoint tussen mobiel (767px) en de kleinste testbreedte heeft - de mobiel-waarden (getuned op 767px) worden ook op 390px gebruikt. Desktop, tablet EN mobiel (767px) zijn alle drie exit 0.",
+  "tolerancePx": 1,
+  "tolerances": {
+    "geometry": 18
+  },
+
+  "breakpoints": [
+    { "name": "desktop", "width": 1440, "height": 900 },
+    { "name": "tablet", "width": 1024, "height": 900 },
+    { "name": "mobiel", "width": 767, "height": 900 },
+    { "name": "telefoon", "width": 390, "height": 900 }
+  ],
+
+  "properties": [
+    "fontSize",
+    "fontWeight",
+    "lineHeight",
+    "letterSpacing",
+    "color",
+    "backgroundColor",
+    "paddingTop",
+    "paddingRight",
+    "paddingBottom",
+    "paddingLeft",
+    "marginTop",
+    "marginRight",
+    "marginBottom",
+    "marginLeft",
+    "borderTopWidth",
+    "borderBottomWidth"
+  ],
+
+  "reportPath": "./reports/binnenkort.json"
+}

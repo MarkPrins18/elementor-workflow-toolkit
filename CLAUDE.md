@@ -321,6 +321,27 @@ uitgezocht hoeven te worden:
   pagina — bouw daar geen selector op. Zie `patterns/header-navigatie.md`
   voor de tabel en hoe `compare.js` hiermee omgaat (niet oplosbaar via een
   sleutelnaam-fix, wel via de meetmethode).
+- **`hide_tablet`/`hide_mobile` zetten de verkeerde class.** In plaats van
+  `elementor-hidden-tablet`/`elementor-hidden-mobile` (de classes die
+  Elementor's eigen CSS in `frontend.min.css` daadwerkelijk verbergt via
+  `@media(max-width:...){display:none}`) komt er `elementor-yes` te staan —
+  zichtbaar niets. Zet de juiste class zelf mee in `_css_classes` (naast de
+  `cmp-`class) in plaats van de `hide_*`-toggle te gebruiken; dat is nog
+  steeds Elementor's eigen CSS-regel, alleen via de class direct toegepast.
+- **Een responsieve `width` op `custom`-eenheid (zoals `"auto"` of
+  `min(1180px, 100%)`) erft NIET automatisch door naar tablet/mobiel.**
+  Bevestigd in de controlecode van `container.php`: de mobiele breedte heeft
+  een eigen standaardwaarde (100%) en "is not inherited from the higher
+  breakpoint width controls". Zet dezelfde waarde dus expliciet nogmaals op
+  `width_tablet` én `width_mobile`, ook al lijkt dat overbodig.
+- **Een bron-breakpoint dat niet samenvalt met Elementor's tablet/mobiel-
+  grens (bijv. 920px, tussen Elementor's 1024 en 767 in) kun je niet exact
+  native raken.** Kies de dichtstbijzijnde kant die de bron nog goed
+  weergeeft — hier: het gedrag onder 920px (nav-links verbergen, padding
+  verkleinen) toegepast vanaf Elementor's mobiel-breakpoint (767), niet
+  tablet (1024), want bij 1024 is de bron nog in zijn brede stand. Controleer
+  dit altijd met de echte metingen per breakpoint uit `spec.json`, nooit op
+  gevoel.
 
 **`compare.js` op exit code 0 is geen bewijs dat deze regel is gevolgd** —
 het script meet alleen het eindresultaat, niet hoe dat tot stand kwam. Een
