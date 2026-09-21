@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Twee secties onder elkaar</title>
+<style>
+  body { margin:0; font-family: Arial, sans-serif; }
+  .s1 { height:200px; background:#eeeeee; }
+  .s2 { padding:20px; background:#dddddd; display:flex; flex-direction:column; gap:16px; align-items:flex-start; }
+  h2, p { margin:0; font-size:20px; line-height:28px; color:#111111; }
+  p { font-size:16px; line-height:24px; }
+</style>
+</head>
+<body>
+  <section class="s1" data-cmp="sectie-1"><h2 data-cmp="s1-titel">Eerste sectie</h2></section>
+  <section class="s2" data-cmp="sectie-2">
+    <h2 data-cmp="s2-titel">Tweede sectie</h2>
+    <p data-cmp="s2-tekst">Een regel tekst.</p>
+  </section>
+</body>
+</html>

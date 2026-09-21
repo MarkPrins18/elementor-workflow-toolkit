@@ -3,6 +3,9 @@
   "pageUrl": "http://ultimate-workflow.test/filmhuis-de-vonk/",
   "roots": ["hero"],
 
+  "_geometrieNote": "relatief zodat deze sectie los van de secties erboven te controleren is; een hoogteverandering hierboven schuift anders alles mee (CLAUDE.md stap 9). De onderlinge plaatsing wordt in full-page.json op absoluut gecontroleerd.",
+  "geometrie": "relatief",
+
   "_toleranceNote": "geometry 20px i.p.v. 1px: (1) Playfair Display (Google Font) vervangt de niet-geinstalleerde Didot/Bodoni MT, net iets andere lettermetrics; (2) hero-poster heeft in de bron een decoratieve transform:rotate(1.6deg) die Elementor 4.2.4 alleen in de editor-preview toepast, niet op de live frontend (bevestigd: de CSS-variabele wordt weggeschreven, de regel die 'm gebruikt nergens server-side toegevoegd). Dit verschuift alleen x/width/height van het posterblok en zijn kinderen enkele px. Typografie en kleur blijven wel streng: die worden door beide oorzaken niet geraakt.",
   "tolerancePx": 1,
   "tolerances": {

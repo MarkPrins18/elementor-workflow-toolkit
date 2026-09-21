@@ -15,6 +15,13 @@ Drie dingen die een run ongeldig maken in plaats van geslaagd:
 - nul vergeleken elementen, om welke reden dan ook;
 - een dubbele naam, in het ontwerp of in Elementor.
 
+Zet in een sectie-config `"geometrie": "relatief"`. Posities worden dan
+gemeten vanaf de linkerbovenhoek van de sectie zelf, zodat je die sectie kunt
+controleren los van wat erboven staat. Zonder dat valt elke sectie onder een
+gewijzigde sectie door op `y`, puur omdat hij is opgeschoven. In
+`full-page.json` blijft het op `"absoluut"`, want daar wil je de onderlinge
+volgorde en plaatsing juist wél meten. Zie `CLAUDE.md` stap 9.
+
 Verruim je een tolerantie boven 1px, zet er dan een `_toleranceNote` bij met
 de reden. Het script toont die notitie bij elke run en waarschuwt als hij
 ontbreekt. Verruim daarbij alleen wat je écht moet verruimen: `tolerances`

@@ -3,6 +3,9 @@
   "pageUrl": "http://ultimate-workflow.test/filmhuis-de-vonk/",
   "roots": ["header"],
 
+  "_geometrieNote": "relatief zodat deze sectie los van de secties erboven te controleren is; een hoogteverandering hierboven schuift anders alles mee (CLAUDE.md stap 9). De onderlinge plaatsing wordt in full-page.json op absoluut gecontroleerd.",
+  "geometrie": "relatief",
+
   "_toleranceNote": "geometry 6px i.p.v. 1px: Playfair Display (Google Font) vervangt de niet-geinstalleerde Didot/Bodoni MT uit de bron-CSS, met net iets andere lettermetrics voor tekst op auto-breedte (bv. header-logo). Dat raakt alleen de gemeten doos, niet de ingestelde fontgrootte of kleur — die blijven daarom streng.",
   "tolerancePx": 1,
   "tolerances": {

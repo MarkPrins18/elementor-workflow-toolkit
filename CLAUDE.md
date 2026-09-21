@@ -594,3 +594,67 @@ Nadat alle secties losstaand geslaagd zijn:
 8. Commit het goedgekeurde ontwerp, de specs, de configs en de rapporten
    samen. Een rapport zonder het bijbehorende ontwerp is niet te herhalen en
    dus geen bewijs meer.
+
+## 9. Een bestaande sectie wijzigen
+
+Stap 1 tot 8 beschrijven bouwen vanaf nul. Staat de pagina er al en moet er
+iets veranderen, dan gelden dezelfde regels, maar in een andere volgorde.
+Bepaal eerst welk van deze twee het is — ze hebben een verschillende route:
+
+### A. Het ontwerp verandert
+
+De HTML in `design/` blijft de bron van waarheid. Pas dus **nooit eerst iets
+in Elementor aan om het daarna in de HTML na te tekenen**; dan is de spec
+geen bron meer maar een verslag.
+
+1. Pas de HTML in `design/` aan.
+2. Komt er iets nieuws in dat Elementor misschien niet native kan (een
+   gradient, een schaduw, een transform)? Draai `check-bouwbaar.js` opnieuw.
+3. Laat de gewijzigde HTML goedkeuren, net als in stap 1.
+4. Draai `extract-spec.js` opnieuw, met dezelfde breedtes als eerst.
+5. **`git diff design/`** — dit is je werklijst. De spec staat in git, dus de
+   diff laat per element precies zien welke waarden veranderd zijn. De regel
+   `generatedAt` verandert altijd; die telt niet mee.
+6. Pas in Elementor alleen de elementen aan die in die diff staan.
+7. Controleer die sectie: `compare.js` → `check-semantiek.js` →
+   `check-native.js`.
+
+### B. De bouw is fout, het ontwerp klopt
+
+Dan verandert er niets aan de spec. Dit is gewoon de lus uit stap 7:
+aanpassen in Elementor, `compare.js` opnieuw, herhalen tot exit code 0.
+
+Controle op jezelf: `git diff design/` hoort hierbij **leeg** te blijven.
+Staat daar wel iets in, dan ben je het ontwerp aan het aanpassen in plaats
+van de bouw, en hoor je route A te volgen (inclusief goedkeuring).
+
+### Let op: een hoogteverandering schuift alles eronder mee
+
+Posities worden standaard absoluut gemeten. Wordt een sectie hoger of lager,
+dan verschuift elke sectie eronder, en die falen dan allemaal op `y` —
+terwijl er intern niets mis mee is.
+
+Zet daarom in een **sectie-config** (één root) de geometrie op relatief:
+
+```json
+"roots": ["bezoek"],
+"geometrie": "relatief"
+```
+
+Dan worden posities gemeten vanaf de linkerbovenhoek van de sectie zelf, en
+controleer je de interne opbouw los van wat erboven staat. Een fout bínnen
+de sectie valt nog steeds door de mand. In `full-page.json` laat je
+`"absoluut"` staan — daar wil je de onderlinge volgorde en plaatsing juist
+wél controleren.
+
+Werkvolgorde bij een wijziging die de hoogte raakt:
+
+1. Werk van boven naar beneden door de gewijzigde secties.
+2. Draai per sectie de config met `"geometrie": "relatief"`.
+3. Sluit af met de full-page run op `"absoluut"`, plus `--responsive` en
+   `screenshot-diff.js`. Dat is de enige controle die de nieuwe onderlinge
+   posities in samenhang ziet.
+
+Raakt de wijziging de hoogte niet (een kleur, een lettergrootte binnen
+dezelfde regelhoogte), dan speelt dit niet en kun je die ene sectie gewoon
+draaien.

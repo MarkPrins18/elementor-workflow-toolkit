@@ -7,6 +7,9 @@
   "_roots": "Eén config per root uit spec.json. Zonder dit veld wordt de hele pagina vergeleken, waardoor elke config hetzelfde doet. Een naam die niet in het ontwerp voorkomt is een ONGELDIGE run, geen geslaagde.",
   "roots": ["hero"],
 
+  "_geometrie": "'absoluut' (standaard) meet x/y als plek op de pagina — goed voor full-page.json, want dan controleer je ook de onderlinge volgorde. 'relatief' meet vanaf de linkerbovenhoek van de sectie-root en vereist een 'roots'. Gebruik dat in sectie-configs zodra je een bestaande pagina wijzigt: wordt één sectie hoger, dan schuift alles eronder mee en faalt dat op y terwijl er intern niets mis is (CLAUDE.md stap 9). Een fout bínnen de sectie valt nog steeds door de mand.",
+  "geometrie": "relatief",
+
   "_tolerantie": "tolerancePx is de algemene tolerantie. 'tolerances' verfijnt dat per categorie of per eigenschap: geometry (x/y/width/height), typography (fontSize, fontWeight, lineHeight, letterSpacing, textAlign, textTransform, fontFamily), color (exacte match tenzij je hier een kanaalafwijking toestaat), strut (extra speling op y/height van tekst-widgets, standaard 12), default (de rest), of gewoon de naam van één eigenschap. Typografie staat standaard op 0.5px en wordt NOOIT meegesleept door een ruimere geometry-waarde: één globale tolerancePx van 20 liet vroeger een kop van 40px als 24px passeren.",
   "tolerancePx": 1,
   "tolerances": {

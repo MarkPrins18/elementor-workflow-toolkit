@@ -197,6 +197,58 @@ test(
   (uit) => (/fontSize/.test(uit) ? true : "fontSize-afwijking niet gemeld")
 );
 
+console.log("\ncompare.js — een sectie wijzigen op een bestaande pagina");
+
+const verschuivingBasis = {
+  htmlPath: path.join(TEST, "fixtures", "verschuiving-bron.html"),
+  pageUrl: fileUrl(path.join(TEST, "fixtures", "verschuiving-gebouwd.html")),
+  roots: ["sectie-2"],
+  tolerancePx: 1,
+  breakpoints: [
+    { name: "desktop", width: 1440, height: 900 },
+    { name: "mobiel", width: 390, height: 900 },
+  ],
+  reportPath: path.join(TMP, "verschuiving.json"),
+};
+
+test(
+  "absolute geometrie laat een sectie falen die alleen verschoven is",
+  1,
+  "compare.js",
+  [schrijfConfig("versch-abs", verschuivingBasis)],
+  (uit) => (/\| y +\|/.test(uit) ? true : "geen y-afwijking gemeld")
+);
+
+test(
+  "relatieve geometrie laat diezelfde sectie slagen",
+  0,
+  "compare.js",
+  [schrijfConfig("versch-rel", { ...verschuivingBasis, geometrie: "relatief" })],
+  (uit) => (/relatief aan de sectie-root/.test(uit) ? true : "de modus wordt niet in de uitvoer gemeld")
+);
+
+test(
+  "relatieve geometrie betrapt nog steeds een fout bínnen de sectie",
+  1,
+  "compare.js",
+  [
+    schrijfConfig("versch-rel-fout", {
+      ...verschuivingBasis,
+      geometrie: "relatief",
+      pageUrl: fileUrl(path.join(TEST, "fixtures", "verschuiving-gebouwd-intern-fout.html")),
+    }),
+  ],
+  (uit) => (/s2-tekst/.test(uit) ? true : "de verkeerde gap binnen de sectie werd niet gemeld")
+);
+
+test("relatieve geometrie zonder roots is een configfout", 2, "compare.js", [
+  schrijfConfig("versch-rel-geen-roots", { ...verschuivingBasis, geometrie: "relatief", roots: null }),
+]);
+
+test("een onbekende geometrie-modus is een configfout", 2, "compare.js", [
+  schrijfConfig("versch-modus", { ...verschuivingBasis, geometrie: "ongeveer" }),
+]);
+
 console.log("\ncompare.js — geen vals 'geslaagd' meer");
 
 test(

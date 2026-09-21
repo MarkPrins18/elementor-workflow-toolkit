@@ -87,10 +87,30 @@ const {
   // afstammelingen. Nodig om een sectie apart op exit code 0 te krijgen
   // terwijl latere secties nog niet gebouwd zijn (CLAUDE.md stap 7).
   roots = null,
+  // "absoluut" (standaard): x/y zijn de plek op de pagina. Goed voor een
+  // full-page-run, want dan controleer je ook de onderlinge volgorde.
+  // "relatief": x/y worden gemeten ten opzichte van de sectie-root. Nodig
+  // bij het wijzigen van een bestaande pagina: wordt één sectie hoger, dan
+  // schuift alles eronder mee en faalt dat op y, terwijl er intern niets
+  // mis is (CLAUDE.md stap 9).
+  geometrie = "absoluut",
 } = config;
 
 if (!htmlPath || !pageUrl) {
   console.error("De config mist 'htmlPath' en/of 'pageUrl'.");
+  process.exit(EXIT_KAPOT);
+}
+
+if (!["absoluut", "relatief"].includes(geometrie)) {
+  console.error(`'geometrie' moet "absoluut" of "relatief" zijn, niet ${JSON.stringify(geometrie)}.`);
+  process.exit(EXIT_KAPOT);
+}
+
+if (geometrie === "relatief" && (!roots || roots.length === 0)) {
+  console.error(
+    'geometrie: "relatief" meet posities ten opzichte van de sectie-root, dus er moet een\n' +
+      "'roots' in de config staan. Zonder root is er niets om relatief aan te meten."
+  );
   process.exit(EXIT_KAPOT);
 }
 
@@ -160,6 +180,11 @@ function printToleranceOverzicht() {
     const t = resolveTolerance(prop);
     if (t > 1) ruim.push(`${prop}=${t}px`);
   }
+  console.log(
+    geometrie === "relatief"
+      ? `Geometrie: relatief aan de sectie-root (${roots.join(", ")}) — verschuiving van bovenaf telt niet mee.`
+      : "Geometrie: absoluut op de pagina."
+  );
   console.log(`Tolerantie: algemeen ${tolerancePx}px, typografie ${resolveTolerance("fontSize")}px, kleur exact.`);
   if (ruim.length) {
     console.log(`Verruimd: ${ruim.join(", ")}`);
@@ -200,18 +225,19 @@ async function measureComponents(page, propList, roots) {
       return cls ? cls.replace(/^cmp-/, "") : null;
     }
 
-    // Hoort dit element bij één van de gevraagde roots (zichzelf, of een
-    // data-cmp/cmp--voorouder die in de roots-lijst staat)?
-    function underRoots(el, name) {
-      if (!roots) return true;
-      if (roots.includes(name)) return true;
+    // Het root-element waar dit element onder valt: zichzelf als het een
+    // root is, anders de dichtstbijzijnde voorouder uit de roots-lijst.
+    // Null betekent: valt buiten de gevraagde roots.
+    function rootElementVan(el, name) {
+      if (!roots) return null;
+      if (roots.includes(name)) return el;
       let node = el.parentElement;
       while (node) {
         const n = nameOf(node);
-        if (n && roots.includes(n)) return true;
+        if (n && roots.includes(n)) return node;
         node = node.parentElement;
       }
-      return false;
+      return null;
     }
 
     // Elementor verdeelt de opmaak van één widget over twee elementen, en hoe
@@ -283,12 +309,16 @@ async function measureComponents(page, propList, roots) {
     all.forEach((el) => {
       const name = nameOf(el);
       if (!name) return;
-      if (!underRoots(el, name)) return;
+
+      const rootEl = rootElementVan(el, name);
+      if (roots && !rootEl) return;
 
       if (result[name]) {
         duplicaten.push(name);
         return;
       }
+
+      const rootRect = rootEl ? rootEl.getBoundingClientRect() : { x: 0, y: 0 };
 
       // Doos (geometrie, padding, margin, achtergrond, rand) en tekst
       // (typografie, kleur) komen van verschillende elementen — zie
@@ -315,6 +345,10 @@ async function measureComponents(page, propList, roots) {
         y: rect.y,
         width: rect.width,
         height: rect.height,
+        // De plek van de sectie-root, zodat de vergelijking desgewenst
+        // relatief kan meten (zie 'geometrie' in de config).
+        rootX: rootRect.x,
+        rootY: rootRect.y,
         styles,
         // Alleen als de doos de widget-wrapper zélf is, kan de "strut" van die
         // wrapper (de regelhoogte die hij van het thema erft) zijn hoogte
@@ -512,8 +546,23 @@ function compareBreakpoint(htmlData, elementorData, propList, strutTolerance) {
       continue;
     }
 
-    const geomProps = { x: h.x, y: h.y, width: h.width, height: h.height };
-    const geomElementor = { x: e.x, y: e.y, width: e.width, height: e.height };
+    // Bij "relatief" worden posities gemeten vanaf de linkerbovenhoek van de
+    // sectie-root. Een sectie die als geheel verschoven is doordat er
+    // hierboven iets hoger werd, valt dan niet meer door; een fout binnen de
+    // sectie zelf nog wel. Afmetingen blijven altijd absoluut.
+    const relatief = geometrie === "relatief";
+    const geomProps = {
+      x: relatief ? h.x - h.rootX : h.x,
+      y: relatief ? h.y - h.rootY : h.y,
+      width: h.width,
+      height: h.height,
+    };
+    const geomElementor = {
+      x: relatief ? e.x - e.rootX : e.x,
+      y: relatief ? e.y - e.rootY : e.y,
+      width: e.width,
+      height: e.height,
+    };
 
     for (const geomKey of GEOMETRY_PROPS) {
       const basis = resolveTolerance(geomKey);
@@ -735,6 +784,7 @@ async function runCompare(browser) {
         htmlPath: resolvedHtmlPath,
         pageUrl,
         roots,
+        geometrie,
         samenvatting,
         ongeldig: ongeldig || null,
         resultaten: allResults,

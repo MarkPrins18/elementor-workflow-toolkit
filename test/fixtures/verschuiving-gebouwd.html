@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Sectie 1 is hoger, sectie 2 is intern identiek</title>
+<!--
+  Sectie 1 is hier 40px hoger dan in de bron. Sectie 2 is intern exact
+  gelijk, maar staat daardoor 40px lager op de pagina. Met absolute
+  geometrie faalt elk element in sectie 2 op y; met "geometrie": "relatief"
+  hoort sectie 2 gewoon te slagen.
+-->
+<style>
+  body { margin:0; font-family: Arial, sans-serif; }
+  .s1 { height:240px; background:#eeeeee; }
+  .s2 { padding:20px; background:#dddddd; display:flex; flex-direction:column; gap:16px; align-items:flex-start; }
+  h2, p { margin:0; font-size:20px; line-height:28px; color:#111111; }
+  p { font-size:16px; line-height:24px; }
+</style>
+</head>
+<body>
+  <section class="s1 cmp-sectie-1"><h2 class="cmp-s1-titel">Eerste sectie</h2></section>
+  <section class="s2 cmp-sectie-2">
+    <h2 class="cmp-s2-titel">Tweede sectie</h2>
+    <p class="cmp-s2-tekst">Een regel tekst.</p>
+  </section>
+</body>
+</html>

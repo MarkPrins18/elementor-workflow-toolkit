@@ -105,6 +105,22 @@ Bij elk breakpoint staat in de uitvoer hoeveel elementen er daadwerkelijk
 vergeleken zijn. Klopt dat aantal niet met wat je gebouwd hebt, dan zit de
 fout in de config.
 
+### Een bestaande sectie wijzigen
+
+Posities worden standaard absoluut gemeten. Wordt één sectie hoger, dan
+schuift alles eronder mee en faalt dat op `y`, terwijl er intern niets mis
+is. Zet in een sectie-config daarom:
+
+```json
+"roots": ["bezoek"],
+"geometrie": "relatief"
+```
+
+Dan wordt er gemeten vanaf de linkerbovenhoek van de sectie zelf. Een fout
+bínnen de sectie valt nog steeds door de mand; alleen het opschuiven telt
+niet meer mee. In `full-page.json` laat je `"absoluut"` staan. De volledige
+werkwijze voor wijzigingen staat in `CLAUDE.md` stap 9.
+
 ### Tolerantie
 
 `tolerancePx` is de algemene waarde. `tolerances` verfijnt dat:
