@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="nl">
+<head><meta charset="utf-8"><title>Elementor met verloren semantiek</title></head>
+<body>
+  <!--
+    Ziet er op het scherm hetzelfde uit als semantiek-goed.html, maar leest
+    anders: de navigatie is een gewone div, de subtitel is een span in plaats
+    van een h2, en de afbeelding heeft geen alt-tekst.
+  -->
+  <header class="e-con e-flex cmp-kop">
+    <div class="elementor-element elementor-widget elementor-widget-heading cmp-logo">
+      <span class="elementor-heading-title"><a href="/">De Vonk</a></span>
+    </div>
+    <div class="e-con e-flex cmp-nav">
+      <div class="elementor-element elementor-widget elementor-widget-heading cmp-nav-programma">
+        <span class="elementor-heading-title"><a href="/programma">Programma</a></span>
+      </div>
+    </div>
+  </header>
+  <main class="e-con e-flex cmp-inhoud">
+    <div class="elementor-element elementor-widget elementor-widget-heading cmp-titel">
+      <h1 class="elementor-heading-title">Hoofdtitel</h1>
+    </div>
+    <div class="elementor-element elementor-widget elementor-widget-heading cmp-subtitel">
+      <span class="elementor-heading-title">Subtitel</span>
+    </div>
+    <div class="elementor-element elementor-widget elementor-widget-image cmp-poster">
+      <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" width="40" height="60">
+    </div>
+  </main>
+</body>
+</html>

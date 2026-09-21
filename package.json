@@ -8,6 +8,7 @@
     "compare": "node compare.js",
     "extract": "node extract-spec.js",
     "check-native": "node check-native.js",
+    "check-semantiek": "node check-semantiek.js",
     "check-bouwbaar": "node check-bouwbaar.js",
     "screenshot-diff": "node screenshot-diff.js",
     "test": "node test/run-tests.js"

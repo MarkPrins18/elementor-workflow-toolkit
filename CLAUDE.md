@@ -13,14 +13,30 @@ vastgesteld:
 
 - Elementor-versie: _______ (de 4.2-reeks is actueel; op dit project is
   4.2.4 bevestigd, containers actief)
+- Elementor Pro beschikbaar: ja / nee — bepaalt of Theme Builder (header en
+  footer als sitebrede template) en Motion Effects (sticky) kunnen
 - Container-modus: aan / uit (Elementor → Settings → Features)
+- **Optimized Markup: aan / uit** (Elementor → Settings → Features). Staat
+  dit aan, dan is `.elementor-widget-container` uit alle widgets verdwenen.
+  Dat verandert de DOM waarop de hele meetmethode staat, dus noteer het.
 - Breakpoints: desktop / tablet / mobiel-grenzen, standaard 1024px en 767px
-  tenzij dit project ze zelf heeft aangepast
-- Site-brede content-breedte: _______ (nodig voor stap 5b)
+  tenzij dit project ze zelf heeft aangepast. Extra breakpoints (laptop,
+  widescreen, tablet extra, mobiel extra) moeten apart aangezet worden in
+  Site Settings → Layout → Breakpoints — doe dat nu als het ontwerp ze
+  nodig heeft, niet halverwege het bouwen.
+- Site-brede content-breedte: _______ (Site Settings → Layout → Content
+  Width; nodig voor stap 5b)
 - Actief thema: _______
 - Staging-URL: _______
 
 Ga hier nooit vanuit, controleer het bij een nieuw project.
+
+**Werkt dit project met de klassieke widgets of met V4 atomic elements?**
+Deze toolkit en alle patronen gaan uit van de klassieke containers en
+widgets (Heading, Text Editor, Image, Button, Container) en van Global
+Colors/Fonts — niet van de atomic elements en het variabelen-systeem van
+Elementor 4. Wijkt een project daarvan af, dan kloppen de sleutelnamen in
+`patterns/` niet meer en moet dat eerst uitgezocht worden.
 
 Controleer ook één keer of de toolkit zelf werkt voordat je 'm gebruikt:
 
@@ -29,10 +45,9 @@ npm install
 npm test
 ```
 
-`npm test` draait `compare.js`, `extract-spec.js`, `check-native.js`,
-`check-bouwbaar.js` en `screenshot-diff.js` tegen de vaste voorbeelden in
-`test/`, en controleert of ze slagen én falen wanneer dat hoort. Een van die
-scripts is de enige reden dat een sectie "klaar" mag heten; als ze stil
+`npm test` draait alle controlescripts tegen de vaste voorbeelden in
+`test/`, en controleert of ze slagen én falen wanneer dat hoort. Die
+scripts zijn de enige reden dat een sectie "klaar" mag heten; als ze stil
 zachter worden, verdwijnt die garantie zonder dat iemand het merkt.
 
 ## Mapstructuur van deze toolkit
@@ -48,6 +63,7 @@ ai-workflow/
 ├── compare.js              ← stap 7: de verplichte controle
 ├── check-bouwbaar.js       ← stap 1: is dit ontwerp native te bouwen?
 ├── check-native.js         ← stap 5a: is het native gebouwd?
+├── check-semantiek.js      ← stap 5c: leest het nog hetzelfde?
 ├── screenshot-diff.js      ← stap 8.1: de hele pagina naast elkaar
 ├── config.example.json
 ├── lib/                    ← gedeelde browser-code voor bovenstaande scripts
@@ -169,6 +185,24 @@ centraal kan aanpassen. Een kleur of font die maar één keer voorkomt, blijft
 gewoon lokaal op dat element staan. Bouw dit vóórdat je de secties zelf
 opbouwt.
 
+**Zet daarnaast eerst de Theme Style.** In Site Settings → Typography en
+→ Buttons leg je de standaard vast voor bodytekst, h1 t/m h6, links en
+knoppen. Doe je dat eerst, dan hoeven de meeste widgets daarna helemaal
+geen eigen typografie: ze staan al goed. Dat scheelt niet alleen werk, het
+haalt ook tientallen plekken weg waar een waarde later stilletjes kan
+afwijken. Vul de Theme Style met de waarden die in `spec.json` het vaakst
+voorkomen voor dat soort element, en zet alleen de uitzonderingen lokaal.
+
+De volgorde is dus: **Theme Style → Global Colors/Fonts → secties bouwen.**
+
+**Header en footer: sitebreed of op de pagina?** Hoort de header op meer dan
+één pagina, en is Elementor Pro beschikbaar (zie stap 0), bouw 'm dan als
+Theme Builder-template in plaats van als container op de pagina. Anders
+staat hij straks alleen op deze pagina en moet hij bij elke volgende pagina
+opnieuw. Is Pro er niet, bouw hem dan op de pagina en noteer dat als
+bekende beperking. Geldt hetzelfde voor een sectie die op meerdere pagina's
+terugkomt: sla die op als Template in plaats van 'm te kopiëren.
+
 ## 5. Structuur: gebruik het vertaalpatroon, verzin niets nieuws
 
 In `patterns/` staat per terugkerend soort blok een vaste bouwinstructie:
@@ -199,6 +233,11 @@ De `role`-waarden waarop je herkent zijn: `titel`, `tekst`, `link`, `knop`,
 een `<a>` zonder eigen achtergrond, rand of horizontale padding is een
 tekstlink en hoort een Heading-widget met link te worden, geen Button.
 
+**Matcht er meer dan één patroon?** Dat kan: een header is óók "een rij met
+container-kinderen". Loop ze daarom af van specifiek naar algemeen en neem
+de eerste die past. Die volgorde, en de regels die voor álle patronen
+gelden, staan in `ai-workflow/patterns/README.md`.
+
 Past geen enkel patroon op deze structuur? Bouw het dan zo zorgvuldig
 mogelijk, laat het controleren met stap 7, en schrijf het daarna pas als
 nieuw bestand in `patterns/` voor hergebruik (status: concept, tot een
@@ -228,28 +267,42 @@ en (3) waarom er geen andere weg is. Pas na akkoord van Mark mag het
 toegepast worden, en dan alleen op dat ene element, nooit als
 verzamel-bestand voor meerdere elementen of een hele sectie.
 
-Als een native Elementor-instelling (container-gap, -padding,
-`align-items`, widget-typografie, containerbreedte) niet lijkt door te
-werken, is de meest waarschijnlijke oorzaak een **sleutelnaam-mismatch**
-tussen de MCP-tool en Elementor's actieve control-schema voor die
-Elementor-versie — niet een echte beperking van Elementor. Voorbeeld:
-in Elementor 4.2.4 schrijft de EMCP Tools-MCP `gap` weg, maar de
-CSS-generator van die versie leest `flex_gap` (met een verplicht
-`size`-veld). De waarde stond dus wél correct in `_elementor_data`, maar
-werd nooit naar CSS vertaald. Los dit op door de bekende/nieuwe sleutel
-(`flex_gap` ernaast, met dezelfde waarden) mee te schrijven, niet door
-naar CSS uit te wijken. Controleer dit sleutelnaam-verschil voor élke
-layout-eigenschap die niet lijkt door te werken (`justify_content`,
-`align_items`, breedte-instellingen, etc.), en documenteer bevestigde
-mismatches hieronder zodat ze niet telkens opnieuw uitgezocht hoeven te
-worden:
+Als een native Elementor-instelling (container-gap, -padding, uitlijning,
+widget-typografie, containerbreedte) niet lijkt door te werken, is de
+oorzaak bijna nooit een beperking van Elementor. Meestal is de waarde wél
+netjes opgeslagen in `_elementor_data`, maar hoort de sleutel bij een
+control die op dít element niet actief is.
 
-- `gap` → moet ook als `flex_gap` (met `size`-veld) geschreven worden op
-  Elementor 4.2.4.
-- `justify_content` → de echte sleutel is `flex_justify_content`
-  (groepscontrole-prefix `flex_`, bevestigd in
-  `includes/controls/groups/flex-container.php`, `'name' => 'flex'`).
-- `align_items` → idem, echte sleutel is `flex_align_items`.
+**De belangrijkste bron van verwarring: een container heeft twee
+groepscontroles voor layout, en er is er altijd maar één actief.** Welke,
+hangt af van `container_type`:
+
+| `container_type` | Actieve groep | Prefix | Voorbeelden |
+|---|---|---|---|
+| `"flex"` | flex-container | `flex_` | `flex_direction`, `flex_gap`, `flex_wrap`, `flex_justify_content`, `flex_align_items` |
+| `"grid"` | grid-container | *geen* | `columns_grid`, `rows_grid`, `gaps`, `auto_flow`, `justify_items`, `align_items`, `justify_content`, `align_content` |
+
+`justify_content` en `align_items` zijn dus **geen verkeerde namen** — het
+zijn de echte sleutels van de grid-groep. Zet je ze op een flex-container,
+dan gebeurt er niets, omdat die control daar niet actief is. En andersom:
+`flex_gap` op een grid-container komt evenmin aan; daar heet de gap `gaps`.
+
+Bevestigd in `includes/controls/groups/flex-container.php`
+(`'name' => 'flex'`, vandaar de prefix) en
+`includes/controls/groups/grid-container.php` (geen prefix).
+
+Controleer bij elke layout-eigenschap die niet doorwerkt dus eerst: klopt
+`container_type` met de groep waar deze sleutel bij hoort? Wijk pas uit
+naar CSS als dat is uitgesloten — en dan alleen na akkoord (zie hierboven).
+Documenteer bevestigde gevallen hieronder, zodat ze niet telkens opnieuw
+uitgezocht hoeven te worden:
+
+- `gap` → bestaat niet. Op een flex-container is het `flex_gap` (met
+  `size`-veld), op een grid-container `gaps`.
+- `justify_content` / `align_items` → grid-groep. Op een flex-container
+  moet je `flex_justify_content` / `flex_align_items` hebben.
+- `columns_grid` → het aantal kolommen van een grid-container. Niet te
+  verwarren met een breedte-instelling.
 - `button_padding` (Button-widget) → de echte sleutel is `text_padding`
   (bevestigd in `includes/widgets/traits/button-trait.php`).
 - Een container/widget als kind van een `flex_direction: "row"`-ouder krijgt
@@ -308,18 +361,38 @@ Vaste regel per root-sectie:
    desktop-breedte als 1200px naartoe vertaalt: een max-width, niet een
    vaste width.
 
-   **Let op welke van de twee opzetten je gebruikt:**
+   **Zet de content-breedte bij voorkeur één keer site-breed**, in Site
+   Settings → Layout → Content Width. Een container op
+   `content_width: "boxed"` neemt die waarde vanzelf over, en dan hoef je
+   per sectie helemaal niets in te stellen. Moet één sectie afwijken, dan is
+   `boxed_width` de native control daarvoor — geen custom `width`.
 
-   - Staat de inhoud van die container **onder elkaar** (column), dan kan
-     `content_width: "boxed"` gewoon.
-   - Staat de inhoud **naast elkaar** (row — een header, een sectie-kop, een
-     rij kaarten), dan mag dat **niet**: Elementor's eigen
-     `.e-con-boxed.e-flex`-regel forceert `flex-direction:column` en reset
-     `justify-content`, waardoor een horizontale opbouw onmogelijk wordt.
-     Gebruik dan `content_width: "full"` met `margin: 0 auto` en een `width`
-     met unit `custom` en waarde `min(1200px, 100%)`. Dat geeft hetzelfde
-     boxed-effect zonder een vaste pixelbreedte. Zie
-     `patterns/sectie-kop.md` en `patterns/header-navigatie.md`.
+   **Twee dingen om te weten over boxed containers:**
+
+   - Een boxed container rendert een **extra binnenwrapper**:
+     `<div class="e-con e-con-boxed"><div class="e-con-inner">…</div></div>`
+     (bevestigd in `before_render()` van `includes/elements/container.php`).
+     De kinderen staan in die `.e-con-inner`. De buitenste doos is
+     full-width; de begrensde breedte zit op de binnenwrapper.
+   - **Dat raakt de meting.** De `cmp-`class komt op de buitenste
+     `.e-con-boxed` te staan, dus `compare.js` meet daar de volle
+     paginabreedte, terwijl het bronelement (de `.wrap` met `max-width` en
+     `margin:auto`) met de binnenwrapper overeenkomt. Verwacht daar dus een
+     verschil in `x` en `width` dat niets met je opbouw te maken heeft.
+     Zolang dat niet is opgelost: zet de `cmp-`naam liever op een container
+     die géén boxed is, of meld het verschil expliciet in plaats van de
+     tolerantie op te rekken.
+
+   **Open punt — nog te bevestigen op staging.** De patronen zeggen nu:
+   nooit `boxed` bij een horizontale (row) opbouw, want
+   `.e-con-boxed.e-flex` forceert `flex-direction:column`. Die regel bestaat,
+   maar geldt voor de buitenste doos, die maar één kind heeft
+   (`.e-con-inner`). Het is dus goed mogelijk dat boxed + row gewoon werkt en
+   dat de workaround met `content_width: "full"` plus een custom `width`
+   nooit nodig was. Te beslissen met één test: maak een boxed container met
+   `flex_direction: "row"` en twee kinderen, en kijk of die naast elkaar
+   staan. Werk daarna deze stap, `patterns/sectie-kop.md` en
+   `patterns/header-navigatie.md` bij.
 
 3. Kinderen daarbinnen op relatieve/flexibele breedte (`flex-grow`,
    procenten, of Elementor's eigen kolomverdeling), tenzij een element in
@@ -336,6 +409,48 @@ Dit is onderdeel van dezelfde controle als stap 5a: een geslaagde
 `compare.js`-run op de geconfigureerde breakpoints is geen bewijs dat dit
 goed is toegepast, want dat script test niet wat er tussen de
 breakpoints gebeurt (zie stap 7 voor de uitgebreide controle hierop).
+
+## 5c. Betekenis: `html_tag`, koppen en alt-teksten
+
+Een pagina die er identiek uitziet kan totaal anders lezen. Een navigatie
+die als rij losse tekstwidgets is nagebouwd, een `<h2>` die een `<span>`
+werd, een afbeelding zonder alt-tekst: `compare.js` ziet daar niets van,
+want de pixels kloppen. Voor een bezoeker met een schermlezer en voor Google
+is het wel een echt verschil.
+
+Vaste regels:
+
+1. **Zet `html_tag` op elke container die in de bron een betekenisvol
+   element was.** Elementor's container ondersteunt `div`, `header`,
+   `footer`, `main`, `article`, `section`, `aside`, `nav` en `a` (bevestigd
+   in `includes/elements/container.php`). De `tag` uit `spec.json` zegt
+   precies welke je nodig hebt. Standaard is `div`, en dat is bijna nooit
+   wat de bron bedoelde voor een root-sectie.
+2. **Neem het koppenniveau letterlijk over uit `spec.json`.** `header_size`
+   op de Heading-widget is `h1`…`h6` of `span`. Een label dat in de bron een
+   `<span>` is, wordt `span`; een sectiekop die `<h2>` is, wordt `h2`.
+   Gebruik `span` nooit om een kop kleiner te maken — daar is typografie
+   voor.
+3. **Eén `<h1>` per pagina, en sla geen niveaus over.** Geldt ook voor de
+   bron-HTML die je in stap 1 maakt: staat het daar al fout, repareer het
+   daar en niet in Elementor.
+4. **Een link blijft een link.** `role: "link"` uit `spec.json` wordt een
+   widget met een gevuld link-veld, niet een stuk tekst dat er alleen zo
+   uitziet.
+5. **Alt-teksten uit `spec.json` overnemen op de Image-widget.** Een lege
+   alt is alleen goed als de afbeelding puur decoratief is.
+
+Controleer dit na elke sectie, naast `compare.js`:
+
+```
+node ai-workflow/check-semantiek.js ai-workflow/configs/<sectie>.json
+```
+
+Het script vergelijkt per `cmp-`naam de HTML-tag, het koppenniveau, het
+omliggende landmark, de link en de alt-tekst tussen bron en gebouwde
+pagina, en controleert de koppenstructuur van de hele pagina. Exit code 0
+is de bevestiging; exit code 1 noemt per element wat er is weggevallen en
+met welke instelling je het terugzet.
 
 ## 6. Bouwen: één sectie is één afgebakende taak
 
@@ -450,16 +565,22 @@ Nadat alle secties losstaand geslaagd zijn:
    de bevestiging dat er nergens custom CSS, `!important` of een
    HTML-widget gebruikt is om de rest te laten slagen (stap 5a).
 
-4. Controleer of er geen losse kleurcodes of vaste maten in Elementor staan
+4. **Semantiek-check** op de hele pagina:
+   `node ai-workflow/check-semantiek.js ai-workflow/configs/full-page.json`.
+   Dit is de enige controle die de koppenstructuur van de hele pagina in
+   samenhang ziet — losse secties kunnen elk kloppen terwijl er samen twee
+   `<h1>`'s op de pagina staan (stap 5c).
+
+5. Controleer of er geen losse kleurcodes of vaste maten in Elementor staan
    waar een Global Color/Font had moeten worden gebruikt.
 
-5. Verwijder de tijdelijke `cmp-`classes, of laat ze staan als ze niet
+6. Verwijder de tijdelijke `cmp-`classes, of laat ze staan als ze niet
    storen. Let op: daarna kan `compare.js` niets meer controleren, dus doe
    dit pas als alles afgerond is.
 
-6. Was dit een nieuw vertaalpatroon? Zet het gestructureerd terug in de
+7. Was dit een nieuw vertaalpatroon? Zet het gestructureerd terug in de
    patronen-bibliotheek, zodat het volgende project ervan profiteert.
 
-7. Commit het goedgekeurde ontwerp, de specs, de configs en de rapporten
+8. Commit het goedgekeurde ontwerp, de specs, de configs en de rapporten
    samen. Een rapport zonder het bijbehorende ontwerp is niet te herhalen en
    dus geen bewijs meer.

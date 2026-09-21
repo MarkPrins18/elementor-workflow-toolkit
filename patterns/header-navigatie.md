@@ -1,6 +1,6 @@
 # Patroon: header met logo + navigatie
 
-**Status:** concept (bevestigd op het cinema-homepage-project: `header`)
+**Status:** beproefd (cinema-homepage: `header`)
 
 ## Herkenning
 
@@ -38,8 +38,11 @@ geen `verticale-stapel`/`kaartenrij`.
 3. **Logo**: Heading-widget, `header_size: "span"`, met `link`. In
    `spec.json` heeft dit element `role: "link"` (een `<a>` zonder eigen
    achtergrond of rand) — dus géén Button-widget.
-4. **Navigatie-container** (`header-nav`): zelfde `flex_*`-opbouw als
-   hierboven, plus **verplicht** `width: {unit:"custom", size:"auto"}` (zie
+4. **Navigatie-container** (`header-nav`): `html_tag: "nav"` — anders wordt
+   het een `<div>` en verdwijnt het navigatie-landmark uit de pagina (zie
+   `CLAUDE.md` 5c; `check-semantiek.js` vangt dit). Verder zelfde
+   `flex_*`-opbouw als hierboven, plus **verplicht**
+   `width: {unit:"custom", size:"auto"}` (zie
    "Belangrijk" hieronder) en `_flex_size: "none"` op ZICHZELF èn op ELK
    kind (elke link + de CTA-knop) — anders rekt de navigatie uit tot de
    volledige beschikbare breedte in plaats van op de inhoud te blijven.

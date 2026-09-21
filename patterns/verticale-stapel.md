@@ -21,6 +21,7 @@ cta-blok met alleen titel + knop volgt hetzelfde patroon.
 
    | Instelling | Sleutel | Waarde uit `spec.json` |
    |---|---|---|
+   | HTML-tag | `html_tag` | `tag` van het container-element (zie `CLAUDE.md` 5c) |
    | Richting | `flex_direction` | `"column"` |
    | Gap | `flex_gap` (**niet** `gap`) | `layout.rowGap` |
    | Uitlijning | `flex_align_items` (**niet** `align_items`) | `layout.alignItems` |

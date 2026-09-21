@@ -1,9 +1,10 @@
 # Elementor-workflow tools
 
-Vijf scripts die samen de workflow uit `CLAUDE.md` afdwingen: eerst
+Zes scripts die samen de workflow uit `CLAUDE.md` afdwingen: eerst
 vaststellen of een ontwerp überhaupt native te bouwen is, dan exact
 vastleggen wat erin staat, en daarna controleren of Elementor dat ook echt
-heeft overgenomen — en of dat native gebeurd is.
+heeft overgenomen — op drie assen: ziet het er hetzelfde uit, is het native
+gebouwd, en leest het nog hetzelfde.
 
 | Script | Stap | Wat het doet |
 |---|---|---|
@@ -11,9 +12,10 @@ heeft overgenomen — en of dat native gebeurd is.
 | `extract-spec.js` | 2 | Zet de goedgekeurde HTML om naar `spec.json`: per `data-cmp`-element de tekst, het type, de boomstructuur en alle opmaakwaarden — per breakpoint. |
 | `compare.js` | 7 | Vergelijkt de HTML met de gebouwde Elementor-pagina, element voor element, op meerdere schermbreedtes. Stopt met een foutcode zolang er iets niet klopt. |
 | `check-native.js` | 5a | Leest de opgeslagen Elementor-data en meldt custom CSS, `!important` en HTML-widgets. |
+| `check-semantiek.js` | 5c | Vergelijkt HTML-tags, koppenniveaus, landmarks, links en alt-teksten. Vangt wat er pixel-identiek uitziet maar anders leest. |
 | `screenshot-diff.js` | 8.1 | Legt de hele pagina naast elkaar als afbeelding, met het verschil in rood. |
 
-Alles staat of valt bij `npm test`: dat draait alle vijf tegen de vaste
+Alles staat of valt bij `npm test`: dat draait alle zes tegen de vaste
 voorbeelden in `test/` en controleert of ze slagen én falen wanneer dat
 hoort. Zonder die test kan een verruiming in een van deze scripts ongemerkt
 de hele workflow zachter maken.

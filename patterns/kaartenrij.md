@@ -1,6 +1,8 @@
 # Patroon: kaartenrij (grid met kaarten)
 
-**Status:** concept (nog niet getest)
+**Status:** concept — nog niet bevestigd met een geslaagde `compare.js`-run.
+Het cinema-project heeft wel kaartenrijen (`binnenkort`, `avonden`), maar
+daar is geen rapport van, dus dit patroon telt nog niet als beproefd.
 
 ## Herkenning
 
@@ -18,18 +20,48 @@ De inhoud van elke losse kaart wordt gebouwd volgens het patroon
 
 ## Elementor-opbouw
 
-1. **Buitenste container**, richting Row (bij `flex`) of Grid (bij `grid`).
-   - Bij Grid: aantal kolommen = tel het aantal kinderen, tenzij
-     `layout.gridTemplateColumns` een ander aantal aangeeft (bijvoorbeeld
-     bij een grid dat op deze schermbreedte al is teruggevallen naar minder
-     kolommen; gebruik in dat geval het aantal uit de desktop-meting).
-   - `flex_gap` (**niet** `gap`) = `layout.columnGap`, en `rowGap` bij
-     meerdere rijen.
-   - `padding` = `box.paddingTop/Right/Bottom/Left` van het buitenste
-     container-element.
-   - Wrapt de rij in de bron (`layout.flexWrap: "wrap"`), zet dan ook
-     `flex_wrap: "wrap"` — anders perst Elementor alle kaarten op één rij
-     zodra het scherm smaller wordt.
+1. **Buitenste container.** Kies eerst `container_type`, want dáár hangt de
+   hele sleutelset aan vast. Een grid-container gebruikt **andere
+   instellingen dan een flex-container**, en de flex-sleutels komen op een
+   grid simpelweg niet aan (zie `CLAUDE.md` 5a).
+
+   **Bij `layout.display: "flex"` → `container_type: "flex"`**
+
+   | Instelling | Sleutel | Waarde uit `spec.json` |
+   |---|---|---|
+   | Richting | `flex_direction` | `"row"` |
+   | Gap | `flex_gap` | `layout.columnGap` / `layout.rowGap` |
+   | Wrap | `flex_wrap` | `layout.flexWrap` |
+   | Uitlijning | `flex_align_items` | `layout.alignItems` |
+   | Verdeling | `flex_justify_content` | `layout.justifyContent` |
+
+   Wrapt de rij in de bron, zet dan ook echt `flex_wrap: "wrap"` — anders
+   perst Elementor alle kaarten op één rij zodra het scherm smaller wordt.
+
+   **Bij `layout.display: "grid"` → `container_type: "grid"`**
+
+   | Instelling | Sleutel | Waarde uit `spec.json` |
+   |---|---|---|
+   | Kolommen | `columns_grid` | aantal uit `layout.gridTemplateColumns` |
+   | Rijen | `rows_grid` | aantal uit `layout.gridTemplateRows` |
+   | Gap | `gaps` (rij + kolom in één control) | `layout.rowGap` / `layout.columnGap` |
+   | Richting | `auto_flow` | meestal `row` |
+   | Uitlijning | `align_items` / `justify_items` | `layout.alignItems` |
+   | Verdeling | `align_content` / `justify_content` | `layout.justifyContent` |
+
+   Let op de namen: de grid-groepscontrole heeft **geen prefix**, dus hier
+   heten ze echt `align_items` en `justify_content` — precies de sleutels
+   die op een flex-container níets doen. En de gap heet hier `gaps`, niet
+   `flex_gap`. Zet je `flex_gap` op een grid-container, dan wordt die waarde
+   wel opgeslagen maar nooit toegepast.
+
+   Het aantal kolommen is het aantal uit `layout.gridTemplateColumns` van de
+   desktop-meting, niet het aantal kinderen: een grid dat op de gemeten
+   breedte al is teruggevallen naar twee kolommen geeft anders een verkeerd
+   getal.
+
+   `padding` = `box.paddingTop/Right/Bottom/Left` van het buitenste
+   container-element, bij beide varianten.
 
 2. **Per kaart, in dezelfde volgorde als `children`:**
    - Eén Elementor-container per kaart.

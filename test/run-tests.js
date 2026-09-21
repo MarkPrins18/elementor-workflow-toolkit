@@ -383,6 +383,41 @@ test(
   (uit) => (/MISLUKT/.test(uit) ? true : "structureel verschil niet gemeld")
 );
 
+console.log("\ncheck-semantiek.js — betekenis, niet pixels");
+
+const semantiekBasis = {
+  htmlPath: path.join(TEST, "fixtures", "semantiek-bron.html"),
+  pageUrl: fileUrl(path.join(TEST, "fixtures", "semantiek-goed.html")),
+  breakpoints: [{ name: "desktop", width: 1440, height: 900 }],
+};
+
+test(
+  "een pagina die de betekenis behoudt slaagt",
+  0,
+  "check-semantiek.js",
+  [schrijfConfig("sem-goed", semantiekBasis)],
+  (uit) => (/BEHOUDEN/.test(uit) ? true : "niet als BEHOUDEN gemeld")
+);
+
+test(
+  "een nav die een div werd, een kop die een span werd en een lege alt worden gemeld",
+  1,
+  "check-semantiek.js",
+  [
+    schrijfConfig("sem-fout", {
+      ...semantiekBasis,
+      pageUrl: fileUrl(path.join(TEST, "fixtures", "semantiek-fout.html")),
+    }),
+  ],
+  (uit) => {
+    const mist = [];
+    if (!/landmark/.test(uit)) mist.push("landmark (nav werd div)");
+    if (!/koprniveau|kop is geen kop/.test(uit)) mist.push("koprniveau (h2 werd span)");
+    if (!/alt-tekst/.test(uit)) mist.push("alt-tekst");
+    return mist.length ? `niet gemeld: ${mist.join(", ")}` : true;
+  }
+);
+
 console.log("\ncheck-native.js — stap 5a");
 
 test(
