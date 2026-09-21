@@ -76,21 +76,30 @@ geen `verticale-stapel`/`kaartenrij`.
   om de Elementor-pagina heen zet. Zet `_wp_page_template` op
   `elementor_canvas` zodra het ontwerp een eigen header/footer heeft (zoals
   hier), zodat er geen thema-wrapper meer omheen zit.
-- **Containers hebben geen eigen typografie-instelling.** Elementor past
-  font/kleur alleen toe op de binnenste tekstlaag van een widget
-  (`.elementor-heading-title` / `.elementor-button` /
-  `.elementor-text-editor`), nooit op de buitenste `.elementor-element`-
-  wrapper die de `cmp-`class draagt. Die buitenste wrapper erft bovendien
-  het thema's eigen `body`-standaard (font-size/regelhoogte/kleur via
-  `theme.json`), wat geen zichtbaar effect heeft maar wel de doos-hoogte
-  van die wrapper opblaast via de CSS-"strut". Er is geen native Elementor-
-  instelling om dit op te lossen (drie keer bevestigd in de broncode).
-  **Oplossing zit in `compare.js` zelf, niet in Elementor:** stijl wordt
-  gemeten op de binnenste tekstlaag (wat je echt ziet), typografie-checks
-  worden overgeslagen op elementen zonder eigen tekst, en `y`/`height` van
-  tekst-widgets krijgen een ruimere tolerantie (12px) specifiek voor dit
-  strut-effect. Zie de commentaren in `compare.js` bij `TEXT_WIDGET_SELECTOR`
-  en `STRUT_TOLERANCE_PX`.
+- **Containers hebben geen eigen typografie-instelling.** Dat klopt: een
+  container kent die control niet. Maar de vroegere conclusie dat Elementor
+  typografie "altijd op de binnenste tekstlaag zet, nooit op de wrapper" is
+  te grof. Uit de `selectors` van de style-controls in de plugin-broncode
+  blijkt dat het **per widget verschilt**:
+
+  | Widget | Typografie en kleur | Padding, margin, achtergrond |
+  |---|---|---|
+  | Heading | `.elementor-heading-title` | de wrapper (Advanced-tab) |
+  | Text Editor | **de wrapper zelf** (`{{WRAPPER}}`), erft omlaag | de wrapper |
+  | Button | `.elementor-button` | `.elementor-button` |
+
+  Let daarbij op één valkuil: **`.elementor-text-editor` bestaat alleen in
+  de editor.** De widget voegt die class toe binnen
+  `if ( $should_render_inline_editing )`, dus op de live pagina is hij er
+  niet. Bouw er geen enkele aanname of selector op.
+
+  De buitenste wrapper erft wel het thema's `body`-standaard
+  (font-size/regelhoogte via `theme.json`). Bij een inline tekstlaag
+  (`header_size: "span"`) geeft dat een CSS-"strut" die de doos-hoogte van
+  de wrapper opblaast zonder dat je het ziet. `compare.js` meet daarom de
+  doos op de laag die de opmaak draagt, en houdt voor dat strut-geval een
+  instelbare extra tolerantie aan (`tolerances.strut`, standaard 12px op
+  `y`/`height`). Zie `WIDGETLAGEN` in `compare.js`.
 - **Lettertype-substitutie:** een lettertype uit de bron-CSS dat niet lokaal
   geïnstalleerd is (bv. Didot, Bodoni MT), maar wel als Google Font bestaat
   (bv. Playfair Display, verderop in dezelfde `font-family`-stack), gewoon

@@ -259,10 +259,14 @@ worden:
   flex-item.php`) — dit is geen mismatch maar Elementor's eigen standaard-
   gedrag, dus geen "nieuwe sleutel ernaast" nodig, wel een bewuste
   instelling.
-- Containers hebben geen eigen typografie-instelling — Elementor past
-  font/kleur alleen toe op de binnenste tekstlaag van een widget, nooit op
-  de buitenste wrapper. Zie `patterns/header-navigatie.md` voor de volledige
-  toelichting en hoe `compare.js` hiermee omgaat (niet oplosbaar via een
+- Containers hebben geen eigen typografie-instelling. Bij widgets verschilt
+  het per widget wáár Elementor de opmaak zet: typografie op
+  `.elementor-heading-title` (Heading), op de wrapper zelf (Text Editor) of
+  op `.elementor-button` (Button); padding en margin staan bij Heading en
+  Text Editor op de wrapper, maar bij Button óók op `.elementor-button`.
+  `.elementor-text-editor` bestaat alleen in de editor, niet op de live
+  pagina — bouw daar geen selector op. Zie `patterns/header-navigatie.md`
+  voor de tabel en hoe `compare.js` hiermee omgaat (niet oplosbaar via een
   sleutelnaam-fix, wel via de meetmethode).
 
 **`compare.js` op exit code 0 is geen bewijs dat deze regel is gevolgd** —

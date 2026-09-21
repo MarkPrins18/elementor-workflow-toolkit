@@ -214,16 +214,25 @@ async function measureComponents(page, propList, roots) {
       return false;
     }
 
-    // Elementor past typografie (font/kleur/etc.) altijd toe op een binnenste
-    // tekstlaag, nooit op de buitenste widget-wrapper die de cmp-class draagt.
-    // Die wrapper erft zijn eigen font-size/line-height van het thema, wat als
-    // "strut" zijn doos-hoogte opblaast ook al staat de zichtbare tekst
-    // binnenin op de juiste maat. Voor tekst-widgets daarom de STIJL van die
-    // binnenste laag meten; de geometrie blijft van de cmp-node zelf komen.
-    const INNER_TEXT_SELECTOR =
-      ".elementor-heading-title, .elementor-button, .elementor-button-text, .elementor-text-editor";
-    const TEXT_WIDGET_SELECTOR =
-      ".elementor-widget-heading, .elementor-widget-button, .elementor-widget-text-editor";
+    // Elementor verdeelt de opmaak van één widget over twee elementen, en hoe
+    // die verdeling loopt verschilt per widget. Bevestigd in de broncode van
+    // de plugin (de 'selectors' van de style-controls):
+    //
+    //   Heading      typografie op .elementor-heading-title, doos op de wrapper
+    //   Text Editor  typografie op de wrapper zelf ({{WRAPPER}}), erft omlaag
+    //   Button       ALLES op .elementor-button — typografie, padding én
+    //                achtergrond; de wrapper is alleen een plaatsingsdoos
+    //
+    // Let op: de class .elementor-text-editor wordt alleen in de editor
+    // toegevoegd (`if ( $should_render_inline_editing )`), niet op de live
+    // pagina. Daarop zoeken leverde dus nooit een treffer, waarna de
+    // typografie-controle van élk tekstblok stilviel.
+    const WIDGETLAGEN = [
+      { wrapper: ".elementor-widget-button", doos: ".elementor-button", tekst: ".elementor-button" },
+      { wrapper: ".elementor-widget-heading", doos: null, tekst: ".elementor-heading-title" },
+      { wrapper: ".elementor-widget-text-editor", doos: null, tekst: null },
+    ];
+    const TEXT_WIDGET_SELECTOR = WIDGETLAGEN.map((w) => w.wrapper).join(", ");
 
     // Typografie vergelijken op een element zonder eigen, directe tekst is
     // zinloos: het geërfde lettertype van een kale structuur-container is
@@ -245,6 +254,32 @@ async function measureComponents(page, propList, roots) {
       );
     }
 
+    // Zak af naar het element dat de tekst werkelijk draagt. Structureel in
+    // plaats van op classnaam, zodat dit blijft werken als Elementor zijn
+    // markup verandert (Optimized Markup haalde al een wrapper-div weg) en
+    // zodat het net zo goed werkt op de bron-HTML, die geen Elementor-classes
+    // heeft. Stopt bij een kind met een eigen cmp-naam: dat wordt apart
+    // gemeten.
+    function tekstLaag(start) {
+      let node = start;
+      for (let diepte = 0; diepte < 8; diepte++) {
+        if (hasOwnText(node)) return node;
+        const metTekst = Array.from(node.children).filter(
+          (kind) => !nameOf(kind) && kind.textContent.trim().length > 0
+        );
+        if (metTekst.length !== 1) return node;
+        node = metTekst[0];
+      }
+      return node;
+    }
+
+    function meetlagen(el) {
+      const laag = WIDGETLAGEN.find((w) => el.matches(w.wrapper));
+      const doosEl = (laag && laag.doos && el.querySelector(laag.doos)) || el;
+      const tekstStart = (laag && laag.tekst && el.querySelector(laag.tekst)) || doosEl;
+      return { doosEl, tekstEl: tekstLaag(tekstStart) };
+    }
+
     all.forEach((el) => {
       const name = nameOf(el);
       if (!name) return;
@@ -255,14 +290,24 @@ async function measureComponents(page, propList, roots) {
         return;
       }
 
-      const styleEl = (el.matches(TEXT_WIDGET_SELECTOR) && el.querySelector(INNER_TEXT_SELECTOR)) || el;
-      const rect = el.getBoundingClientRect();
-      const cs = window.getComputedStyle(styleEl);
-      const isTextless = styleEl === el && !hasOwnText(el);
+      // Doos (geometrie, padding, margin, achtergrond, rand) en tekst
+      // (typografie, kleur) komen van verschillende elementen — zie
+      // WIDGETLAGEN hierboven. Ze allebei van hetzelfde element lezen gaf
+      // eerder de padding van een Heading-widget als 0px terug, omdat die op
+      // de wrapper staat en niet op de <h2> waar de stijl vandaan kwam.
+      const { doosEl, tekstEl } = meetlagen(el);
+      const rect = doosEl.getBoundingClientRect();
+      const doosStijl = window.getComputedStyle(doosEl);
+      const tekstStijl = window.getComputedStyle(tekstEl);
+      const zonderTekst = !hasOwnText(tekstEl);
 
       const styles = {};
       props.forEach((prop) => {
-        styles[prop] = isTextless && TYPOGRAPHY_ONLY_PROPS.has(prop) ? null : cs[prop];
+        if (TYPOGRAPHY_ONLY_PROPS.has(prop)) {
+          styles[prop] = zonderTekst ? null : tekstStijl[prop];
+        } else {
+          styles[prop] = doosStijl[prop];
+        }
       });
 
       result[name] = {
@@ -271,9 +316,10 @@ async function measureComponents(page, propList, roots) {
         width: rect.width,
         height: rect.height,
         styles,
-        // Gemarkeerd zodat de vergelijking het strut-effect hierboven een
-        // ruimere tolerantie kan geven op y/height.
-        isTextWidget: el.matches(TEXT_WIDGET_SELECTOR),
+        // Alleen als de doos de widget-wrapper zélf is, kan de "strut" van die
+        // wrapper (de regelhoogte die hij van het thema erft) zijn hoogte
+        // opblazen. Meten we de binnenste laag, dan speelt dat niet.
+        isTextWidget: el.matches(TEXT_WIDGET_SELECTOR) && doosEl === el,
       };
     });
 

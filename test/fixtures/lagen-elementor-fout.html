@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Elementor-markup: titel, bodytekst en knop</title>
+<!--
+  Bootst Elementor's echte frontend-markup na, zoals die er met het
+  Optimized Markup-experiment uitziet (de .elementor-widget-container-div is
+  daar weg). De CSS zet elke waarde op hetzelfde element als Elementor zelf,
+  bevestigd in de 'selectors' van de style-controls in de plugin-broncode:
+
+    Heading      typografie op .elementor-heading-title
+                 padding/margin op de wrapper (Advanced-tab)
+    Text Editor  typografie op de wrapper zelf, erft omlaag naar de <p>
+                 LET OP: .elementor-text-editor bestaat hier bewust NIET,
+                 want die class voegt Elementor alleen in de editor toe
+    Button       typografie, padding EN achtergrond op .elementor-button
+
+  De wrapper van de knop staat op display:flex zodat de inline-block-strut
+  van de wrapper deze fixture niet vertroebelt; die strut is een apart
+  vraagstuk (zie tolerances.strut).
+-->
+<style>
+  body { margin:0; font-family: Arial, sans-serif; font-size:16px; line-height:1.6; }
+
+  .cmp-blok { padding:40px; display:flex; flex-direction:column; align-items:flex-start; gap:20px; background:#faf8f5; }
+
+  .cmp-titel { padding:8px 0; }
+  .cmp-titel .elementor-heading-title { font-size:32px; font-weight:700; line-height:40px; color:#111111; margin:0; }
+
+  .cmp-tekst { font-size:15px; font-weight:400; line-height:28px; color:#333333; }
+  .cmp-tekst p { margin:0; }
+
+  .cmp-knop { display:flex; }
+  .cmp-knop .elementor-button { padding:12px 24px; background:#111111; color:#ffffff; font-size:14px; font-weight:700; line-height:20px; text-decoration:none; }
+</style>
+</head>
+<body>
+  <section class="e-con e-flex cmp-blok">
+    <div class="elementor-element elementor-widget elementor-widget-heading cmp-titel">
+      <h2 class="elementor-heading-title">Sectietitel</h2>
+    </div>
+    <div class="elementor-element elementor-widget elementor-widget-text-editor cmp-tekst">
+      <p>Een stuk bodytekst.</p>
+    </div>
+    <div class="elementor-element elementor-widget elementor-widget-button cmp-knop">
+      <a class="elementor-button" href="#"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Plan afspraak</span></span></a>
+    </div>
+  </section>
+</body>
+</html>

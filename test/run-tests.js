@@ -98,6 +98,105 @@ test("een verkeerde fontgrootte wordt betrapt", 1, "compare.js", [schrijfConfig(
   /fontSize/.test(uit) ? true : "fontSize niet als afwijking gemeld"
 );
 
+console.log("\ncompare.js — meetlagen per widget");
+
+const lagenBasis = {
+  htmlPath: path.join(TEST, "fixtures", "lagen-bron.html"),
+  pageUrl: fileUrl(path.join(TEST, "fixtures", "lagen-elementor.html")),
+  tolerancePx: 1,
+  breakpoints: [
+    { name: "desktop", width: 1440, height: 900 },
+    { name: "mobiel", width: 390, height: 900 },
+  ],
+  properties: [
+    "fontSize",
+    "fontWeight",
+    "lineHeight",
+    "color",
+    "backgroundColor",
+    "paddingTop",
+    "paddingBottom",
+    "paddingLeft",
+    "marginTop",
+  ],
+  reportPath: path.join(TMP, "lagen.json"),
+};
+
+function rijUit(rapportPad, element, property) {
+  const rapport = JSON.parse(fs.readFileSync(rapportPad, "utf8"));
+  const rijen = rapport.resultaten.desktop || [];
+  return rijen.find((r) => r.element === element && r.property === property);
+}
+
+test(
+  "Elementor's eigen markup komt exact uit tegen de bron",
+  0,
+  "compare.js",
+  [schrijfConfig("lagen", lagenBasis)],
+  (uit) => (/GESLAAGD/.test(uit) ? true : "niet geslaagd op identieke opmaak")
+);
+
+test(
+  "typografie van een Text Editor wordt gemeten, niet overgeslagen",
+  0,
+  "compare.js",
+  [schrijfConfig("lagen-tekst", { ...lagenBasis, reportPath: path.join(TMP, "lagen-tekst.json") })],
+  () => {
+    // .elementor-text-editor bestaat alleen in de editor. Werd daarop gezocht,
+    // dan viel de widget terug op de wrapper, gold hij als "zonder tekst" en
+    // werd elke typografie-check op null gezet.
+    const rij = rijUit(path.join(TMP, "lagen-tekst.json"), "tekst", "fontSize");
+    if (!rij) return "geen fontSize-rij voor 'tekst' in het rapport";
+    if (rij.elementorValue == null) return "fontSize werd overgeslagen (null) aan de Elementor-kant";
+    if (rij.elementorValue !== "17px") return `fontSize gemeten als ${rij.elementorValue}, verwacht 17px`;
+    return true;
+  }
+);
+
+test(
+  "padding van een Heading komt van de wrapper, niet van de h2",
+  0,
+  "compare.js",
+  [schrijfConfig("lagen-padding", { ...lagenBasis, reportPath: path.join(TMP, "lagen-padding.json") })],
+  () => {
+    // Elementor zet padding via de Advanced-tab op de wrapper; de stijl kwam
+    // eerder van de binnenste <h2>, die altijd 0px teruggaf.
+    const rij = rijUit(path.join(TMP, "lagen-padding.json"), "titel", "paddingTop");
+    if (!rij) return "geen paddingTop-rij voor 'titel' in het rapport";
+    if (rij.elementorValue !== "8px") return `paddingTop gemeten als ${rij.elementorValue}, verwacht 8px`;
+    return true;
+  }
+);
+
+test(
+  "achtergrond van een Button komt van .elementor-button, niet van de wrapper",
+  0,
+  "compare.js",
+  [schrijfConfig("lagen-knop", { ...lagenBasis, reportPath: path.join(TMP, "lagen-knop.json") })],
+  () => {
+    const rij = rijUit(path.join(TMP, "lagen-knop.json"), "knop", "backgroundColor");
+    if (!rij) return "geen backgroundColor-rij voor 'knop' in het rapport";
+    if (rij.elementorValue !== "rgb(17, 17, 17)") {
+      return `backgroundColor gemeten als ${rij.elementorValue}, verwacht rgb(17, 17, 17)`;
+    }
+    return true;
+  }
+);
+
+test(
+  "een verkeerde tekstgrootte in een Text Editor wordt betrapt",
+  1,
+  "compare.js",
+  [
+    schrijfConfig("lagen-fout", {
+      ...lagenBasis,
+      pageUrl: fileUrl(path.join(TEST, "fixtures", "lagen-elementor-fout.html")),
+      reportPath: path.join(TMP, "lagen-fout.json"),
+    }),
+  ],
+  (uit) => (/fontSize/.test(uit) ? true : "fontSize-afwijking niet gemeld")
+);
+
 console.log("\ncompare.js — geen vals 'geslaagd' meer");
 
 test(
